@@ -1,0 +1,303 @@
+category: cpu
+slug_pattern: '^[a-z0-9-]+$'
+
+groups:
+  - key: basic
+    order: 1
+  - key: spec
+    order: 2
+  - key: memory
+    order: 3
+  - key: extensions
+    order: 4
+  - key: display
+    order: 5
+  - key: other
+    order: 6
+
+fields:
+
+# --------------基本--------------
+  - key: slug
+    type: string
+    pattern: '^[a-z0-9-]+$'
+    required: true
+
+  - key: brand
+    type: enum
+    values: [AMD, Intel, Moorethreads]
+    required: true
+    group: basic
+    filter:
+      control: enum
+      label_map: { AMD: AMD, Intel: Intel, Moorethreads: 摩尔线程 }
+
+  - key: model
+    type: string
+    required: true
+    group: basic
+
+  - key: family
+    type: string
+    group: basic
+
+  - key: series
+    type: string
+    group: basic
+    filter:
+      control: enum
+
+  - key: form_factor
+    type: enum
+    values: [Desktop, Mobile, Server, Embedded]
+    group: basic
+
+  - key: codename
+    type: string
+    group: basic
+
+  - key: socket
+    type: string
+    required: true
+    list: true
+    group: basic
+    filter:
+      control: enum
+
+  - key: architecture
+    type: string
+    brand_only: AMD
+    group: basic
+
+  - key: release_date
+    type: string
+    pattern: '^\d{4}-\d{2}$'
+    group: basic
+    filter:
+      control: year
+
+# --------------规格--------------
+  - key: cores
+    type: integer
+    required: true
+    positive: true
+    group: spec
+    list: true
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: threads
+    type: integer
+    required: true
+    positive: true
+    group: spec
+
+  - key: base_clock_ghz
+    type: number
+    required: true
+    positive: true
+    unit: GHz
+    group: spec
+    list: true
+    filter:
+      control: range
+      stepKind: decimal
+
+  - key: boost_clock_ghz
+    type: number
+    required: true
+    positive: true
+    unit: GHz
+    group: spec
+    list: true
+    filter:
+      control: range
+      stepKind: decimal
+
+  - key: l1_cache_kb
+    type: integer
+    nonnegative: true
+    unit: KB
+    brand_only: AMD
+    group: spec
+
+  - key: l2_cache_mb
+    type: number
+    nonnegative: true
+    unit: MB
+    group: spec
+
+  - key: l3_cache_mb
+    type: integer
+    nonnegative: true
+    unit: MB
+    group: spec
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: tdp_w
+    type: integer
+    required: true
+    positive: true
+    unit: W
+    group: spec
+    list: true
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: tjmax
+    type: integer
+    positive: true
+    unit: °C
+    group: spec
+
+  - key: process_nm
+    type: integer
+    positive: true
+    unit: nm
+    brand_only: AMD
+    group: spec
+
+  - key: io_process_nm
+    type: integer
+    positive: true
+    unit: nm
+    brand_only: AMD
+    group: spec
+
+  - key: chipsets
+    type: array
+    items: { type: enum, values: [A620, X670E, X670, B650E, B650, X870E, X870, B840, B850] }
+    group: spec
+    brand_only: AMD
+
+  - key: instruction
+    type: string
+    group: spec
+
+  - key: ext_instruction
+    type: array
+    items: { type: string }
+    nullable: true
+    group: spec
+
+  - key: pbo
+    type: bool
+    brand_only: AMD
+    group: spec
+
+# --------------内存--------------
+  - key: supported_memory_types
+    type: array
+    items: { type: enum, values: [DDR4, DDR5] }
+    required: true
+    group: memory
+
+  - key: memory_channel
+    type: integer
+    positive: true
+    group: memory
+
+  - key: max_memory
+    type: integer
+    positive: true
+    unit: GB
+    group: memory
+
+  - key: max_memory_speed_mt
+    type: integer
+    positive: true
+    unit: MT/s
+    group: memory
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: expo
+    type: bool
+    brand_only: AMD
+    group: memory
+
+  - key: memory_subtype
+    type: enum
+    values: [UDIMM]
+    brand_only: AMD
+    group: memory
+
+# --------------扩展--------------
+  - key: pcie_version
+    type: enum
+    values: ["4.0", "5.0"]
+    required: true
+    list: true
+    group: extensions
+    filter:
+      control: enum
+
+  - key: pcie_channels
+    type: integer
+    brand_only: AMD
+    group: extensions
+
+  - key: usb
+    type: array
+    items: { type: string }
+    brand_only: AMD
+    nullable: true
+    group: extensions
+
+  - key: nvme
+    type: array
+    items: { type: enum, values: [Boot, RAID0, RAID1, RAID5, RAID10] }
+    brand_only: AMD
+    nullable: true
+    group: extensions
+
+# --------------显示--------------
+  - key: integrated_graphics
+    type: string
+    nullable: true
+    group: display
+    list: true
+
+  - key: graphics_frequency
+    type: integer
+    nonnegative: true
+    nullable: true
+    unit: MHz
+    group: display
+
+  - key: graphics_cores
+    type: integer
+    brand_only: AMD
+    nonnegative: true
+    group: display
+
+  - key: product_id_boxed
+    type: string
+    brand_only: AMD
+    group: other
+
+  - key: product_id_tray
+    type: string
+    brand_only: AMD
+    group: other
+
+# ======= 衍生字段  =======
+derived_fields:
+  - key: name
+    formula: '{brand} {model}'
+    link: '/cpu/{slug}'
+    list: true
+
+  - key: cores_threads
+    formula: '{cores} / {threads}'
+
+  - key: clocks
+    formula: '{base_clock_ghz} / {boost_clock_ghz}'
+
+  - key: tdp_l3
+    formula: '{tdp_w} / {l3_cache_mb ?? "—"}'

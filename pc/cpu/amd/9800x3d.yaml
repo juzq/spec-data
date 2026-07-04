@@ -1,0 +1,71 @@
+slug: amd-9800x3d
+brand: AMD
+model: Ryzen 7 9800X3D
+family: Ryzen
+series: Ryzen 9000 Series
+form_factor: Desktop
+codename: Granite Ridge
+socket: AM5
+architecture: Zen 5
+release_date: 2024-11
+cores: 8
+threads: 16
+base_clock_ghz: 4.7
+boost_clock_ghz: 5.2
+l1_cache_kb: 512
+l2_cache_mb: 8
+l3_cache_mb: 96
+tdp_w: 120
+tjmax: 95
+process_nm: 4
+io_process_nm: 6
+chipsets: 
+ - A620
+ - X670E
+ - X670
+ - B650E
+ - B650
+ - X870E
+ - X870
+ - B840
+ - B850
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+pbo: true
+supported_memory_types:
+  - DDR5
+max_memory_speed_mt: 5600
+memory_channel: 2
+max_memory: 256
+expo: true
+memory_subtype: UDIMM
+pcie_version: '5.0'
+pcie_channels: 28
+usb: 
+ - USB 3.2 Gen 2 (10Gbps) x 4
+ - USB 2.0 (480Mbps) x 1
+nvme:
+ - Boot
+ - RAID0
+ - RAID1
+ - RAID5
+ - RAID10
+integrated_graphics: Radeon Graphics (2 CU)
+graphics_frequency: 2200
+graphics_cores: 2
+product_id_boxed: 100-100001404WOF
+product_id_tray: 100-000001404

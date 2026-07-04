@@ -1,0 +1,18 @@
+slug: asus-x670e-hero
+brand: asus
+model: "ROG Crosshair X670E Hero"
+chipset: "X670E"
+socket: "AM5"
+form_factor: "ATX"
+memory_slots: 4
+memory_type: "DDR5"
+memory_max_gb: 192
+memory_speed_max_mt: 6400
+m2_slots: 5
+pcie_version: "5.0"
+sata_ports: 6
+has_wifi: true
+wifi_version: "Wi-Fi 6E"
+has_bluetooth: true
+price_cny: 4799
+release_date: "2022-09"

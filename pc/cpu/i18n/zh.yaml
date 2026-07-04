@@ -1,0 +1,62 @@
+field_labels:
+  groups:
+    basic: 基本信息
+    spec: 规格
+    memory: 内存
+    extensions: 扩展
+    display: 显示
+    other: 其他
+  fields:
+    brand: 品牌
+    model: 型号
+    family: 产品系列
+    series: 系列
+    form_factor: 外形规格
+    codename: 代号
+    socket: 插槽
+    architecture: 架构
+    release_date: 发布日期
+    cores: 核心数
+    threads: 线程数
+    base_clock_ghz: 基础频率
+    boost_clock_ghz: 加速频率
+    l1_cache_kb: 一级缓存
+    l2_cache_mb: 二级缓存
+    l3_cache_mb: 三级缓存
+    tdp_w: 默认功耗
+    tjmax: 最高温度
+    process_nm: 制程
+    io_process_nm: IO制程
+    chipsets: 芯片组
+    instruction: 指令集
+    ext_instruction: 指令集扩展
+    pbo: 精准频率提升
+    supported_memory_types: 支持内存类型
+    memory_channel: 内存通道数
+    max_memory: 最大内存
+    max_memory_speed_mt: 最高内存频率
+    expo: EXPO™内存超频
+    memory_subtype: 系统内存子类型
+    pcie_version: PCIe版本
+    pcie_channels: PCIe通道数
+    usb: USB连接
+    nvme: NVMe支持
+    integrated_graphics: 核显
+    graphics_frequency: 核显频率
+    graphics_cores: 显示核心数
+    product_id_boxed: 盒装产品ID
+    product_id_tray: 散装产品ID
+    name: 名称
+    cores_threads: 核心/线程
+    clocks: 基频/加速频
+    tdp_l3: 默认功耗/L3缓存
+values:
+  form_factor:
+    Desktop: 台式机
+  family:
+    "Ryzen": 锐龙
+  series:
+    "Ryzen 9000 Series": 锐龙 9000 系列
+bools:
+  yes: 是
+  no: 否

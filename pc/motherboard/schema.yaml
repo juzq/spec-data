@@ -1,0 +1,162 @@
+category: motherboard
+slug_pattern: '^[a-z0-9-]+$'
+
+groups:
+  - key: basic
+    order: 1
+  - key: spec
+    order: 2
+  - key: network
+    order: 3
+  - key: price_date
+    order: 4
+
+fields:
+  - key: slug
+    type: string
+    pattern: '^[a-z0-9-]+$'
+    required: true
+
+  - key: brand
+    type: string
+    required: true
+    list: true
+    group: basic
+    filter:
+      control: enum
+
+  - key: model
+    type: string
+    required: true
+    list: true
+    group: basic
+
+  - key: chipset
+    type: string
+    required: true
+    list: true
+    group: basic
+
+  - key: socket
+    type: string
+    required: true
+    list: true
+    group: basic
+    filter:
+      control: enum
+
+  - key: form_factor
+    type: enum
+    values: [E-ATX, ATX, mATX, ITX]
+    required: true
+    list: true
+    group: basic
+    filter:
+      control: enum
+
+  - key: memory_slots
+    type: integer
+    required: true
+    positive: true
+    group: spec
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: memory_type
+    type: enum
+    values: [DDR4, DDR5]
+    required: true
+    group: spec
+
+  - key: memory_max_gb
+    type: integer
+    required: true
+    positive: true
+    group: spec
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: memory_speed_max_mt
+    type: integer
+    required: true
+    positive: true
+    group: spec
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: m2_slots
+    type: integer
+    required: true
+    nonnegative: true
+    list: true
+    group: spec
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: pcie_version
+    type: string
+    group: spec
+
+  - key: sata_ports
+    type: integer
+    required: true
+    nonnegative: true
+    list: true
+    group: spec
+
+  - key: has_wifi
+    type: bool
+    required: true
+    group: network
+
+  - key: wifi_version
+    type: string
+    group: network
+
+  - key: has_bluetooth
+    type: bool
+    required: true
+    group: network
+
+  - key: price_cny
+    type: integer
+    positive: true
+    list: true
+    group: price_date
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: release_date
+    type: string
+    pattern: '^\d{4}-\d{2}$'
+    group: price_date
+    filter:
+      control: year
+
+derived_fields:
+  - key: name
+    formula: '{brand} {model}'
+    link: '/motherboard/{slug}'
+    list: true
+
+  - key: memory
+    formula: '{memory_type}×{memory_slots}/{memory_max_gb}GB'
+    list: true
+
+  - key: m2_pcie
+    formula: '{m2_slots} / {pcie_version ?? "—"}'
+    list: true
+
+  - key: wifi_bt
+    formula: '{wifi_version ?? "—"} / {has_bluetooth ? "是" : "否"}'
+    list: true
+
+  - key: price_release
+    formula: '{price_cny != null ? "¥" + price_cny : "—"} / {release_date ?? "—"}'
+    list: true
+

@@ -1,0 +1,33 @@
+slug: intel-14700
+brand: Intel
+model: Core i7-14700
+family: Core
+series: Core i7 14th Gen
+form_factor: Desktop
+codename: Raptor Lake
+architecture: Raptor Lake
+socket: FCLGA1700
+cores: 20
+threads: 28
+base_clock_ghz: 2.1
+boost_clock_ghz: 5.4
+tdp_w: 65
+l2_cache_mb: 28
+l3_cache_mb: 33
+process_nm: 7
+tjmax: 100
+integrated_graphics: Intel UHD Graphics 770
+graphics_frequency: 1600
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 192
+max_memory_speed_mt: 5600
+pcie_version: '5.0'
+instruction: x86-64
+extensions:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+release_date: 2024-01

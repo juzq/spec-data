@@ -1,0 +1,33 @@
+field_labels:
+  groups:
+    basic: 基本信息
+    spec: 规格参数
+    network: 网络与无线
+    price_date: 价格与发布
+  fields:
+    brand: 品牌
+    model: 型号
+    chipset: 芯片组
+    socket: 接口
+    form_factor: 版型
+    memory_slots: 内存槽数
+    memory_type: 内存类型
+    memory_max_gb: 最大内存 (GB)
+    memory_speed_max_mt: 最高内存频率 (MT/s)
+    m2_slots: M.2 接口数
+    pcie_version: PCIe 版本
+    sata_ports: SATA 接口数
+    has_wifi: Wi-Fi
+    wifi_version: Wi-Fi 版本
+    has_bluetooth: 蓝牙
+    price_cny: 价格 (¥)
+    release_date: 发布日期
+    name: 名称
+    memory: 内存
+    m2_pcie: M.2/PCIe
+    wifi_bt: Wi-Fi/蓝牙
+    price_release: 价格/发布日期
+values: {}
+bools:
+  yes: 是
+  no: 否
