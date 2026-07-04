@@ -1,0 +1,25 @@
+slug: amd-5950x
+brand: AMD
+model: Ryzen 9 5950X
+family: Ryzen
+series: Ryzen 5000 Series
+form_factor: Desktops , Boxed Processor
+codename: Vermeer
+socket: AM4
+release_date: 2020-11
+cores: 16
+threads: 32
+base_clock_ghz: 3.4
+boost_clock_ghz: 4.9
+l2_cache_mb: 8
+l3_cache_mb: 64
+tdp_w: 105
+tjmax: 90
+process_nm: 7
+supported_memory_types:
+  - DDR4
+max_memory: 3200
+pcie_version: "4.0"
+integrated_graphics: Discrete Graphics Card Required
+product_id_boxed: 100-100000059WOF
+product_id_tray: 100-000000059

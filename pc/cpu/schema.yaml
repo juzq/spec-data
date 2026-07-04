@@ -17,7 +17,7 @@ groups:
 
 fields:
 
-# --------------基本--------------
+  # --------------基本--------------
   - key: slug
     type: string
     pattern: '^[a-z0-9-]+$'
@@ -25,7 +25,7 @@ fields:
 
   - key: brand
     type: enum
-    values: [AMD, Intel, Moorethreads]
+    values: [ AMD, Intel, Moorethreads ]
     required: true
     group: basic
     filter:
@@ -48,8 +48,7 @@ fields:
       control: enum
 
   - key: form_factor
-    type: enum
-    values: [Desktop, Mobile, Server, Embedded]
+    type: string
     group: basic
 
   - key: codename
@@ -76,7 +75,7 @@ fields:
     filter:
       control: year
 
-# --------------规格--------------
+  # --------------规格--------------
   - key: cores
     type: integer
     required: true
@@ -170,7 +169,29 @@ fields:
 
   - key: chipsets
     type: array
-    items: { type: enum, values: [A620, X670E, X670, B650E, B650, X870E, X870, B840, B850] }
+    items:
+      {
+        type: enum,
+        values:
+          [
+            A620,
+            X670E,
+            X670,
+            B650E,
+            B650,
+            X870E,
+            X870,
+            B840,
+            B850,
+            A520,
+            B350,
+            B450,
+            B550,
+            X370,
+            X470,
+            X570
+          ]
+      }
     group: spec
     brand_only: AMD
 
@@ -189,10 +210,10 @@ fields:
     brand_only: AMD
     group: spec
 
-# --------------内存--------------
+  # --------------内存--------------
   - key: supported_memory_types
     type: array
-    items: { type: enum, values: [DDR4, DDR5] }
+    items: { type: enum, values: [ DDR4, DDR5 ] }
     required: true
     group: memory
 
@@ -223,15 +244,15 @@ fields:
 
   - key: memory_subtype
     type: enum
-    values: [UDIMM]
+    values: [ UDIMM ]
     brand_only: AMD
     group: memory
 
-# --------------扩展--------------
+  # --------------扩展--------------
   - key: pcie_version
     type: enum
-    values: ["4.0", "5.0"]
-    required: true
+    values: [ "4.0", "5.0" ]
+    required: false
     list: true
     group: extensions
     filter:
@@ -251,12 +272,12 @@ fields:
 
   - key: nvme
     type: array
-    items: { type: enum, values: [Boot, RAID0, RAID1, RAID5, RAID10] }
+    items: { type: enum, values: [ Boot, RAID0, RAID1, RAID5, RAID10 ] }
     brand_only: AMD
     nullable: true
     group: extensions
 
-# --------------显示--------------
+  # --------------显示--------------
   - key: integrated_graphics
     type: string
     nullable: true

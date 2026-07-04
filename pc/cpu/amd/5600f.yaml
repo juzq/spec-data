@@ -1,0 +1,64 @@
+slug: amd-5600f
+brand: AMD
+model: Ryzen 5 5600F
+family: Ryzen
+series: Ryzen 5000 Series
+form_factor: Desktops , Boxed Processor
+codename: Vermeer
+socket: AM4
+chipsets:
+  - X570
+  - X470
+  - X370
+  - B550
+  - B450
+  - B350
+  - A520
+architecture: Zen 3
+cores: 6
+threads: 12
+base_clock_ghz: 3
+boost_clock_ghz: 4
+l1_cache_kb: 384
+l2_cache_mb: 3
+l3_cache_mb: 32
+tdp_w: 65
+tjmax: 95
+process_nm: 7
+io_process_nm: 12
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE4.2
+  - SSE4A
+  - SSE4.1
+  - SSE3
+  - SSSE3
+  - SSE
+  - x86-64
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 3200
+max_memory_speed_mt: 3200
+memory_subtype: UDIMM
+pcie_version: "4.0"
+pcie_channels: 24
+usb:
+  - 10Gbps
+  - 5Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID10
+integrated_graphics: Discrete Graphics Card Required
+product_id_tray: 100-000001903

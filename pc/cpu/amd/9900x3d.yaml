@@ -1,6 +1,6 @@
-slug: amd-9800x3d
+slug: amd-9900x3d
 brand: AMD
-model: Ryzen 7 9800X3D
+model: Ryzen 9 9900X3D
 family: Ryzen
 series: Ryzen 9000 Series
 form_factor: Desktops , Boxed Processor
@@ -17,14 +17,14 @@ chipsets:
   - B840
   - B850
 architecture: Zen 5
-release_date: 2024-11
-cores: 8
-threads: 16
-base_clock_ghz: 4.7
-boost_clock_ghz: 5.2
-l1_cache_kb: 640
-l2_cache_mb: 8
-l3_cache_mb: 96
+release_date: 2025-03
+cores: 12
+threads: 24
+base_clock_ghz: 4.4
+boost_clock_ghz: 5.5
+l1_cache_kb: 960
+l2_cache_mb: 12
+l3_cache_mb: 128
 tdp_w: 120
 tjmax: 95
 process_nm: 4
@@ -33,19 +33,19 @@ instruction: x86-64
 ext_instruction:
   - AES
   - AMD-V
-  - AVX
-  - AVX2
   - AVX512
+  - AVX2
+  - AVX
   - FMA3
   - MMX-plus
   - SHA
-  - SSE
   - SSE2
-  - SSE3
-  - SSE4.1
   - SSE4.2
   - SSE4A
+  - SSE4.1
+  - SSE3
   - SSSE3
+  - SSE
   - x86-64
 supported_memory_types:
   - DDR5
@@ -56,8 +56,7 @@ memory_subtype: UDIMM
 pcie_version: "5.0"
 pcie_channels: 28
 usb:
-  - 10Gbps
-  - 480Mbps
+  - 5Gbps
 nvme:
   - Boot
   - RAID0
@@ -69,5 +68,5 @@ graphics_frequency: 2200
 graphics_cores: 2
 pbo: true
 expo: true
-product_id_boxed: 100-100001084WOF
-product_id_tray: 100-000001084
+product_id_boxed: 100-100001368WOF
+product_id_tray: 100-000001368

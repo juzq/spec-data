@@ -1,6 +1,6 @@
-slug: amd-9800x3d
+slug: amd-9700x
 brand: AMD
-model: Ryzen 7 9800X3D
+model: Ryzen 7 9700X
 family: Ryzen
 series: Ryzen 9000 Series
 form_factor: Desktops , Boxed Processor
@@ -17,15 +17,15 @@ chipsets:
   - B840
   - B850
 architecture: Zen 5
-release_date: 2024-11
+release_date: 2024-08
 cores: 8
 threads: 16
-base_clock_ghz: 4.7
-boost_clock_ghz: 5.2
+base_clock_ghz: 3.8
+boost_clock_ghz: 5.5
 l1_cache_kb: 640
 l2_cache_mb: 8
-l3_cache_mb: 96
-tdp_w: 120
+l3_cache_mb: 32
+tdp_w: 65
 tjmax: 95
 process_nm: 4
 io_process_nm: 6
@@ -69,5 +69,5 @@ graphics_frequency: 2200
 graphics_cores: 2
 pbo: true
 expo: true
-product_id_boxed: 100-100001084WOF
-product_id_tray: 100-000001084
+product_id_boxed: 100-100001404WOF
+product_id_tray: 100-000001404

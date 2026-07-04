@@ -50,13 +50,24 @@ field_labels:
     cores_threads: 核心/线程
     clocks: 基频/加速频
     tdp_l3: 默认功耗/L3缓存
-values:
-  form_factor:
-    Desktop: 台式机
-  family:
-    "Ryzen": 锐龙
-  series:
-    "Ryzen 9000 Series": 锐龙 9000 系列
 bools:
   yes: 是
   no: 否
+values:
+  family:
+    Ryzen: 锐龙
+  series:
+    Ryzen 5000 Series: 锐龙 5000 系列
+    Ryzen 7000 Series: 锐龙 7000 系列
+    Ryzen 8000 Series: 锐龙 8000 系列
+    Ryzen 9000 Series: 锐龙 9000 系列
+  form_factor:
+    Desktops , Boxed Processor: 台式机 , 盒装处理器
+    Boxed Processor , Desktops: 盒装处理器 , 台式机
+    Desktops: 台式机
+  integrated_graphics:
+    Discrete Graphics Card Required: 需要独立显卡
+  expo:
+    Yes: 是
+  pbo:
+    Yes: 是

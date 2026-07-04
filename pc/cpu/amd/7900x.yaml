@@ -1,10 +1,10 @@
-slug: amd-9800x3d
+slug: amd-7900x
 brand: AMD
-model: Ryzen 7 9800X3D
+model: Ryzen 9 7900X
 family: Ryzen
-series: Ryzen 9000 Series
+series: Ryzen 7000 Series
 form_factor: Desktops , Boxed Processor
-codename: Granite Ridge AM5
+codename: Raphael AM5
 socket: AM5
 chipsets:
   - A620
@@ -16,18 +16,18 @@ chipsets:
   - X870
   - B840
   - B850
-architecture: Zen 5
-release_date: 2024-11
-cores: 8
-threads: 16
+architecture: Zen 4
+release_date: 2022-09
+cores: 12
+threads: 24
 base_clock_ghz: 4.7
-boost_clock_ghz: 5.2
-l1_cache_kb: 640
-l2_cache_mb: 8
-l3_cache_mb: 96
-tdp_w: 120
+boost_clock_ghz: 5.6
+l1_cache_kb: 768
+l2_cache_mb: 12
+l3_cache_mb: 64
+tdp_w: 170
 tjmax: 95
-process_nm: 4
+process_nm: 5
 io_process_nm: 6
 instruction: x86-64
 ext_instruction:
@@ -50,24 +50,23 @@ ext_instruction:
 supported_memory_types:
   - DDR5
 memory_channel: 2
-max_memory: 256
-max_memory_speed_mt: 5600
+max_memory: 128
+max_memory_speed_mt: 5200
 memory_subtype: UDIMM
-pcie_version: "5.0"
 pcie_channels: 28
 usb:
   - 10Gbps
+  - 5Gbps
   - 480Mbps
 nvme:
   - Boot
   - RAID0
   - RAID1
-  - RAID5
   - RAID10
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
 graphics_cores: 2
 pbo: true
 expo: true
-product_id_boxed: 100-100001084WOF
-product_id_tray: 100-000001084
+product_id_boxed: 100-100000589WOF
+product_id_tray: 100-000000589
