@@ -1,0 +1,26 @@
+slug: amd-pro-4750ge
+brand: AMD
+model: Ryzen 7 PRO 4750GE
+family: Ryzen PRO
+series: Ryzen PRO 4000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2020-07
+cores: 8
+threads: 16
+base_clock_ghz: 3.1
+boost_clock_ghz: 4.3
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 8
+tdp_w: 35
+tjmax: 95
+process_nm: 7
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 3200
+pcie_version: "3.0"
+integrated_graphics: Radeon™ Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html
+product_id_tray: 100-000000152

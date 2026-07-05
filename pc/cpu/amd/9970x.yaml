@@ -1,0 +1,61 @@
+slug: amd-9970x
+brand: AMD
+model: Ryzen Threadripper 9970X
+family: Ryzen Threadripper
+series: Ryzen Threadripper 9000 Series
+form_factor: Desktop
+codename: Shimada Peak
+socket: sTR5
+chipsets:
+  - TRX50
+architecture: Zen 5
+cores: 32
+threads: 64
+base_clock_ghz: 4
+boost_clock_ghz: 5.4
+l1_cache_kb: 2560
+l2_cache_mb: 32
+l3_cache_mb: 128
+tdp_w: 350
+tjmax: 95
+process_nm: 4
+io_process_nm: 6
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 4
+max_memory_speed_mt: 6400
+memory_subtype: RDIMM
+pcie_version: "5.0"
+pcie_channels: 92
+usb:
+  - 10Gbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9970x.html
+pbo: true
+expo: true
+product_id_boxed: 100-100001594WOF
+product_id_tray: 100-000001594

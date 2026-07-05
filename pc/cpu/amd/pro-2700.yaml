@@ -1,0 +1,25 @@
+slug: amd-pro-2700
+brand: AMD
+model: Ryzen 7 PRO 2700
+family: Ryzen PRO
+series: Ryzen PRO 2000 Series
+form_factor: Desktop
+socket: AM4
+cores: 8
+threads: 16
+base_clock_ghz: 3.2
+boost_clock_ghz: 4.1
+l1_cache_kb: 768
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 65
+tjmax: 95
+process_nm: 12
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2933
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/specifications/processors.html#amd-pro-2700
+product_id_tray: YD270BBBM88AF

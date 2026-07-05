@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 9 9950X3D2 Dual Edition
 family: Ryzen
 series: Ryzen 9000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Granite Ridge AM5
 socket: AM5
 chipsets:
@@ -64,8 +64,8 @@ nvme:
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
 graphics_cores: 2
+url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html
 pbo: true
 expo: true
 product_id_boxed: 100-100001978WOF
 product_id_tray: 100-000001978
-url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html

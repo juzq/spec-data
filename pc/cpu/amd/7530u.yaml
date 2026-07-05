@@ -1,0 +1,57 @@
+slug: amd-7530u
+brand: AMD
+model: Ryzen 5 7530U
+family: Ryzen
+series: Ryzen 7000 Series
+form_factor: Desktop
+codename: Barcelo R
+socket: FP6
+architecture: Zen 3
+cores: 6
+threads: 12
+base_clock_ghz: 2
+boost_clock_ghz: 4.5
+l1_cache_kb: 384
+l2_cache_mb: 3
+l3_cache_mb: 16
+tdp_w: 15
+tjmax: 95
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 64
+max_memory_speed_mt: 3200
+memory_subtype: UDIMM
+pcie_version: "3.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID10
+integrated_graphics: AMD Radeon™ Graphics
+graphics_frequency: 2000
+graphics_cores: 7
+url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7530u.html
+product_id_tray: 100-000000943

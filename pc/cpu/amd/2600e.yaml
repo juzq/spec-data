@@ -1,0 +1,25 @@
+slug: amd-2600e
+brand: AMD
+model: Ryzen 5 2600E
+family: Ryzen
+series: Ryzen 2000 Series
+form_factor: Desktop
+socket: AM4
+cores: 6
+threads: 12
+base_clock_ghz: 3.1
+boost_clock_ghz: 4
+l1_cache_kb: 578
+l2_cache_mb: 3
+l3_cache_mb: 16
+tdp_w: 45
+tjmax: 95
+process_nm: 12
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/specifications/processors.html#amd-2600e
+product_id_tray: YD260EBHM6IAF

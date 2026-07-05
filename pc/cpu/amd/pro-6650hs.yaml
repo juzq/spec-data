@@ -1,0 +1,23 @@
+slug: amd-pro-6650hs
+brand: AMD
+model: Ryzen 5 PRO 6650HS
+family: Ryzen PRO
+series: Ryzen PRO 6000 Series
+form_factor: Desktop
+cores: 6
+threads: 12
+base_clock_ghz: 3.3
+boost_clock_ghz: 4.5
+l1_cache_kb: 384
+l2_cache_mb: 3
+l3_cache_mb: 16
+tdp_w: 35
+tjmax: 95
+process_nm: 6
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+pcie_version: "4.0"
+integrated_graphics: AMD Radeon™ 660M
+url: https://www.amd.com/en/products/specifications/processors.html#amd-pro-6650hs
+product_id_tray: "FP7: 100-000000543 FP7r2:100-000000565"

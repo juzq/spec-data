@@ -1,0 +1,62 @@
+slug: amd-7945hx
+brand: AMD
+model: Ryzen 9 7945HX
+family: Ryzen
+series: Ryzen 7000 Series
+form_factor: Desktop
+codename: Dragon Range
+socket: FL1
+architecture: Zen 4
+release_date: 2023-02
+cores: 16
+threads: 32
+base_clock_ghz: 2.5
+boost_clock_ghz: 5.4
+l1_cache_kb: 1024
+l2_cache_mb: 16
+l3_cache_mb: 64
+tdp_w: 55
+tjmax: 100
+process_nm: 5
+io_process_nm: 6
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 64
+max_memory_speed_mt: 5200
+memory_subtype: SO-DIMM
+pcie_version: "5.0"
+pcie_channels: 28
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID10
+integrated_graphics: AMD Radeon™ 610M
+graphics_frequency: 2200
+graphics_cores: 2
+url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7945hx.html
+pbo: true
+expo: true
+product_id_tray: 100-000000870

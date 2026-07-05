@@ -1,0 +1,27 @@
+slug: amd-1600
+brand: AMD
+model: Ryzen 5 1600
+family: Ryzen
+series: Ryzen 1000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2017-04
+cores: 6
+threads: 12
+base_clock_ghz: 3.2
+boost_clock_ghz: 3.6
+l1_cache_kb: 576
+l2_cache_mb: 3
+l3_cache_mb: 16
+tdp_w: 65
+tjmax: 95
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-5-1600.html
+product_id_boxed: YD1600BBAEBOX
+product_id_tray: YD1600BBM6IAE

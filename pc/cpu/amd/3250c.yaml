@@ -1,0 +1,21 @@
+slug: amd-3250c
+brand: AMD
+model: Ryzen 3 3250C
+family: Ryzen
+series: Ryzen 3000 Series
+form_factor: Desktop
+socket: FP5
+release_date: 2020-09
+cores: 2
+threads: 4
+base_clock_ghz: 2.6
+boost_clock_ghz: 3.5
+l1_cache_kb: 192
+l2_cache_mb: 1
+l3_cache_mb: 4
+tdp_w: 15
+tjmax: 105
+process_nm: 14
+integrated_graphics: AMD Radeon™ Graphics
+url: https://www.amd.com/en/products/specifications/processors.html#amd-3250c
+product_id_tray: YM325CC4T2OFG

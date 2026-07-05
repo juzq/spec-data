@@ -1,0 +1,26 @@
+slug: amd-pro-1500
+brand: AMD
+model: Ryzen 5 PRO 1500
+family: Ryzen PRO
+series: Ryzen PRO 1000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2017-06
+cores: 4
+threads: 8
+base_clock_ghz: 3.5
+boost_clock_ghz: 3.7
+l1_cache_kb: 384
+l2_cache_mb: 2
+l3_cache_mb: 16
+tdp_w: 65
+tjmax: 95
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/specifications/processors.html#amd-pro-1500
+product_id_tray: YD150BBBM4GAE

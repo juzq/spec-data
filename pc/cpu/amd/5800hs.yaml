@@ -1,0 +1,24 @@
+slug: amd-5800hs
+brand: AMD
+model: Ryzen 7 5800HS
+family: Ryzen
+series: Ryzen 5000 Series
+form_factor: Desktop
+socket: FP6
+release_date: 2021-01
+cores: 8
+threads: 16
+base_clock_ghz: 2.8
+boost_clock_ghz: 4.4
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 35
+tjmax: 105
+process_nm: 7
+supported_memory_types:
+  - DDR4 - Up to 3200
+  - LPDDR4 - Up to 4266
+pcie_version: "3.0"
+integrated_graphics: AMD Radeon™ Graphics
+url: https://www.amd.com/en/products/specifications/processors.html#amd-5800hs
+product_id_tray: 100-000000295

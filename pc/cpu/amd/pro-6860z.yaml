@@ -1,0 +1,23 @@
+slug: amd-pro-6860z
+brand: AMD
+model: Ryzen 7 PRO 6860Z
+family: Ryzen PRO
+series: Ryzen PRO 6000 Series
+form_factor: Desktop
+cores: 8
+threads: 16
+base_clock_ghz: 2.7
+boost_clock_ghz: 4.75
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 28
+tjmax: 95
+process_nm: 6
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+pcie_version: "4.0"
+integrated_graphics: AMD Radeon™ 680M
+url: https://www.amd.com/en/products/specifications/processors.html#amd-pro-6860z
+product_id_tray: 100-000000781

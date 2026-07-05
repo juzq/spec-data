@@ -1,0 +1,27 @@
+slug: amd-7980x
+brand: AMD
+model: Ryzen Threadripper 7980X
+family: Ryzen Threadripper
+series: Ryzen Threadripper 7000 Series
+form_factor: Desktop
+socket: sTR5
+release_date: 2023-10
+cores: 64
+threads: 128
+base_clock_ghz: 3.2
+boost_clock_ghz: 5.1
+l1_cache_kb: 4096
+l2_cache_mb: 64
+l3_cache_mb: 256
+tdp_w: 350
+tjmax: 95
+process_nm: 5
+supported_memory_types:
+  - DDR5
+memory_channel: 4
+max_memory_speed_mt: 5200
+pcie_version: "5.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-7000-series/amd-ryzen-threadripper-7980x.html
+product_id_boxed: 100-100001350WOF
+product_id_tray: 100-000001350

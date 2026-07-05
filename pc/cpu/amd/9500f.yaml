@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 9500F
 family: Ryzen
 series: Ryzen 9000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Granite Ridge AM5
 socket: AM5
 chipsets:
@@ -64,7 +64,7 @@ nvme:
   - RAID5
   - RAID10
 integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500f.html
 pbo: true
 expo: true
 product_id_tray: 100-000001406
-url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500f.html

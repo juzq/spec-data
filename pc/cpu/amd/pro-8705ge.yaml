@@ -1,0 +1,59 @@
+slug: amd-pro-8705ge
+brand: AMD
+model: Ryzen 7 PRO 8705GE
+family: Ryzen PRO
+series: Ryzen PRO 8000 Series
+form_factor: Desktop
+codename: Phoenix
+socket: AM5
+architecture: Zen 4
+release_date: 2025-12
+cores: 8
+threads: 16
+base_clock_ghz: 3.6
+boost_clock_ghz: 5.1
+l2_cache_mb: 8
+l3_cache_mb: 16
+tdp_w: 35
+tjmax: 95
+process_nm: 4
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5200
+memory_subtype: UDIMM
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: AMD Radeon™ 780M
+graphics_frequency: 2700
+graphics_cores: 12
+url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8705ge.html
+product_id_tray: 100-000002081

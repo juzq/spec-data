@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 8700F
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Phoenix
 socket: AM5
 chipsets:
@@ -61,8 +61,8 @@ nvme:
   - RAID0
   - RAID1
 integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html
 pbo: true
 expo: true
-product_id_boxed: 100-100001590BOX , 100-100001590CBX
+product_id_boxed: 100-100001590BOX, 100-100001590CBX
 product_id_tray: 100-000001590 (AM5)
-url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html

@@ -1,0 +1,25 @@
+slug: amd-pro-2700u
+brand: AMD
+model: Ryzen 7 PRO 2700U
+family: Ryzen PRO
+series: Ryzen PRO 2000 Series
+form_factor: Desktop
+socket: FP5
+cores: 4
+threads: 8
+base_clock_ghz: 2.2
+boost_clock_ghz: 3.8
+l1_cache_kb: 384
+l2_cache_mb: 2
+l3_cache_mb: 4
+tdp_w: 15
+tjmax: 95
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2400
+pcie_version: "3.0"
+integrated_graphics: Radeon™ Vega 10 Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-7-pro-2700u.html
+product_id_tray: YM270BC4T4MFB

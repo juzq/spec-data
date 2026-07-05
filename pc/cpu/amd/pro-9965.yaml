@@ -1,0 +1,73 @@
+slug: amd-pro-9965
+brand: AMD
+model: Ryzen 9 PRO 9965
+family: Ryzen PRO
+series: Ryzen PRO 9000 Series
+form_factor: Desktop
+codename: Granite Ridge AM5
+socket: AM5
+chipsets:
+  - A620
+  - X670E
+  - X670
+  - B650E
+  - B650
+  - X870
+  - X870E
+  - B840
+  - B850
+architecture: Zen 5
+release_date: 2026-06
+cores: 16
+threads: 32
+base_clock_ghz: 4.3
+boost_clock_ghz: 5.5
+l1_cache_kb: 1280
+l2_cache_mb: 16
+l3_cache_mb: 64
+tdp_w: 170
+tjmax: 95
+process_nm: 4
+io_process_nm: 6
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE4.2
+  - SSE4A
+  - SSE4.1
+  - SSE3
+  - SSSE3
+  - SSE
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+memory_subtype: UDIMM
+pcie_version: "5.0"
+pcie_channels: 28
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: AMD Radeon™ Graphics
+graphics_frequency: 2200
+graphics_cores: 2
+url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/9000-series/amd-ryzen-9-pro-9965.html
+pbo: false
+expo: false
+product_id_tray: 100-000002001

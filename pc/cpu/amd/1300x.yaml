@@ -1,0 +1,27 @@
+slug: amd-1300x
+brand: AMD
+model: Ryzen 3 1300X
+family: Ryzen
+series: Ryzen 1000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2017-07
+cores: 4
+threads: 4
+base_clock_ghz: 3.5
+boost_clock_ghz: 3.7
+l1_cache_kb: 384
+l2_cache_mb: 2
+l3_cache_mb: 8
+tdp_w: 65
+tjmax: 95
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1300x.html
+product_id_boxed: YD130XBBAEBOX
+product_id_tray: YD130XBBM4KAE

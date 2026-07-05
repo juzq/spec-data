@@ -1,0 +1,56 @@
+slug: amd-210
+brand: AMD
+model: Ryzen 3 210
+family: Ryzen
+series: Ryzen 200 Series
+form_factor: Desktop
+codename: Hawk Point
+socket: FP8 , FP7 , FP7r2
+architecture: 1x Zen 4 , 3x Zen 4c
+release_date: 2025-02
+cores: 4
+threads: 8
+base_clock_ghz: 3
+boost_clock_ghz: 4.7
+l2_cache_mb: 4
+l3_cache_mb: 8
+tdp_w: 28
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX512
+  - AVX2
+  - AVX
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE4.2
+  - SSE4A
+  - SSE4.1
+  - SSE3
+  - SSSE3
+  - SSE
+supported_memory_types:
+  - DDR5 (FP8)
+  - DDR5 (FP7r2)
+memory_channel: 2
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 14
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 740M
+graphics_frequency: 2500
+graphics_cores: 4
+url: https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html
+pbo: false
+expo: false
+product_id_tray: 100-000001332 (FP7) , 100-000001325 (FP7r2) , 100-000001612 (FP8 200)

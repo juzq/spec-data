@@ -1,0 +1,25 @@
+slug: amd-pro-7645
+brand: AMD
+model: Ryzen 5 PRO 7645
+family: Ryzen PRO
+series: Ryzen PRO 7000 Series
+form_factor: Desktop
+socket: AM5
+release_date: 2023-06
+cores: 6
+threads: 12
+base_clock_ghz: 3.8
+boost_clock_ghz: 5.1
+l1_cache_kb: 384
+l2_cache_mb: 6
+l3_cache_mb: 32
+tdp_w: 65
+tjmax: 95
+process_nm: 5
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+pcie_version: "5.0"
+integrated_graphics: AMD Radeon™ Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7645.html
+product_id_tray: 100-000000600

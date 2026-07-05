@@ -1,0 +1,61 @@
+slug: amd-pro-9955wx
+brand: AMD
+model: Ryzen Threadripper PRO 9955WX
+family: Ryzen Threadripper PRO
+series: Ryzen Threadripper PRO 9000 WX-Series
+form_factor: Desktop
+codename: Shimada Peak
+socket: sTR5
+chipsets:
+  - WRX90
+  - TRX50
+  - Pro 695
+architecture: Zen 5
+cores: 16
+threads: 32
+base_clock_ghz: 4.5
+boost_clock_ghz: 5.4
+l1_cache_kb: 1280
+l2_cache_mb: 16
+l3_cache_mb: 64
+tdp_w: 350
+tjmax: 95
+process_nm: 4
+io_process_nm: 6
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory_speed_mt: 6400
+memory_subtype: RDIMM
+pcie_version: "5.0"
+usb:
+  - 10Gbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9955wx.html
+pbo: true
+expo: true
+product_id_tray: 100-000000725

@@ -1,0 +1,25 @@
+slug: amd-5560u
+brand: AMD
+model: Ryzen 5 5560U
+family: Ryzen
+series: Ryzen 5000 Series
+form_factor: Desktop
+socket: FP6
+release_date: 2021-01
+cores: 6
+threads: 12
+base_clock_ghz: 2.3
+boost_clock_ghz: 4
+l1_cache_kb: 384
+l2_cache_mb: 3
+l3_cache_mb: 8
+tdp_w: 15
+tjmax: 105
+process_nm: 7
+supported_memory_types:
+  - DDR4
+  - LPDDR4X
+memory_channel: 2
+pcie_version: "3.0"
+integrated_graphics: AMD Radeon™  Graphics
+url: https://www.amd.com/en/products/specifications/processors.html#amd-5560u

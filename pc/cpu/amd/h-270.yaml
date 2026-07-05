@@ -1,0 +1,56 @@
+slug: amd-h-270
+brand: AMD
+model: Ryzen 9 H 270
+family: 锐龙
+series: 锐龙 200 系列
+form_factor: Desktop
+codename: Hawk Point
+socket: FP8
+architecture: Zen 4
+cores: 8
+threads: 16
+base_clock_ghz: 4
+boost_clock_ghz: 5.2
+l2_cache_mb: 8
+l3_cache_mb: 16
+tdp_w: 45
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX512
+  - AVX2
+  - AVX
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE4.2
+  - SSE4A
+  - SSE4.1
+  - SSE3
+  - SSSE3
+  - SSE
+  - x86-64
+supported_memory_types:
+  - DDR5 (FP8)
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 780M
+graphics_frequency: 2800
+graphics_cores: 12
+url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen/200-series/amd-ryzen-9-h-270.html
+pbo: true
+expo: true
+product_id_tray: 100-000001836

@@ -1,0 +1,56 @@
+slug: amd-7435hs
+brand: AMD
+model: Ryzen 7 7435HS
+family: Ryzen
+series: Ryzen 7000 Series
+form_factor: Desktop
+codename: Rembrandt R
+socket: FP7r2
+architecture: Zen 3+
+cores: 8
+threads: 16
+base_clock_ghz: 3.1
+boost_clock_ghz: 4.5
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 45
+tjmax: 95
+process_nm: 6
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 64
+max_memory_speed_mt: 4800
+memory_subtype: UDIMM
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 5Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID10
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7435hs.html
+product_id_tray: "FP7r2: 100-000001506"

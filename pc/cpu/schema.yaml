@@ -189,7 +189,11 @@ fields:
             B550,
             X370,
             X470,
-            X570
+            X570,
+            FP11,
+            Pro 695,
+            TRX50,
+            WRX90
           ]
       }
     group: spec
@@ -213,7 +217,23 @@ fields:
   # --------------内存--------------
   - key: supported_memory_types
     type: array
-    items: { type: enum, values: [ DDR4, DDR5 ] }
+    items:
+      {
+        type: enum,
+        values:
+          [
+            DDR4,
+            DDR5,
+            DDR4 - Up to 3200,
+            DDR5 (FP7r2),
+            DDR5 (FP8),
+            LPDDR4,
+            LPDDR4 - Up to 4266,
+            LPDDR4X,
+            LPDDR5X (FP7-FP8),
+            LPDDR5X (FP7)
+          ]
+      }
     required: true
     group: memory
 
@@ -244,14 +264,14 @@ fields:
 
   - key: memory_subtype
     type: enum
-    values: [ UDIMM ]
+    values: [ UDIMM, RDIMM, SO-DIMM, "UDIMM , SO-DIMM" ]
     brand_only: AMD
     group: memory
 
   # --------------扩展--------------
   - key: pcie_version
     type: enum
-    values: [ "4.0", "5.0" ]
+    values: [ "4.0", "5.0", "3.0" ]
     required: false
     list: true
     group: extensions
@@ -314,7 +334,7 @@ fields:
     nullable: true
     # 故意不挂 group: 详情页底部链接读取，不在 SpecTable / 列表里渲染
 
-# ======= 衍生字段  =======
+    # ======= 衍生字段  =======
 derived_fields:
   - key: name
     formula: '{brand} {model}'

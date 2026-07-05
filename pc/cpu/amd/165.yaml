@@ -1,0 +1,38 @@
+slug: amd-165
+brand: AMD
+model: Ryzen 7 165
+family: Ryzen
+series: Ryzen 100 Series
+form_factor: Desktop
+codename: Hawk Point
+socket: FP7r2
+architecture: Zen 3+
+release_date: 2026-06
+cores: 6
+threads: 12
+base_clock_ghz: 3.3
+boost_clock_ghz: 4.7
+l2_cache_mb: 6
+l3_cache_mb: 16
+tdp_w: 28
+process_nm: 4
+supported_memory_types:
+  - DDR5 (FP7r2)
+memory_channel: 2
+max_memory_speed_mt: 4800
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 760M Graphics
+graphics_frequency: 2400
+graphics_cores: 8
+url: https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-7-165.html
+pbo: false
+expo: false
+product_id_tray: 100-000002236

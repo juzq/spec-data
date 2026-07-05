@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 8600G
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Phoenix
 socket: AM5
 chipsets:
@@ -62,8 +62,8 @@ nvme:
 integrated_graphics: AMD Radeon™ 760M
 graphics_frequency: 2800
 graphics_cores: 8
+url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html
 pbo: true
 expo: true
 product_id_boxed: 100-100001237BOX
 product_id_tray: 100-000001237
-url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html

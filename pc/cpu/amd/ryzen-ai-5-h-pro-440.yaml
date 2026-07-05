@@ -1,0 +1,57 @@
+slug: amd-ryzen-ai-5-h-pro-440
+brand: AMD
+model: Ryzen AI 5 H PRO 440
+family: 锐龙 PRO
+series: Ryzen AI PRO 400 Series
+form_factor: Desktop
+codename: Gorgon Point
+socket: FP8
+architecture: 3x Zen 5 , 3x Zen 5c
+release_date: 2026-01
+cores: 6
+threads: 12
+base_clock_ghz: 2
+boost_clock_ghz: 4.8
+l2_cache_mb: 6
+l3_cache_mb: 16
+tdp_w: 28
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5 (FP8)
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 16
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 840M
+graphics_frequency: 2900
+graphics_cores: 4
+url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-5-h-pro-440.html
+pbo: false
+expo: false
+product_id_tray: 100-000001866

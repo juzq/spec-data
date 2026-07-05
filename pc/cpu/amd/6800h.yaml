@@ -1,0 +1,24 @@
+slug: amd-6800h
+brand: AMD
+model: Ryzen 7 6800H
+family: Ryzen
+series: Ryzen 6000 Series
+form_factor: Desktop
+socket: FP7
+cores: 8
+threads: 16
+base_clock_ghz: 3.2
+boost_clock_ghz: 4.7
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 45
+tjmax: 95
+process_nm: 6
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+pcie_version: "4.0"
+integrated_graphics: AMD Radeon™ 680M
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-6000-series/amd-ryzen-7-6800h.html
+product_id_tray: "FP7:100-000000545 FP7r2:\t100-000000561"

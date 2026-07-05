@@ -1,0 +1,27 @@
+slug: amd-1900x
+brand: AMD
+model: Ryzen Threadripper 1900X
+family: Ryzen Threadripper
+series: Ryzen Threadripper 1000 Series
+form_factor: Desktop
+socket: sTR4
+release_date: 2017-08
+cores: 8
+threads: 16
+base_clock_ghz: 3.8
+boost_clock_ghz: 4
+l1_cache_kb: 768
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 180
+tjmax: 68
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-1000-series/amd-ryzen-threadripper-1900x.html
+product_id_boxed: YD190XA8AEWOF
+product_id_tray: YD190XA8U8QAE

@@ -1,0 +1,25 @@
+slug: amd-pro-5875u
+brand: AMD
+model: Ryzen 7 PRO 5875U
+family: Ryzen PRO
+series: Ryzen PRO 5000 Series
+form_factor: Desktop
+socket: FP6
+release_date: 2022-01
+cores: 8
+threads: 16
+base_clock_ghz: 2
+boost_clock_ghz: 4.5
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 16
+tdp_w: 15
+tjmax: 95
+process_nm: 7
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+pcie_version: "3.0"
+integrated_graphics: AMD Radeon™ Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-7-pro-5875u.html
+product_id_tray: 100-000000581

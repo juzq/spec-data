@@ -1,0 +1,56 @@
+slug: amd-ryzen-ai-max-pro-490
+brand: AMD
+model: Ryzen AI Max PRO 490
+family: Ryzen PRO
+series: Ryzen AI Max PRO 400 Series
+form_factor: Desktop
+codename: Gorgon Halo
+chipsets:
+  - FP11
+architecture: Zen 5
+cores: 12
+threads: 24
+base_clock_ghz: 3.2
+boost_clock_ghz: 5
+l2_cache_mb: 12
+l3_cache_mb: 64
+tdp_w: 55
+tjmax: 100
+process_nm: 4
+io_process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types: []
+max_memory: 192
+max_memory_speed_mt: 5
+pcie_version: "4.0"
+pcie_channels: 16
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: Radeon 8050S Graphics
+graphics_frequency: 2800
+graphics_cores: 32
+url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-400-series/amd-ryzen-ai-max-pro-490.html
+pbo: false
+expo: false
+product_id_tray: 100-000002141

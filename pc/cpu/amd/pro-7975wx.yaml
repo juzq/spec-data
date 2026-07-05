@@ -1,0 +1,27 @@
+slug: amd-pro-7975wx
+brand: AMD
+model: Ryzen Threadripper PRO 7975WX
+family: Ryzen Threadripper PRO
+series: Ryzen Threadripper PRO 7000 WX-Series
+form_factor: Desktop
+socket: sTR5
+release_date: 2023-10
+cores: 32
+threads: 64
+base_clock_ghz: 4
+boost_clock_ghz: 5.3
+l1_cache_kb: 2048
+l2_cache_mb: 32
+l3_cache_mb: 128
+tdp_w: 350
+tjmax: 95
+process_nm: 5
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory_speed_mt: 5200
+pcie_version: "5.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper-pro/amd-ryzen-threadripper-pro-7000-wx-series/amd-ryzen-threadripper-pro-7975wx.html
+product_id_boxed: 100-100000453WOF
+product_id_tray: 100-000000453

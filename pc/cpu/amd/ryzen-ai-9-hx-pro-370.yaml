@@ -1,0 +1,57 @@
+slug: amd-ryzen-ai-9-hx-pro-370
+brand: AMD
+model: Ryzen AI 9 HX PRO 370
+family: Ryzen PRO
+series: Ryzen AI PRO 300 Series
+form_factor: Desktop
+codename: Strix Point
+socket: FP8
+architecture: 4x Zen 5 , 8x Zen 5c
+release_date: 2025-10
+cores: 12
+threads: 24
+base_clock_ghz: 2
+boost_clock_ghz: 5.1
+l2_cache_mb: 12
+l3_cache_mb: 24
+tdp_w: 28
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5 (FP8)
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 16
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 890M
+graphics_frequency: 2900
+graphics_cores: 16
+url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-370.html
+pbo: false
+expo: false
+product_id_tray: 100-000001569

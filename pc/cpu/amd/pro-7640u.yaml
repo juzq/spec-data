@@ -1,0 +1,24 @@
+slug: amd-pro-7640u
+brand: AMD
+model: Ryzen 5 PRO 7640U
+family: Ryzen PRO
+series: Ryzen PRO 7000 Series
+form_factor: Desktop
+socket: FP7, FP7r2
+release_date: 2023-06
+cores: 6
+threads: 12
+base_clock_ghz: 3.5
+boost_clock_ghz: 4.9
+l2_cache_mb: 6
+l3_cache_mb: 16
+tjmax: 100
+process_nm: 4
+supported_memory_types:
+  - DDR5 (FP7r2)
+  - LPDDR5X (FP7)
+memory_channel: 2
+pcie_version: "4.0"
+integrated_graphics: AMD Radeon™ 760M
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7640u.html
+product_id_tray: 100-000001108 (FP7r2), 100-000001111 (FP7)

@@ -1,0 +1,27 @@
+slug: amd-3700x
+brand: AMD
+model: Ryzen 7 3700X
+family: Ryzen
+series: Ryzen 3000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2019-07
+cores: 8
+threads: 16
+base_clock_ghz: 3.6
+boost_clock_ghz: 4.4
+l1_cache_kb: 512
+l2_cache_mb: 4
+l3_cache_mb: 32
+tdp_w: 65
+tjmax: 95
+process_nm: 7
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 3200
+pcie_version: "4.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-7-3700x.html
+product_id_boxed: 100-100000071BOX
+product_id_tray: 100-000000071

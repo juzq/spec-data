@@ -1,0 +1,56 @@
+slug: amd-8745h
+brand: AMD
+model: Ryzen 7 8745H
+family: 锐龙
+series: 锐龙 8000 系列
+form_factor: Desktop
+codename: Hawk Point
+socket: FP7r2 , FP8
+architecture: Zen 4
+cores: 8
+threads: 16
+base_clock_ghz: 3.8
+boost_clock_ghz: 4.9
+l2_cache_mb: 8
+l3_cache_mb: 16
+tdp_w: 45
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5 (FP7r2)
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 780M
+graphics_frequency: 2600
+graphics_cores: 12
+url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745h.html
+pbo: true
+expo: false
+product_id_tray: 100-000001623 (FP7r2) , 100-000001624 (FP8)

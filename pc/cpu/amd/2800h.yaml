@@ -1,0 +1,24 @@
+slug: amd-2800h
+brand: AMD
+model: Ryzen 7 2800H
+family: Ryzen
+series: Ryzen 2000 Series
+form_factor: Desktop
+socket: FP5
+release_date: 2018-09
+cores: 4
+threads: 8
+base_clock_ghz: 3.3
+boost_clock_ghz: 3.8
+l1_cache_kb: 192
+l2_cache_mb: 2
+l3_cache_mb: 4
+tdp_w: 45
+tjmax: 95
+process_nm: 14
+memory_channel: 2
+max_memory_speed_mt: 3200
+pcie_version: "3.0"
+integrated_graphics: Radeon™ RX Vega 11 Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-7-2800h.html
+product_id_tray: YM2800C3T4MFB

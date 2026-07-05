@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 5800XT
 family: Ryzen
 series: Ryzen 5000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Vermeer
 socket: AM4
 chipsets:
@@ -60,5 +60,6 @@ nvme:
   - RAID1
   - RAID10
 integrated_graphics: Discrete Graphics Card Required
-product_id_tray: 100-000001582
 url: https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800xt.html
+product_id_boxed: 100-100001582WOF*, 100-100001582WOZ*
+product_id_tray: 100-000001582

@@ -1,0 +1,55 @@
+slug: amd-8440u
+brand: AMD
+model: Ryzen 3 8440U
+family: Ryzen
+series: Ryzen 8000 Series
+form_factor: Desktop
+codename: Hawk Point
+socket: FP7 , FP7r2
+architecture: 1x Zen 4 , 3x Zen 4c
+cores: 4
+threads: 8
+base_clock_ghz: 3
+boost_clock_ghz: 4.7
+l2_cache_mb: 4
+l3_cache_mb: 8
+tdp_w: 28
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5 (FP7r2)
+memory_channel: 2
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 14
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 740M
+graphics_frequency: 2500
+graphics_cores: 4
+url: https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-3-8440u.html
+pbo: false
+expo: false
+product_id_tray: 100-000001325 (FP7r2) , 100-000001332 (FP7)

@@ -1,0 +1,27 @@
+slug: amd-pro-3975wx
+brand: AMD
+model: Ryzen Threadripper PRO 3975WX
+family: Ryzen Threadripper PRO
+series: Ryzen Threadripper PRO 3000 WX-Series
+form_factor: Desktop
+socket: sWRX8
+release_date: 2020-07
+cores: 32
+threads: 64
+base_clock_ghz: 3.5
+boost_clock_ghz: 4.2
+l1_cache_kb: 2048
+l2_cache_mb: 16
+l3_cache_mb: 128
+tdp_w: 280
+tjmax: 90
+process_nm: 7
+supported_memory_types:
+  - DDR4
+memory_channel: 8
+max_memory_speed_mt: 3200
+pcie_version: "4.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper-pro/ryzen-threadripper-pro-3000wx-series/amd-ryzen-threadripper-pro-3975wx.html
+product_id_boxed: 100-100000086WOF
+product_id_tray: 100-000000086

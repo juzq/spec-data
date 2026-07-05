@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 7400
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktops , Boxed Processor
+form_factor: Desktop
 codename: Raphael AM5
 socket: AM5
 chipsets:
@@ -66,7 +66,7 @@ nvme:
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
 graphics_cores: 2
+url: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7400.html
 pbo: true
 expo: true
 product_id_tray: 100-000001900
-url: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7400.html

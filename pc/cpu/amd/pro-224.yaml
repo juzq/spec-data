@@ -1,0 +1,55 @@
+slug: amd-pro-224
+brand: AMD
+model: Ryzen 5 PRO 224
+family: Ryzen PRO
+series: Ryzen PRO 200 Series
+form_factor: Desktop
+codename: Hawk Point
+socket: FP8
+architecture: Zen 4
+release_date: 2026-06
+cores: 6
+threads: 12
+base_clock_ghz: 3.3
+boost_clock_ghz: 4.8
+l2_cache_mb: 6
+l3_cache_mb: 16
+tdp_w: 28
+tjmax: 100
+process_nm: 4
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+supported_memory_types:
+  - DDR5 (FP8)
+memory_channel: 2
+max_memory_speed_mt: 5600
+pcie_version: "4.0"
+pcie_channels: 20
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+integrated_graphics: AMD Radeon™ 760M
+graphics_frequency: 2400
+graphics_cores: 8
+url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-224.html
+pbo: false
+expo: false
+product_id_tray: 100-000002326

@@ -1,0 +1,71 @@
+slug: amd-ryzen-ai-7-450g
+brand: AMD
+model: Ryzen AI 7 450G
+family: Ryzen
+series: Ryzen AI 400 Series
+form_factor: Desktop
+codename: Gorgon Point AM5
+socket: AM5
+chipsets:
+  - A620
+  - X670E
+  - X670
+  - B650E
+  - B650
+  - X870E
+  - X870
+  - B840
+  - B850
+architecture: Zen 5
+cores: 8
+threads: 16
+base_clock_ghz: 2
+boost_clock_ghz: 5.1
+l1_cache_kb: 640
+l2_cache_mb: 8
+l3_cache_mb: 16
+tdp_w: 65
+tjmax: 95
+process_nm: 4
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX
+  - AVX2
+  - AVX512
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE
+  - SSE2
+  - SSE3
+  - SSE4.1
+  - SSE4.2
+  - SSE4A
+  - SSSE3
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+memory_subtype: UDIMM
+pcie_version: "4.0"
+pcie_channels: 16
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: AMD Radeon™ 860M graphics
+graphics_frequency: 3100
+graphics_cores: 8
+url: https://www.amd.com/en/products/processors/desktops/ryzen/ai-400-series/amd-ryzen-ai-7-450g.html
+pbo: true
+expo: true
+product_id_tray: 100-000001917

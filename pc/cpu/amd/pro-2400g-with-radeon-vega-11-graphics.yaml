@@ -1,0 +1,24 @@
+slug: amd-pro-2400g-with-radeon-vega-11-graphics
+brand: AMD
+model: Ryzen 5 PRO 2400G with Radeon Vega 11 Graphics
+family: Ryzen PRO
+series: Ryzen PRO 2000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2018-05
+cores: 4
+threads: 8
+base_clock_ghz: 3.6
+boost_clock_ghz: 3.9
+l1_cache_kb: 384
+l2_cache_mb: 2
+l3_cache_mb: 4
+tdp_w: 65
+tjmax: 95
+process_nm: 14
+memory_channel: 2
+max_memory_speed_mt: 2933
+pcie_version: "3.0"
+integrated_graphics: Radeon™ Vega 11 Graphics
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-5-pro-2400g.html
+product_id_tray: YD240BC5M4MFB

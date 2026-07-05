@@ -1,0 +1,26 @@
+slug: amd-3100u
+brand: AMD
+model: Ryzen 3 3100U
+family: Ryzen
+series: Ryzen 3000 Series
+form_factor: Desktop
+codename: Picasso
+socket: FP5
+cores: 2
+threads: 2
+base_clock_ghz: 1.9
+boost_clock_ghz: 3.2
+l1_cache_kb: 384
+l2_cache_mb: 1
+l3_cache_mb: 4
+tdp_w: 15
+tjmax: 105
+process_nm: 12
+memory_channel: 2
+max_memory_speed_mt: 2400
+pcie_version: "3.0"
+integrated_graphics: Radeon™ Vega 8 Graphics
+graphics_frequency: 1200
+graphics_cores: 8
+url: https://www.amd.com/en/products/processors/laptop/ryzen/3000-series/amd-ryzen-3-3100u.html
+product_id_tray: YM3100C4T2OFG

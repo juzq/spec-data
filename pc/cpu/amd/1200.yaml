@@ -1,0 +1,27 @@
+slug: amd-1200
+brand: AMD
+model: Ryzen 3 1200
+family: Ryzen
+series: Ryzen 1000 Series
+form_factor: Desktop
+socket: AM4
+release_date: 2017-07
+cores: 4
+threads: 4
+base_clock_ghz: 3.1
+boost_clock_ghz: 3.4
+l1_cache_kb: 384
+l2_cache_mb: 2
+l3_cache_mb: 8
+tdp_w: 65
+tjmax: 95
+process_nm: 14
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory_speed_mt: 2667
+pcie_version: "3.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html
+product_id_boxed: YD1200BBAEBOX
+product_id_tray: YD1200BBM4KAE

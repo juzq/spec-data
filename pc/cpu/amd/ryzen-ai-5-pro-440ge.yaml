@@ -1,0 +1,70 @@
+slug: amd-ryzen-ai-5-pro-440ge
+brand: AMD
+model: Ryzen AI 5 PRO 440GE
+family: Ryzen PRO
+series: Ryzen AI PRO 400 Series
+form_factor: Desktop
+codename: Gorgon Point AM5
+socket: AM5
+chipsets:
+  - A620
+  - X670
+  - X670E
+  - B650E
+  - B650
+  - X870
+  - X870E
+  - B840
+  - B850
+architecture: Zen 5
+release_date: 2026-03
+cores: 6
+threads: 12
+base_clock_ghz: 2
+boost_clock_ghz: 4.8
+l1_cache_kb: 480
+l2_cache_mb: 6
+l3_cache_mb: 16
+tdp_w: 35
+tjmax: 95
+process_nm: 4
+instruction: x86-64
+ext_instruction:
+  - AES
+  - AMD-V
+  - AVX512
+  - AVX2
+  - AVX
+  - FMA3
+  - MMX-plus
+  - SHA
+  - SSE2
+  - SSE4.2
+  - SSE4A
+  - SSE4.1
+  - SSE3
+  - SSSE3
+  - SSE
+  - x86-64
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 5600
+memory_subtype: UDIMM
+pcie_version: "4.0"
+pcie_channels: 16
+usb:
+  - 10Gbps
+  - 480Mbps
+nvme:
+  - Boot
+  - RAID0
+  - RAID1
+  - RAID5
+  - RAID10
+integrated_graphics: AMD Radeon™ 840M graphics
+graphics_frequency: 2900
+graphics_cores: 4
+url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/ai-400-series/amd-ryzen-ai-5-pro-440ge.html
+product_id_tray: 100-000001922

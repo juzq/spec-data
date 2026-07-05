@@ -1,0 +1,26 @@
+slug: amd-3990x
+brand: AMD
+model: Ryzen Threadripper 3990X
+family: Ryzen Threadripper
+series: Ryzen Threadripper 3000 Series
+form_factor: Desktop
+socket: sTRX4
+release_date: 2020-02
+cores: 64
+threads: 128
+base_clock_ghz: 2.9
+boost_clock_ghz: 4.3
+l1_cache_kb: 4096
+l2_cache_mb: 32
+l3_cache_mb: 256
+tdp_w: 280
+tjmax: 95
+process_nm: 7
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+pcie_version: "4.0"
+integrated_graphics: Discrete Graphics Card Required
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-3000-series/amd-ryzen-threadripper-3990x.html
+product_id_boxed: 100-100000163WOF
+product_id_tray: 100-000000163

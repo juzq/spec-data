@@ -1,0 +1,24 @@
+slug: amd-6600u
+brand: AMD
+model: Ryzen 5 6600U
+family: Ryzen
+series: Ryzen 6000 Series
+form_factor: Desktop
+socket: FP7
+release_date: 2022-04
+cores: 6
+threads: 12
+base_clock_ghz: 2.9
+boost_clock_ghz: 4.5
+l1_cache_kb: 384
+l2_cache_mb: 3
+l3_cache_mb: 16
+tjmax: 95
+process_nm: 6
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+pcie_version: "4.0"
+integrated_graphics: AMD Radeon™ 660M
+url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-6000-series/amd-ryzen-5-6600u.html
+product_id_tray: "FP7:100-000000536 FP7r2:\t100-000000548"
