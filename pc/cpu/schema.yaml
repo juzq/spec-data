@@ -307,6 +307,13 @@ fields:
     brand_only: AMD
     group: other
 
+  # --------------来源--------------
+  - key: url
+    type: string
+    pattern: '^https:\/\/'
+    nullable: true
+    # 故意不挂 group: 详情页底部链接读取，不在 SpecTable / 列表里渲染
+
 # ======= 衍生字段  =======
 derived_fields:
   - key: name
