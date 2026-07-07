@@ -1,0 +1,45 @@
+slug: intel-4910mq
+brand: Intel
+model: Core™ i7-4910MQ
+series: intel-core-i7-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCPGA946
+cores: 4
+threads: 8
+base_clock_ghz: 2.9
+boost_clock_ghz: 3.9
+l3_cache_mb: 8
+tdp_w: 47
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1300
+graphics_output: eDP/DP/HDMI/VGA
+max_resolution_hdmi: 3840x2160@30Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x416'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/78939/intel-core-i74910mq-processor-8m-cache-up-to-3-90-ghz/specifications.html

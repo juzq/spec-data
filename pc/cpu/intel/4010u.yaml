@@ -1,0 +1,45 @@
+slug: intel-4010u
+brand: Intel
+model: Core™ i3-4010U
+series: intel-core-i3-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCBGA1168
+cores: 2
+threads: 4
+base_clock_ghz: 1.7
+l3_cache_mb: 3
+tdp_w: 15
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 4400
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI
+max_resolution_hdmi: 3200x2000@60Hz
+max_resolution_dp: 3200x2000@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0xA16'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75107/intel-core-i34010u-processor-3m-cache-1-70-ghz/specifications.html

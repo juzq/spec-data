@@ -1,0 +1,47 @@
+slug: intel-1275v6
+brand: Intel
+model: Xeon® Processor E3-1275 v6
+series: Xeon Processor E3 V6 Family
+form_factor: Server
+codename: Kaby Lake
+socket: FCLGA1151
+cores: 4
+threads: 8
+base_clock_ghz: 3.8
+boost_clock_ghz: 4.2
+l3_cache_mb: 8
+tdp_w: 73
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3L
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 37.5
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics P630
+graphics_frequency: 1150
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2160@24Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.4'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x591D'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-01
+url: https://www.intel.com/content/www/us/en/products/sku/97478/intel-xeon-processor-e31275-v6-8m-cache-3-80-ghz/specifications.html

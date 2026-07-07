@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 5425C
 family: Ryzen
 series: Ryzen 5000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP6
 cores: 4
 threads: 8

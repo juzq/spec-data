@@ -1,0 +1,31 @@
+slug: intel-2603v4
+brand: Intel
+model: Xeon® Processor E5-2603 v4
+series: Xeon Processor E5 V4 Family
+form_factor: Server
+codename: Broadwell
+socket: FCLGA2011
+cores: 6
+threads: 6
+base_clock_ghz: 1.7
+l3_cache_mb: 15
+tdp_w: 85
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 1
+max_memory_bandwidth_gbs: 59.7
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: false
+turbo_boost: 'No'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-01
+url: https://www.intel.com/content/www/us/en/products/sku/92993/intel-xeon-processor-e52603-v4-15m-cache-1-70-ghz/specifications.html

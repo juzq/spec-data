@@ -1,0 +1,47 @@
+slug: intel-10500te
+brand: Intel
+model: Core™ i5-10500TE
+series: intel-core-i5-processors-10th-gen
+form_factor: Embedded
+codename: Comet Lake
+socket: FCLGA1200
+cores: 6
+threads: 12
+base_clock_ghz: 2.3
+boost_clock_ghz: 3.7
+l3_cache_mb: 12
+tdp_w: 35
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 41.6
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics 630
+graphics_frequency: 1150
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096 x 2160@30Hz
+max_resolution_dp: 4096 x 2304@60Hz
+max_resolution_edp: 4096 x 2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x9BC8'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/203891/intel-core-i510500te-processor-12m-cache-up-to-3-70-ghz/specifications.html

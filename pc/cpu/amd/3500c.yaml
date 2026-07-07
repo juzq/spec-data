@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 3500C
 family: Ryzen
 series: Ryzen 3000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP5
 release_date: 2020-09
 cores: 4

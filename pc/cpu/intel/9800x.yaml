@@ -1,0 +1,35 @@
+slug: intel-9800x
+brand: Intel
+model: Core™ i7-9800X X-series
+series: Core X-series
+form_factor: Desktops
+codename: Skylake
+socket: FCLGA2066
+cores: 8
+threads: 16
+base_clock_ghz: 3.8
+boost_clock_ghz: 4.4
+l3_cache_mb: 16
+tdp_w: 165
+process_nm: 14
+tjmax: 95
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 128
+max_memory_bandwidth_gbs: 85
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2018-10
+url: https://www.intel.com/content/www/us/en/products/sku/189122/intel-core-i79800x-xseries-processor-16-5m-cache-up-to-4-50-ghz/specifications.html

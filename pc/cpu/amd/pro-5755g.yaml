@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 5755G
 family: Ryzen PRO
 series: Ryzen PRO 5000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Cezanne
 socket: AM4
 architecture: Zen 3
@@ -24,6 +24,6 @@ max_memory_speed_mt: 3200
 pcie_version: "3.0"
 integrated_graphics: Radeon™ Graphics
 graphics_frequency: 2000
-graphics_cores: 8
+execution_units: 8
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/5000-series/amd-ryzen-7-pro-5755g.html
 product_id_tray: 100-000001748

@@ -1,0 +1,38 @@
+slug: intel-2955u
+brand: Intel
+model: Celeron® Processor 2955U
+series: Celeron Processor 2000 Series
+form_factor: Mobile
+codename: Haswell
+socket: FCBGA1168
+cores: 2
+threads: 2
+base_clock_ghz: 1.4
+l3_cache_mb: 2
+tdp_w: 15
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for 4th Generation Intel® Processors
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI
+quick_sync: false
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75608/intel-celeron-processor-2955u-2m-cache-1-40-ghz/specifications.html

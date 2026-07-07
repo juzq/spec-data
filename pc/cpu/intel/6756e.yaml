@@ -1,0 +1,28 @@
+slug: intel-6756e
+brand: Intel
+model: Xeon® 6756E
+series: Xeon 6
+form_factor: Server
+codename: Sierra Forest
+socket: FCLGA4710
+cores: 128
+threads: 128
+base_clock_ghz: 1.8
+boost_clock_ghz: 2.6
+l3_cache_mb: 96
+tdp_w: 225
+process_nm: 3
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+ecc_memory: true
+pcie_version: '5.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-04
+url: https://www.intel.com/content/www/us/en/products/sku/240361/intel-xeon-6756e-processor-96m-cache-1-80-ghz/specifications.html

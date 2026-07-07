@@ -1,0 +1,40 @@
+slug: intel-4402e
+brand: Intel
+model: Core™ i5-4402E
+series: intel-core-i5-processors-4th-gen
+form_factor: Embedded
+codename: Haswell
+socket: FCBGA1364
+cores: 2
+threads: 4
+base_clock_ghz: 1.6
+boost_clock_ghz: 2.7
+l3_cache_mb: 3
+tdp_w: 25
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 900
+graphics_output: eDP/DP/HDMI/VGA
+quick_sync: true
+clear_video: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/76307/intel-core-i54402e-processor-3m-cache-up-to-2-70-ghz/specifications.html

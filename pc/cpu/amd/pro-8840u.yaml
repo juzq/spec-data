@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 8840U
 family: Ryzen PRO
 series: Ryzen PRO 8000 Series
-form_factor: Desktop
+form_factor: Desktops , 1L Desktops , Laptops , Mobile Workstations
 codename: Hawk Point
 socket: FP7 , FP7r2
 architecture: Zen 4
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2700
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/8000-series/amd-ryzen-7-pro-8840u.html
 pbo: false
 expo: false

@@ -1,0 +1,45 @@
+slug: intel-5350h
+brand: Intel
+model: Core™ i5-5350H
+series: intel-core-i5-processors-5th-gen
+form_factor: Mobile
+codename: Broadwell
+socket: FCBGA1364
+cores: 2
+threads: 4
+base_clock_ghz: 3.1
+boost_clock_ghz: 3.5
+l3_cache_mb: 4
+tdp_w: 47
+process_nm: 14
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® Iris® Pro Graphics 6200
+graphics_frequency: 1050
+graphics_output: eDP/DP/HDMI/VGA
+max_resolution_hdmi: 2560x1600@60Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x1622'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+aes_ni: true
+release_date: 2015-04
+url: https://www.intel.com/content/www/us/en/products/sku/87713/intel-core-i55350h-processor-4m-cache-up-to-3-50-ghz/specifications.html

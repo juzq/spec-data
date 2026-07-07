@@ -1,0 +1,36 @@
+slug: intel-1047ue
+brand: Intel
+model: Celeron® Processor 1047UE
+series: Celeron Processor 1000 Series
+form_factor: Embedded
+codename: Ivy Bridge
+socket: FCBGA1023
+cores: 2
+threads: 2
+base_clock_ghz: 1.4
+l3_cache_mb: 2
+tdp_w: 17
+process_nm: 22
+tjmax: 105
+instruction: x86-64
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for 3rd Generation Intel® Processors
+graphics_frequency: 900
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: false
+clear_video: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-01
+url: https://www.intel.com/content/www/us/en/products/sku/74345/intel-celeron-processor-1047ue-2m-cache-1-40-ghz/specifications.html

@@ -1,0 +1,39 @@
+slug: intel-696x
+brand: Intel
+model: Xeon® 696X
+series: Xeon 6
+form_factor: Workstation
+codename: Granite Rapids
+socket: FCLGA4710
+cores: 64
+threads: 128
+perf_cores: 64
+eff_cores: 0
+base_clock_ghz: 2.4
+boost_clock_ghz: 4.8
+l3_cache_mb: 336
+tdp_w: 350
+max_turbo_power_w: 420
+process_nm: 3
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - AMX
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+max_memory_speed_mt: 8000
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-01
+url: https://www.intel.com/content/www/us/en/products/sku/243860/intel-xeon-696x-processor-336m-cache-2-40-ghz/specifications.html

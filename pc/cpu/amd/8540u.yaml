@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 8540U
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Hawk Point
 socket: FP7 , FP7r2
 architecture: 2x Zen 4 , 4x Zen 4c
@@ -48,7 +48,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2800
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8540u.html
 pbo: false
 expo: false

@@ -1,0 +1,30 @@
+slug: intel-2850
+brand: Intel
+model: Xeon® Processor E7-2850
+series: Xeon Processor E7 Family
+form_factor: Server
+codename: Westmere EX
+socket: LGA1567
+cores: 10
+threads: 20
+base_clock_ghz: 2
+boost_clock_ghz: 2.4
+l3_cache_mb: 24
+tdp_w: 130
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 1
+ecc_memory: true
+hyper_threading: true
+turbo_boost: '1.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/53573/intel-xeon-processor-e72850-24m-cache-2-00-ghz-6-40-gts-intel-qpi/specifications.html

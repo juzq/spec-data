@@ -1,0 +1,49 @@
+slug: intel-338h
+brand: Intel
+model: Core™ Ultra 5 Processor 338H
+series: Core Ultra Series 3
+form_factor: Mobile
+codename: Panther Lake
+socket: FCBGA2540
+cores: 12
+threads: 12
+perf_cores: 4
+eff_cores: 4
+base_clock_ghz: 1.9
+boost_clock_ghz: 4.7
+perf_core_base_ghz: 1.9
+perf_core_boost_ghz: 4.7
+eff_core_base_ghz: 1.5
+eff_core_boost_ghz: 3.4
+l3_cache_mb: 18
+tdp_w: 25
+max_turbo_power_w: 65
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5X
+memory_channel: 2
+max_memory: 96
+max_memory_speed_mt: 8533
+pcie_version: '5.0'
+integrated_graphics: Intel® Arc™ B370 GPU
+graphics_frequency: 2400
+graphics_output: eDP1.5, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: DirectX 12 Ultimate
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0xB081, 0xB083, 0xB085, 0xB087'
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-01
+url: https://www.intel.com/content/www/us/en/products/sku/245531/intel-core-ultra-5-processor-338h-18m-cache-up-to-4-70-ghz/specifications.html

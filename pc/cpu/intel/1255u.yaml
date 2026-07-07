@@ -1,0 +1,54 @@
+slug: intel-1255u
+brand: Intel
+model: Core™ i7-1255U
+series: intel-core-i7-processors-12th-gen
+form_factor: Mobile
+codename: Alder Lake
+socket: FCBGA1744
+cores: 10
+threads: 12
+perf_cores: 2
+eff_cores: 8
+boost_clock_ghz: 4.7
+perf_core_boost_ghz: 4.7
+eff_core_boost_ghz: 3.5
+l3_cache_mb: 12
+tdp_w: 15
+max_turbo_power_w: 55
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+  - LPDDR5
+  - LPDDR4x
+memory_channel: 2
+max_memory: 64
+max_memory_speed_mt: 5200
+ecc_memory: false
+integrated_graphics: Intel® Iris® Xe Graphics eligible
+graphics_frequency: 1250
+execution_units: 96
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2304 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 4096 x 2304 @ 120Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 2
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x46A8'
+hyper_threading: true
+vpro: Intel vPro® Essentials
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/226259/intel-core-i71255u-processor-12m-cache-up-to-4-70-ghz/specifications.html

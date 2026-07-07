@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 8400F
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Phoenix
 socket: AM5
 chipsets:

@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper 9970X
 family: Ryzen Threadripper
 series: Ryzen Threadripper 9000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Shimada Peak
 socket: sTR5
 chipsets:

@@ -1,0 +1,47 @@
+slug: intel-1501mv6
+brand: Intel
+model: Xeon® Processor E3-1501M v6
+series: Xeon Processor E3 V6 Family
+form_factor: Embedded
+codename: Kaby Lake
+socket: FCBGA1440
+cores: 4
+threads: 4
+base_clock_ghz: 2.9
+boost_clock_ghz: 3.6
+l3_cache_mb: 6
+tdp_w: 45
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 34.1
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics P630
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@30Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.4'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x591D'
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-07
+url: https://www.intel.com/content/www/us/en/products/sku/122822/intel-xeon-processor-e31501m-v6-6m-cache-up-to-3-60-ghz/specifications.html

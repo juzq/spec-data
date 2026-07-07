@@ -1,0 +1,38 @@
+slug: intel-2425
+brand: Intel
+model: Xeon® w3-2425
+series: Xeon W
+form_factor: Workstation
+codename: Sapphire Rapids
+socket: FCLGA4677
+cores: 6
+threads: 12
+perf_cores: 6
+eff_cores: 0
+base_clock_ghz: 3
+boost_clock_ghz: 4.4
+l3_cache_mb: 15
+tdp_w: 130
+max_turbo_power_w: 156
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - AMX
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 4
+max_memory: 2
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-01
+url: https://www.intel.com/content/www/us/en/products/sku/233485/intel-xeon-w32425-processor-15m-cache-3-00-ghz/specifications.html

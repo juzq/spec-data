@@ -1,0 +1,53 @@
+slug: intel-245hx
+brand: Intel
+model: Core™ Ultra 5 Processor 245HX
+series: Core Ultra Series 2
+form_factor: Mobile
+codename: Arrow Lake
+socket: FCBGA2114
+cores: 14
+threads: 14
+perf_cores: 6
+eff_cores: 8
+base_clock_ghz: 3.1
+boost_clock_ghz: 5.1
+perf_core_base_ghz: 3.1
+perf_core_boost_ghz: 5.1
+eff_core_base_ghz: 2.6
+eff_core_boost_ghz: 4.5
+l2_cache_mb: 26
+l3_cache_mb: 24
+tdp_w: 55
+max_turbo_power_w: 160
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 6400
+ecc_memory: true
+pcie_version: '5.0'
+integrated_graphics: Intel® Graphics
+graphics_frequency: 1900
+graphics_output: eDP1.4b, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_hdmi: "4096 x 2304 @ 60Hz (HDMI 2.1 TMDS); 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)"
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: '12'
+opengl: '4.5'
+opencl: '3'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x7D67'
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/242295/intel-core-ultra-5-processor-245hx-24m-cache-up-to-5-10-ghz/specifications.html

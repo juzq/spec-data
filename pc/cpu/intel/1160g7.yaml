@@ -1,0 +1,46 @@
+slug: intel-1160g7
+brand: Intel
+model: Core™ i7-1160G7
+series: intel-core-i7-processors-11th-gen
+form_factor: Mobile
+codename: Tiger Lake
+socket: FCBGA1598
+cores: 4
+threads: 8
+boost_clock_ghz: 4.4
+l3_cache_mb: 12
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - LPDDR4x
+memory_channel: 2
+max_memory: 32
+ecc_memory: false
+integrated_graphics: Intel® Iris® Xe Graphics
+graphics_frequency: 1100
+execution_units: 96
+graphics_output: eDP 1.4b, MIPI-DSI 2.0, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 2
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0x9A40'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-07
+url: https://www.intel.com/content/www/us/en/products/sku/208661/intel-core-i71160g7-processor-12m-cache-up-to-4-40-ghz-with-ipu/specifications.html

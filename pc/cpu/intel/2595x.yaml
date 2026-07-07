@@ -1,0 +1,38 @@
+slug: intel-2595x
+brand: Intel
+model: Xeon® w7-2595X
+series: Xeon W
+form_factor: Workstation
+codename: Sapphire Rapids
+socket: FCLGA4677
+cores: 26
+threads: 52
+perf_cores: 26
+eff_cores: 0
+base_clock_ghz: 2.8
+boost_clock_ghz: 4.8
+l3_cache_mb: 48
+tdp_w: 250
+max_turbo_power_w: 300
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - AMX
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 4
+max_memory: 2
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-07
+url: https://www.intel.com/content/www/us/en/products/sku/236878/intel-xeon-w72595x-processor-48-75m-cache-2-80-ghz/specifications.html

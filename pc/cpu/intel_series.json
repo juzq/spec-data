@@ -1,0 +1,483 @@
+{
+ "source": "https://www.intel.com/content/www/us/en/ark.html",
+ "filter": "intel-(core|xeon|celeron|pentium)-* series (Legacy 2-3 代 + Core i3/i5/i7/i9 历代 + Core m/M 5-8 代 + Core Ultra Series 1/2/3 + Core Series 1/2/3 + Core N/X + Xeon E3/E5/E7/D/Scalable/W/Max/6 + Celeron 1-7000 + Pentium 1-6800/Silver/Gold)",
+ "captured": "2026-07-06",
+ "note": "Intel ARK series ID 是整数主键,不连续且不可从命名推断。每次需要扩展抓取范围时,先用 Playwright 打开 ark.html 重新过滤提取,避免硬编码 URL。 2026-07-06 扩展到 Xeon/Celeron/Pentium(42 条);8-13 代 Core i-series 不在 ark.html 外链中,暂未覆盖。 2026-07-06 在 Xeon/Celeron/Pentium 之上加 Legacy(2-3 代)+ Core i3/i5/i7/i9 4-13 代 + Core m/M 5-8 代(1+40+5 条); ark.html#@PanelLabel122139 是 4-13 代 Core 的入口,SPA 默认只渲染当前代。Legacy(2-3 代)用 id 79666 单独成 series。",
+ "series": [
+  {
+   "id": 123588,
+   "slug": "intel-core-x-series-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/123588/intel-core-x-series-processors.html"
+  },
+  {
+   "id": 231807,
+   "slug": "intel-core-processor-n-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html"
+  },
+  {
+   "id": 236143,
+   "slug": "intel-core-i9-processors-14th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236143/intel-core-i9-processors-14th-gen.html"
+  },
+  {
+   "id": 236170,
+   "slug": "intel-core-i7-processors-14th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236170/intel-core-i7-processors-14th-gen.html"
+  },
+  {
+   "id": 236175,
+   "slug": "intel-core-i5-processors-14th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236175/intel-core-i5-processors-14th-gen.html"
+  },
+  {
+   "id": 236176,
+   "slug": "intel-core-i3-processors-14th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236176/intel-core-i3-processors-14th-gen.html"
+  },
+  {
+   "id": 236798,
+   "slug": "intel-core-processors-series-1",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236798/intel-core-processors-series-1.html"
+  },
+  {
+   "id": 236803,
+   "slug": "intel-core-ultra-processors-series-1",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html"
+  },
+  {
+   "id": 238783,
+   "slug": "intel-core-processors-series-2",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/238783/intel-core-processors-series-2.html"
+  },
+  {
+   "id": 241071,
+   "slug": "intel-core-ultra-processors-series-2",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/241071/intel-core-ultra-processors-series-2.html"
+  },
+  {
+   "id": 245528,
+   "slug": "intel-core-ultra-series-3-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/245528/intel-core-ultra-series-3-processors.html"
+  },
+  {
+   "id": 246025,
+   "slug": "intel-core-processors-series-3",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/246025/intel-core-processors-series-3.html"
+  },
+  {
+   "id": 59137,
+   "slug": "intel-xeon-processor-e3-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/59137/intel-xeon-processor-e3-family.html"
+  },
+  {
+   "id": 59138,
+   "slug": "intel-xeon-processor-e5-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/59138/intel-xeon-processor-e5-family.html"
+  },
+  {
+   "id": 59139,
+   "slug": "intel-xeon-processor-e7-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/59139/intel-xeon-processor-e7-family.html"
+  },
+  {
+   "id": 71253,
+   "slug": "intel-pentium-processor-2000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/71253/intel-pentium-processor-2000-series.html"
+  },
+  {
+   "id": 72000,
+   "slug": "intel-celeron-processor-1000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/72000/intel-celeron-processor-1000-series.html"
+  },
+  {
+   "id": 72017,
+   "slug": "intel-celeron-processor-2000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/72017/intel-celeron-processor-2000-series.html"
+  },
+  {
+   "id": 75606,
+   "slug": "intel-pentium-processor-3000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/75606/intel-pentium-processor-3000-series.html"
+  },
+  {
+   "id": 76756,
+   "slug": "intel-pentium-processor-n-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/76756/intel-pentium-processor-n-series.html"
+  },
+  {
+   "id": 77504,
+   "slug": "intel-celeron-processor-j-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/77504/intel-celeron-processor-j-series.html"
+  },
+  {
+   "id": 77772,
+   "slug": "intel-pentium-processor-g-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/77772/intel-pentium-processor-g-series.html"
+  },
+  {
+   "id": 77920,
+   "slug": "intel-pentium-processor-1000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/77920/intel-pentium-processor-1000-series.html"
+  },
+  {
+   "id": 78580,
+   "slug": "intel-xeon-processor-e3-v2-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78580/intel-xeon-processor-e3-v2-family.html"
+  },
+  {
+   "id": 78581,
+   "slug": "intel-xeon-processor-e3-v3-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78581/intel-xeon-processor-e3-v3-family.html"
+  },
+  {
+   "id": 78582,
+   "slug": "intel-xeon-processor-e5-v2-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78582/intel-xeon-processor-e5-v2-family.html"
+  },
+  {
+   "id": 78583,
+   "slug": "intel-xeon-processor-e5-v3-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78583/intel-xeon-processor-e5-v3-family.html"
+  },
+  {
+   "id": 78584,
+   "slug": "intel-xeon-processor-e7-v2-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78584/intel-xeon-processor-e7-v2-family.html"
+  },
+  {
+   "id": 78585,
+   "slug": "intel-xeon-processor-e7-v3-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78585/intel-xeon-processor-e7-v3-family.html"
+  },
+  {
+   "id": 78948,
+   "slug": "intel-celeron-processor-3000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/78948/intel-celeron-processor-3000-series.html"
+  },
+  {
+   "id": 87041,
+   "slug": "intel-xeon-d-processor",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/87041/intel-xeon-d-processor.html"
+  },
+  {
+   "id": 87282,
+   "slug": "intel-celeron-processor-n-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html"
+  },
+  {
+   "id": 87722,
+   "slug": "intel-xeon-processor-e3-v4-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/87722/intel-xeon-processor-e3-v4-family.html"
+  },
+  {
+   "id": 88210,
+   "slug": "intel-xeon-processor-e3-v5-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/88210/intel-xeon-processor-e3-v5-family.html"
+  },
+  {
+   "id": 89613,
+   "slug": "intel-pentium-processor-4000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/89613/intel-pentium-processor-4000-series.html"
+  },
+  {
+   "id": 90613,
+   "slug": "intel-celeron-processor-g-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/90613/intel-celeron-processor-g-series.html"
+  },
+  {
+   "id": 91287,
+   "slug": "intel-xeon-processor-e5-v4-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/91287/intel-xeon-processor-e5-v4-family.html"
+  },
+  {
+   "id": 91594,
+   "slug": "intel-pentium-processor-d-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/91594/intel-pentium-processor-d-series.html"
+  },
+  {
+   "id": 93797,
+   "slug": "intel-xeon-processor-e7-v4-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/93797/intel-xeon-processor-e7-v4-family.html"
+  },
+  {
+   "id": 95590,
+   "slug": "intel-pentium-processor-j-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/95590/intel-pentium-processor-j-series.html"
+  },
+  {
+   "id": 97141,
+   "slug": "intel-xeon-processor-e3-v6-family",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/97141/intel-xeon-processor-e3-v6-family.html"
+  },
+  {
+   "id": 125035,
+   "slug": "intel-xeon-w-processor",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/125035/intel-xeon-w-processor.html"
+  },
+  {
+   "id": 125191,
+   "slug": "intel-xeon-scalable-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/125191/intel-xeon-scalable-processors.html"
+  },
+  {
+   "id": 128993,
+   "slug": "intel-pentium-silver-processor-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/128993/intel-pentium-silver-processor-series.html"
+  },
+  {
+   "id": 129958,
+   "slug": "intel-pentium-gold-processor-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/129958/intel-pentium-gold-processor-series.html"
+  },
+  {
+   "id": 134861,
+   "slug": "intel-xeon-e-processor",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/134861/intel-xeon-e-processor.html"
+  },
+  {
+   "id": 189306,
+   "slug": "intel-celeron-processor-4000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/189306/intel-celeron-processor-4000-series.html"
+  },
+  {
+   "id": 197892,
+   "slug": "intel-celeron-processor-5000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/197892/intel-celeron-processor-5000-series.html"
+  },
+  {
+   "id": 205685,
+   "slug": "intel-pentium-processor-6800-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/205685/intel-pentium-processor-6800-series.html"
+  },
+  {
+   "id": 208610,
+   "slug": "intel-celeron-processor-6000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/208610/intel-celeron-processor-6000-series.html"
+  },
+  {
+   "id": 226267,
+   "slug": "intel-celeron-processor-7000-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/226267/intel-celeron-processor-7000-series.html"
+  },
+  {
+   "id": 232643,
+   "slug": "intel-xeon-cpu-max-series",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/232643/intel-xeon-cpu-max-series.html"
+  },
+  {
+   "id": 240357,
+   "slug": "intel-xeon-6-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/240357/intel-xeon-6-processors.html"
+  },
+  {
+   "id": 245944,
+   "slug": "intel-xeon-6-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/245944/intel-xeon-6-processors.html"
+  },
+  {
+   "id": 75023,
+   "slug": "intel-core-i7-processors-4th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/75023/intel-core-i7-processors-4th-gen.html"
+  },
+  {
+   "id": 75024,
+   "slug": "intel-core-i5-processors-4th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/75024/intel-core-i5-processors-4th-gen.html"
+  },
+  {
+   "id": 75025,
+   "slug": "intel-core-i3-processors-4th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/75025/intel-core-i3-processors-4th-gen.html"
+  },
+  {
+   "id": 79666,
+   "slug": "legacy-intel-core-processors",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/79666/legacy-intel-core-processors.html"
+  },
+  {
+   "id": 84979,
+   "slug": "intel-core-i7-processors-5th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/84979/intel-core-i7-processors-5th-gen.html"
+  },
+  {
+   "id": 84980,
+   "slug": "intel-core-i5-processors-5th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/84980/intel-core-i5-processors-5th-gen.html"
+  },
+  {
+   "id": 84981,
+   "slug": "intel-core-i3-processors-5th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/84981/intel-core-i3-processors-5th-gen.html"
+  },
+  {
+   "id": 88392,
+   "slug": "intel-core-i7-processors-6th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/88392/intel-core-i7-processors-6th-gen.html"
+  },
+  {
+   "id": 88393,
+   "slug": "intel-core-i5-processors-6th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/88393/intel-core-i5-processors-6th-gen.html"
+  },
+  {
+   "id": 88394,
+   "slug": "intel-core-i3-processors-6th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/88394/intel-core-i3-processors-6th-gen.html"
+  },
+  {
+   "id": 94025,
+   "slug": "intel-core-m-processors-6th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/94025/intel-core-m-processors-6th-gen.html"
+  },
+  {
+   "id": 94028,
+   "slug": "intel-core-m-processors-5th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/94028/intel-core-m-processors-5th-gen.html"
+  },
+  {
+   "id": 95542,
+   "slug": "intel-core-m-processors-7th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/95542/intel-core-m-processors-7th-gen.html"
+  },
+  {
+   "id": 95543,
+   "slug": "intel-core-i5-processors-7th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/95543/intel-core-i5-processors-7th-gen.html"
+  },
+  {
+   "id": 95544,
+   "slug": "intel-core-i7-processors-7th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/95544/intel-core-i7-processors-7th-gen.html"
+  },
+  {
+   "id": 95545,
+   "slug": "intel-core-i3-processors-7th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/95545/intel-core-i3-processors-7th-gen.html"
+  },
+  {
+   "id": 122588,
+   "slug": "intel-core-i3-processors-8th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/122588/intel-core-i3-processors-8th-gen.html"
+  },
+  {
+   "id": 122593,
+   "slug": "intel-core-i7-processors-8th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/122593/intel-core-i7-processors-8th-gen.html"
+  },
+  {
+   "id": 122597,
+   "slug": "intel-core-i5-processors-8th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/122597/intel-core-i5-processors-8th-gen.html"
+  },
+  {
+   "id": 134901,
+   "slug": "intel-core-i3-processors-9th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/134901/intel-core-i3-processors-9th-gen.html"
+  },
+  {
+   "id": 134902,
+   "slug": "intel-core-i5-processors-9th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/134902/intel-core-i5-processors-9th-gen.html"
+  },
+  {
+   "id": 134907,
+   "slug": "intel-core-i7-processors-9th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/134907/intel-core-i7-processors-9th-gen.html"
+  },
+  {
+   "id": 134928,
+   "slug": "intel-core-i9-processors-8th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/134928/intel-core-i9-processors-8th-gen.html"
+  },
+  {
+   "id": 185341,
+   "slug": "intel-core-m-processors-8th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/185341/intel-core-m-processors-8th-gen.html"
+  },
+  {
+   "id": 186673,
+   "slug": "intel-core-i9-processors-9th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/186673/intel-core-i9-processors-9th-gen.html"
+  },
+  {
+   "id": 195732,
+   "slug": "intel-core-i5-processors-10th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/195732/intel-core-i5-processors-10th-gen.html"
+  },
+  {
+   "id": 195733,
+   "slug": "intel-core-i3-processors-10th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/195733/intel-core-i3-processors-10th-gen.html"
+  },
+  {
+   "id": 195734,
+   "slug": "intel-core-i7-processors-10th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/195734/intel-core-i7-processors-10th-gen.html"
+  },
+  {
+   "id": 195735,
+   "slug": "intel-core-i9-processors-10th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/195735/intel-core-i9-processors-10th-gen.html"
+  },
+  {
+   "id": 202984,
+   "slug": "intel-core-i9-processors-11th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/202984/intel-core-i9-processcessors-11th-gen.html"
+  },
+  {
+   "id": 202985,
+   "slug": "intel-core-i5-processors-11th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/202985/intel-core-i5-processors-11th-gen.html"
+  },
+  {
+   "id": 202986,
+   "slug": "intel-core-i7-processors-11th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/202986/intel-core-i7-processors-11th-gen.html"
+  },
+  {
+   "id": 202987,
+   "slug": "intel-core-i3-processors-11th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/202987/intel-core-i3-processors-11th-gen.html"
+  },
+  {
+   "id": 217837,
+   "slug": "intel-core-i7-processors-12th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/217837/intel-core-i7-processors-12th-gen.html"
+  },
+  {
+   "id": 217838,
+   "slug": "intel-core-i5-processors-12th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/217838/intel-core-i5-processors-12th-gen.html"
+  },
+  {
+   "id": 217839,
+   "slug": "intel-core-i9-processors-12th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/217839/intel-core-i9-processors-12th-gen.html"
+  },
+  {
+   "id": 217840,
+   "slug": "intel-core-i3-processors-12th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/217840/intel-core-i3-processors-12th-gen.html"
+  },
+  {
+   "id": 230485,
+   "slug": "intel-core-i9-processors-13th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/230485/intel-core-i9-processors-13th-gen.html"
+  },
+  {
+   "id": 230486,
+   "slug": "intel-core-i7-processors-13th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/230486/intel-core-i7-processors-13th-gen.html"
+  },
+  {
+   "id": 230487,
+   "slug": "intel-core-i5-processors-13th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/230487/intel-core-i5-processors-13th-gen.html"
+  },
+  {
+   "id": 230488,
+   "slug": "intel-core-i3-processors-13th-gen",
+   "url": "https://www.intel.com/content/www/us/en/ark/products/series/230488/intel-core-i3-processors-13th-gen.html"
+  }
+ ]
+}

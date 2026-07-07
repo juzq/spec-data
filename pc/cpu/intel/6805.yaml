@@ -1,0 +1,33 @@
+slug: intel-6805
+brand: Intel
+model: Pentium® Processor 6805
+series: Pentium Processor 6800 Series
+form_factor: Mobile
+codename: Ice Lake
+socket: FCBGA1526
+cores: 2
+threads: 4
+base_clock_ghz: 1.1
+boost_clock_ghz: 3
+l3_cache_mb: 4
+tdp_w: 15
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+supported_memory_types:
+  - DDR4
+  - LPDDR4
+memory_channel: 2
+max_memory: 64
+ecc_memory: false
+integrated_graphics: Intel® UHD Graphics for 10th Gen Intel® Processors
+graphics_frequency: 850
+execution_units: 32
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-10
+url: https://www.intel.com/content/www/us/en/products/sku/205686/intel-pentium-processor-6805-4m-cache-up-to-3-00-ghz/specifications.html

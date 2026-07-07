@@ -1,0 +1,35 @@
+slug: intel-6979p
+brand: Intel
+model: Xeon® 6979P
+series: Xeon 6
+form_factor: Server
+codename: Granite Rapids
+socket: FCLGA7529
+cores: 120
+threads: 240
+base_clock_ghz: 2.1
+boost_clock_ghz: 3.9
+l3_cache_mb: 504
+tdp_w: 500
+process_nm: 3
+instruction: x86-64
+ext_instruction:
+  - AMX
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 12
+max_memory: 3
+max_memory_speed_mt: 8800
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-07
+url: https://www.intel.com/content/www/us/en/products/sku/240781/intel-xeon-6979p-processor-504m-cache-2-10-ghz/specifications.html

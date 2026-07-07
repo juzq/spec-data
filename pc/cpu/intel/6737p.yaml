@@ -1,0 +1,35 @@
+slug: intel-6737p
+brand: Intel
+model: Xeon® 6737P
+series: Xeon 6
+form_factor: Server
+codename: Granite Rapids
+socket: FCLGA4710
+cores: 32
+threads: 64
+base_clock_ghz: 2.9
+boost_clock_ghz: 4
+l3_cache_mb: 144
+tdp_w: 270
+process_nm: 3
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+  - AMX
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+max_memory_speed_mt: 6400
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/242628/intel-xeon-6737p-processor-144m-cache-2-90-ghz/specifications.html

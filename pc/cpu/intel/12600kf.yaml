@@ -1,0 +1,43 @@
+slug: intel-12600kf
+brand: Intel
+model: Core™ i5-12600KF
+series: intel-core-i5-processors-12th-gen
+form_factor: Desktops
+codename: Alder Lake
+socket: FCLGA1700
+cores: 10
+threads: 16
+perf_cores: 6
+eff_cores: 4
+base_clock_ghz: 3.7
+boost_clock_ghz: 4.9
+perf_core_base_ghz: 3.7
+perf_core_boost_ghz: 4.9
+eff_core_base_ghz: 2.8
+eff_core_boost_ghz: 3.6
+l2_cache_mb: 9.5
+l3_cache_mb: 20
+tdp_w: 125
+max_turbo_power_w: 150
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 4800
+max_memory_bandwidth_gbs: 76.8
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-10
+url: https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html

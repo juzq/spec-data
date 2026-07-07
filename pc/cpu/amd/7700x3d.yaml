@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 7700X3D
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 codename: Raphael AM5
 socket: AM5
 chipsets:
@@ -65,7 +65,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html
 pbo: true
 expo: true

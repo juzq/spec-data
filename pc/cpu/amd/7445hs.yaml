@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 7445HS
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Phoenix
 socket: FP7 , FP7r2
 architecture: 2x Zen 4 , 4x Zen 4c
@@ -53,7 +53,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2700
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7445hs.html
 pbo: false
 expo: false

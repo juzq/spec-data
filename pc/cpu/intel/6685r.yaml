@@ -1,0 +1,45 @@
+slug: intel-6685r
+brand: Intel
+model: Core™ i5-6685R
+series: intel-core-i5-processors-6th-gen
+form_factor: Desktops
+codename: Skylake
+cores: 4
+threads: 4
+base_clock_ghz: 3.2
+boost_clock_ghz: 3.8
+l3_cache_mb: 6
+tdp_w: 65
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3L
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 34.1
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® Iris® Pro Graphics 580
+graphics_frequency: 1150
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@24Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x193B'
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-04
+url: https://www.intel.com/content/www/us/en/products/sku/93338/intel-core-i56685r-processor-6m-cache-up-to-3-80-ghz/specifications.html

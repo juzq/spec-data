@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 2700X
 family: Ryzen PRO
 series: Ryzen PRO 2000 Series
-form_factor: Desktop
+form_factor: Desktops
 socket: AM4
 cores: 8
 threads: 16

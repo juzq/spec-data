@@ -1,0 +1,32 @@
+slug: intel-j1750
+brand: Intel
+model: Celeron® Processor J1750
+series: Celeron Processor J Series
+form_factor: Desktops
+codename: Bay Trail
+socket: FCBGA1170
+cores: 2
+threads: 2
+base_clock_ghz: 2.41
+l3_cache_mb: 1
+tdp_w: 10
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 8
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for Intel Atom® Processor Z3700 Series
+graphics_frequency: 750
+quick_sync: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/76531/intel-celeron-processor-j1750-1m-cache-2-41-ghz/specifications.html

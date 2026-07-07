@@ -1,0 +1,39 @@
+slug: intel-l13g4
+brand: Intel
+model: Core™ i3-L13G4
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Lakefield
+socket: FC-CSP1016
+cores: 5
+threads: 5
+base_clock_ghz: 0.8
+boost_clock_ghz: 2.8
+l3_cache_mb: 4
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - LPDDR4X
+max_memory: 8
+max_memory_bandwidth_gbs: 34
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics
+graphics_frequency: 500
+execution_units: 48
+directx: DX12
+opengl: OpenGL4.5
+quick_sync: true
+max_displays: 4
+gpu_device_id: '9941'
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/202778/intel-core-i3l13g4-processor-4m-cache-up-to-2-8ghz/specifications.html

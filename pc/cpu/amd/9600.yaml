@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 9600
 family: Ryzen
 series: Ryzen 9000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 codename: Granite Ridge AM5
 socket: AM5
 chipsets:
@@ -64,7 +64,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html
 pbo: true
 expo: true

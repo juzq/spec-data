@@ -1,0 +1,32 @@
+slug: intel-n2910
+brand: Intel
+model: Celeron® Processor N2910
+series: Celeron Processor N Series
+form_factor: Mobile
+codename: Bay Trail
+socket: FCBGA1170
+cores: 4
+threads: 4
+base_clock_ghz: 1.6
+l3_cache_mb: 2
+tdp_w: 7
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 8
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for Intel Atom® Processor Z3700 Series
+graphics_frequency: 756
+quick_sync: false
+clear_video: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/76752/intel-celeron-processor-n2910-2m-cache-1-60-ghz/specifications.html

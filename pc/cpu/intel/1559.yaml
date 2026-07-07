@@ -1,0 +1,31 @@
+slug: intel-1559
+brand: Intel
+model: Xeon® Processor D-1559
+series: Xeon D
+form_factor: Server
+codename: Broadwell
+socket: FCBGA1667
+cores: 12
+threads: 24
+base_clock_ghz: 1.5
+boost_clock_ghz: 2.1
+l3_cache_mb: 18
+tdp_w: 45
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-04
+url: https://www.intel.com/content/www/us/en/products/sku/93352/intel-xeon-processor-d1559-18m-cache-1-50-ghz/specifications.html

@@ -1,0 +1,34 @@
+slug: intel-10900f
+brand: Intel
+model: Core™ i9-10900F
+series: intel-core-i9-processors-10th-gen
+form_factor: Desktops
+codename: Comet Lake
+socket: FCLGA1200
+cores: 10
+threads: 20
+base_clock_ghz: 2.8
+boost_clock_ghz: 5.2
+l3_cache_mb: 20
+tdp_w: 65
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 45.8
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/199329/intel-core-i910900f-processor-20m-cache-up-to-5-20-ghz/specifications.html

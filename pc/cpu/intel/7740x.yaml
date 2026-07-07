@@ -1,0 +1,33 @@
+slug: intel-7740x
+brand: Intel
+model: Core™ i7-7740X X-series
+series: Core X-series
+form_factor: Desktops
+codename: Kaby Lake
+socket: FCLGA2066
+cores: 4
+threads: 8
+base_clock_ghz: 4.3
+boost_clock_ghz: 4.5
+l3_cache_mb: 8
+tdp_w: 112
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 42
+ecc_memory: false
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-04
+url: https://www.intel.com/content/www/us/en/products/sku/121499/intel-core-i77740x-xseries-processor-8m-cache-up-to-4-50-ghz/specifications.html

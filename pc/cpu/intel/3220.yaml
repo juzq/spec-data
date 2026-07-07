@@ -1,0 +1,38 @@
+slug: intel-3220
+brand: Intel
+model: Core™ i3-3220
+series: legacy-intel-core-processors
+form_factor: Desktops
+codename: Ivy Bridge
+socket: FCLGA1155
+cores: 2
+threads: 4
+base_clock_ghz: 3.3
+l3_cache_mb: 3
+tdp_w: 55
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 2500
+graphics_frequency: 1050
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x152'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2012-07
+url: https://www.intel.com/content/www/us/en/products/sku/65693/intel-core-i33220-processor-3m-cache-3-30-ghz/specifications.html

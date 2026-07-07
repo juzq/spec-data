@@ -1,0 +1,42 @@
+slug: intel-4000m
+brand: Intel
+model: Core™ i3-4000M
+series: intel-core-i3-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCPGA946
+cores: 2
+threads: 4
+base_clock_ghz: 2.4
+l3_cache_mb: 3
+tdp_w: 37
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1100
+graphics_output: eDP/DP/HDMI/VGA
+max_resolution_hdmi: 3840x2160@60Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+max_displays: 3
+gpu_device_id: '0x416'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-10
+url: https://www.intel.com/content/www/us/en/products/sku/75104/intel-core-i34000m-processor-3m-cache-2-40-ghz/specifications.html

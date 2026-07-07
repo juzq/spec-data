@@ -1,0 +1,51 @@
+slug: intel-201te
+brand: Intel
+model: Core™ 3 Processor 201TE
+series: Core Series 2
+form_factor: Embedded
+codename: Bartlett Lake
+socket: FCLGA1700
+cores: 4
+threads: 8
+perf_cores: 4
+eff_cores: 0
+base_clock_ghz: 2.9
+boost_clock_ghz: 4.6
+perf_core_base_ghz: 2.9
+perf_core_boost_ghz: 4.6
+l3_cache_mb: 12
+tdp_w: 45
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 192
+max_memory_speed_mt: 4800
+ecc_memory: true
+pcie_version: '5.0'
+integrated_graphics: Intel® UHD Graphics 730
+graphics_frequency: 1550
+execution_units: 24
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2160 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 5120 x 3200 @ 120Hz
+directx: '12'
+opengl: '4.5'
+opencl: '3'
+codec_engines: 1
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x4692'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/242800/intel-core-3-processor-201te-12m-cache-up-to-4-60-ghz/specifications.html

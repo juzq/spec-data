@@ -1,0 +1,35 @@
+slug: intel-6768p
+brand: Intel
+model: Xeon® 6768P
+series: Xeon 6
+form_factor: Server
+codename: Granite Rapids
+socket: FCLGA4710
+cores: 64
+threads: 128
+base_clock_ghz: 2.4
+boost_clock_ghz: 3.9
+l3_cache_mb: 336
+tdp_w: 330
+process_nm: 3
+instruction: x86-64
+ext_instruction:
+  - AMX
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+max_memory_speed_mt: 6400
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/241840/intel-xeon-6768p-processor-336m-cache-2-40-ghz/specifications.html

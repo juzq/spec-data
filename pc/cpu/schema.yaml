@@ -57,7 +57,6 @@ fields:
 
   - key: socket
     type: string
-    required: true
     list: true
     group: basic
     filter:
@@ -78,7 +77,6 @@ fields:
   # --------------规格--------------
   - key: cores
     type: integer
-    required: true
     positive: true
     group: spec
     list: true
@@ -88,13 +86,11 @@ fields:
 
   - key: threads
     type: integer
-    required: true
     positive: true
     group: spec
 
   - key: base_clock_ghz
     type: number
-    required: true
     positive: true
     unit: GHz
     group: spec
@@ -105,7 +101,6 @@ fields:
 
   - key: boost_clock_ghz
     type: number
-    required: true
     positive: true
     unit: GHz
     group: spec
@@ -138,7 +133,6 @@ fields:
 
   - key: tdp_w
     type: integer
-    required: true
     positive: true
     unit: W
     group: spec
@@ -157,7 +151,6 @@ fields:
     type: integer
     positive: true
     unit: nm
-    brand_only: AMD
     group: spec
 
   - key: io_process_nm
@@ -214,6 +207,53 @@ fields:
     brand_only: AMD
     group: spec
 
+  - key: perf_cores
+    type: integer
+    positive: true
+    brand_only: Intel
+    group: spec
+
+  - key: eff_cores
+    type: integer
+    nonnegative: true
+    brand_only: Intel
+    group: spec
+
+  - key: perf_core_base_ghz
+    type: number
+    positive: true
+    unit: GHz
+    brand_only: Intel
+    group: spec
+
+  - key: perf_core_boost_ghz
+    type: number
+    positive: true
+    unit: GHz
+    brand_only: Intel
+    group: spec
+
+  - key: eff_core_base_ghz
+    type: number
+    nonnegative: true
+    unit: GHz
+    brand_only: Intel
+    group: spec
+
+  - key: eff_core_boost_ghz
+    type: number
+    nonnegative: true
+    unit: GHz
+    brand_only: Intel
+    group: spec
+
+  - key: max_turbo_power_w
+    type: integer
+    positive: true
+    unit: W
+    brand_only: Intel
+    group: spec
+
   # --------------内存--------------
   - key: supported_memory_types
     type: array
@@ -222,19 +262,24 @@ fields:
         type: enum,
         values:
           [
+            DDR3,
+            DDR3L,
             DDR4,
             DDR5,
             DDR4 - Up to 3200,
             DDR5 (FP7r2),
             DDR5 (FP8),
+            LPDDR3,
             LPDDR4,
             LPDDR4 - Up to 4266,
             LPDDR4X,
+            LPDDR4x,
+            LPDDR5,
+            LPDDR5X,
             LPDDR5X (FP7-FP8),
             LPDDR5X (FP7)
           ]
       }
-    required: true
     group: memory
 
   - key: memory_channel
@@ -268,10 +313,20 @@ fields:
     brand_only: AMD
     group: memory
 
+  - key: max_memory_bandwidth_gbs
+    type: number
+    positive: true
+    unit: GB/s
+    group: memory
+
+  - key: ecc_memory
+    type: bool
+    group: memory
+
   # --------------扩展--------------
   - key: pcie_version
     type: enum
-    values: [ "4.0", "5.0", "3.0" ]
+    values: [ "2.0", "3.0", "4.0", "5.0" ]
     required: false
     list: true
     group: extensions
@@ -311,10 +366,60 @@ fields:
     unit: MHz
     group: display
 
-  - key: graphics_cores
+  - key: execution_units
     type: integer
-    brand_only: AMD
     nonnegative: true
+    group: display
+  # 注:AMD CUs 已并入 execution_units (通用 GPU 计算单元数;Intel 叫 EU, AMD 叫 CU)
+
+  - key: graphics_output
+    type: string
+    group: display
+
+  - key: max_resolution_hdmi
+    type: string
+    group: display
+
+  - key: max_resolution_dp
+    type: string
+    group: display
+
+  - key: max_resolution_edp
+    type: string
+    group: display
+
+  - key: directx
+    type: string
+    group: display
+
+  - key: opengl
+    type: string
+    group: display
+
+  - key: opencl
+    type: string
+    group: display
+
+  - key: codec_engines
+    type: integer
+    nonnegative: true
+    group: display
+
+  - key: quick_sync
+    type: bool
+    group: display
+
+  - key: clear_video
+    type: bool
+    group: display
+
+  - key: max_displays
+    type: integer
+    nonnegative: true
+    group: display
+
+  - key: gpu_device_id
+    type: string
     group: display
 
   - key: product_id_boxed
@@ -325,6 +430,36 @@ fields:
   - key: product_id_tray
     type: string
     brand_only: AMD
+    group: other
+
+  - key: hyper_threading
+    type: bool
+    brand_only: Intel
+    group: other
+
+  - key: turbo_boost
+    type: string
+    brand_only: Intel
+    group: other
+
+  - key: vpro
+    type: string
+    brand_only: Intel
+    group: other
+
+  - key: vt_x
+    type: bool
+    brand_only: Intel
+    group: other
+
+  - key: vt_d
+    type: bool
+    brand_only: Intel
+    group: other
+
+  - key: aes_ni
+    type: bool
+    brand_only: Intel
     group: other
 
   # --------------来源--------------

@@ -1,0 +1,42 @@
+slug: intel-g3460
+brand: Intel
+model: Pentium® Processor G3460
+series: Pentium Processor G Series
+form_factor: Desktops
+codename: Haswell
+socket: FCLGA1150
+cores: 2
+threads: 2
+base_clock_ghz: 3.5
+l3_cache_mb: 3
+tdp_w: 53
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics for 4th Generation Intel® Processors
+graphics_frequency: 1100
+graphics_output: eDP/DP/HDMI/DVI/VGA
+max_resolution_hdmi: 1920x1080@60Hz
+max_resolution_dp: 2560x1600@60Hz
+max_resolution_edp: 2560x1600@60Hz
+directx: 11.1/12
+opengl: '4.3'
+quick_sync: true
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2014-07
+url: https://www.intel.com/content/www/us/en/products/sku/83428/intel-pentium-processor-g3460-3m-cache-3-50-ghz/specifications.html

@@ -1,0 +1,47 @@
+slug: intel-350
+brand: Intel
+model: Core™ 7 processor 350
+series: Core Series 3
+form_factor: Mobile
+codename: Wildcat Lake
+socket: FCBGA1516
+cores: 6
+threads: 6
+perf_cores: 2
+eff_cores: 0
+base_clock_ghz: 1.5
+boost_clock_ghz: 4.8
+perf_core_base_ghz: 1.5
+perf_core_boost_ghz: 4.8
+l3_cache_mb: 6
+tdp_w: 15
+max_turbo_power_w: 35
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5X
+  - DDR5
+memory_channel: 1
+max_memory: 64
+max_memory_speed_mt: 7467
+pcie_version: '4.0'
+integrated_graphics: Intel® Graphics
+graphics_frequency: 2600
+graphics_output: eDP1.5, DP 2.1 HBR3, HDMI 2.0b (TMDS only)
+max_resolution_dp: 3840 x 2160 @ 60Hz
+max_resolution_edp: 3840 x 2160 @ 60Hz
+directx: DirectX 12
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 3
+gpu_device_id: '0xFD80'
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-04
+url: https://www.intel.com/content/www/us/en/products/sku/246017/intel-core-7-processor-350-6m-cache-up-to-4-80-ghz/specifications.html

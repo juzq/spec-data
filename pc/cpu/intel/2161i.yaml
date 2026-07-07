@@ -1,0 +1,31 @@
+slug: intel-2161i
+brand: Intel
+model: Xeon® D-2161I
+series: Xeon D
+form_factor: Server
+codename: Skylake
+socket: FCBGA2518
+cores: 12
+threads: 24
+base_clock_ghz: 2.2
+boost_clock_ghz: 3
+l3_cache_mb: 16
+tdp_w: 90
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 512
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2018-01
+url: https://www.intel.com/content/www/us/en/products/sku/136435/intel-xeon-d2161i-processor-16-5m-cache-2-20-ghz/specifications.html

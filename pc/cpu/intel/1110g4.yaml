@@ -1,0 +1,46 @@
+slug: intel-1110g4
+brand: Intel
+model: Core™ i3-1110G4
+series: intel-core-i3-processors-11th-gen
+form_factor: Mobile
+codename: Tiger Lake
+socket: FCBGA1598
+cores: 2
+threads: 4
+boost_clock_ghz: 3.9
+l3_cache_mb: 6
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - LPDDR4x
+memory_channel: 2
+max_memory: 32
+ecc_memory: false
+integrated_graphics: Intel® UHD Graphics for 11th Gen Intel® Processors
+graphics_frequency: 1100
+execution_units: 48
+graphics_output: eDP 1.4b, MIPI-DSI 2.0, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 1
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0x9A78'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-07
+url: https://www.intel.com/content/www/us/en/products/sku/208651/intel-core-i31110g4-processor-6m-cache-up-to-3-90-ghz-with-ipu/specifications.html

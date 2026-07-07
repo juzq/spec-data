@@ -1,0 +1,32 @@
+slug: intel-3930k
+brand: Intel
+model: Core™ i7-3930K
+series: Core X-series
+form_factor: Desktops
+codename: Sandy Bridge E
+socket: FCLGA2011
+cores: 6
+threads: 12
+base_clock_ghz: 3.2
+boost_clock_ghz: 3.8
+l3_cache_mb: 12
+tdp_w: 130
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 64
+max_memory_bandwidth_gbs: 51.2
+ecc_memory: false
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-10
+url: https://www.intel.com/content/www/us/en/products/sku/63697/intel-core-i73930k-processor-12m-cache-up-to-3-80-ghz/specifications.html

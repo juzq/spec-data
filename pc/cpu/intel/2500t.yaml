@@ -1,0 +1,40 @@
+slug: intel-2500t
+brand: Intel
+model: Core™ i5-2500T
+series: legacy-intel-core-processors
+form_factor: Desktops
+codename: Sandy Bridge
+socket: LGA1155
+cores: 4
+threads: 4
+base_clock_ghz: 2.3
+boost_clock_ghz: 3.3
+l3_cache_mb: 6
+tdp_w: 45
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 2000
+graphics_frequency: 1250
+quick_sync: true
+clear_video: true
+max_displays: 2
+gpu_device_id: '0x102'
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-01
+url: https://www.intel.com/content/www/us/en/products/sku/52212/intel-core-i52500t-processor-6m-cache-up-to-3-30-ghz/specifications.html

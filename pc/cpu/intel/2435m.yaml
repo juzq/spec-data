@@ -1,0 +1,39 @@
+slug: intel-2435m
+brand: Intel
+model: Core™ i5-2435M
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Sandy Bridge
+socket: FCBGA1023
+cores: 2
+threads: 4
+base_clock_ghz: 2.4
+boost_clock_ghz: 3
+l3_cache_mb: 3
+tdp_w: 35
+process_nm: 32
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 21.3
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 3000
+graphics_frequency: 1300
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 2
+gpu_device_id: '0x116'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: false
+aes_ni: true
+release_date: 2011-10
+url: https://www.intel.com/content/www/us/en/products/sku/60636/intel-core-i52435m-processor-3m-cache-up-to-3-00-ghz/specifications.html

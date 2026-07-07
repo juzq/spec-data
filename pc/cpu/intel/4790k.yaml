@@ -1,0 +1,47 @@
+slug: intel-4790k
+brand: Intel
+model: Core™ i7-4790K
+series: intel-core-i7-processors-4th-gen
+form_factor: Desktops
+codename: Devil's Canyon
+socket: FCLGA1150
+cores: 4
+threads: 8
+base_clock_ghz: 4
+boost_clock_ghz: 4.4
+l3_cache_mb: 8
+tdp_w: 88
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1250
+execution_units: 20
+graphics_output: eDP/DP/HDMI/DVI/VGA
+max_resolution_hdmi: 3840x2160@24Hz
+max_resolution_dp: 3840x2160@60Hz
+max_resolution_edp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x412'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-04
+url: https://www.intel.com/content/www/us/en/products/sku/80807/intel-core-i74790k-processor-8m-cache-up-to-4-40-ghz/specifications.html

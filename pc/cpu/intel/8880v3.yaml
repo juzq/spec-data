@@ -1,0 +1,32 @@
+slug: intel-8880v3
+brand: Intel
+model: Xeon® Processor E7-8880 v3
+series: Xeon Processor E7 V3 Family
+form_factor: Server
+codename: Haswell
+socket: FCLGA2011
+cores: 18
+threads: 36
+base_clock_ghz: 2.3
+boost_clock_ghz: 3.1
+l3_cache_mb: 45
+tdp_w: 150
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 4
+max_memory: 1
+max_memory_bandwidth_gbs: 85
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-04
+url: https://www.intel.com/content/www/us/en/products/sku/84683/intel-xeon-processor-e78880-v3-45m-cache-2-30-ghz/specifications.html

@@ -1,0 +1,56 @@
+slug: intel-14100
+brand: Intel
+model: Core™ i3 processor 14100
+series: Core i3 14th Gen
+form_factor: Desktops
+codename: Raptor Lake
+socket: FCLGA1700
+cores: 4
+threads: 8
+perf_cores: 4
+eff_cores: 0
+base_clock_ghz: 3.5
+boost_clock_ghz: 4.7
+perf_core_base_ghz: 3.5
+perf_core_boost_ghz: 4.7
+l2_cache_mb: 5
+l3_cache_mb: 12
+tdp_w: 60
+max_turbo_power_w: 110
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 192
+max_memory_speed_mt: 4800
+max_memory_bandwidth_gbs: 76.8
+pcie_version: '5.0'
+integrated_graphics: Intel® UHD Graphics 730
+graphics_frequency: 1500
+execution_units: 24
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2160 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 5120 x 3200 @ 120Hz
+directx: '12'
+opengl: '4.5'
+opencl: '3.0'
+codec_engines: 1
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0x4692'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-01
+url: https://www.intel.com/content/www/us/en/products/sku/236774/intel-core-i3-processor-14100-12m-cache-up-to-4-70-ghz/specifications.html

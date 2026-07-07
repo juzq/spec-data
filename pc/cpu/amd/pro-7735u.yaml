@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 7735U
 family: Ryzen PRO
 series: Ryzen PRO 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Rembrandt R
 architecture: Zen 3+
 release_date: 2023-09
@@ -50,6 +50,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 680M
 graphics_frequency: 2200
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/7000-series/amd-ryzen-7-pro-7735u.html
 product_id_tray: 100-0000001292 (FP7r2)

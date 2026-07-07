@@ -1,0 +1,30 @@
+slug: intel-4610v4
+brand: Intel
+model: Xeon® Processor E5-4610 v4
+series: Xeon Processor E5 V4 Family
+form_factor: Server
+codename: Broadwell
+socket: FCLGA2011
+cores: 10
+threads: 20
+base_clock_ghz: 1.8
+boost_clock_ghz: 1.8
+l3_cache_mb: 25
+tdp_w: 105
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 1
+max_memory_bandwidth_gbs: 68
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-04
+url: https://www.intel.com/content/www/us/en/products/sku/93812/intel-xeon-processor-e54610-v4-25m-cache-1-80-ghz/specifications.html

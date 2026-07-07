@@ -1,0 +1,18 @@
+slug: intel-1524n
+brand: Intel
+model: Xeon® Processor D-1524N
+series: Xeon D
+form_factor: Server
+codename: Broadwell
+socket: FCBGA1667
+cores: 4
+threads: 8
+base_clock_ghz: 2
+boost_clock_ghz: 2.6
+l3_cache_mb: 6
+tdp_w: 45
+instruction: x86-64
+hyper_threading: true
+vt_x: true
+release_date: 2018-10
+url: https://www.intel.com/content/www/us/en/products/sku/189453/intel-xeon-processor-d1524n-6m-cache-2-00-ghz/specifications.html

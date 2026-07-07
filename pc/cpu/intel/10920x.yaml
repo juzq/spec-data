@@ -1,0 +1,35 @@
+slug: intel-10920x
+brand: Intel
+model: Core™ i9-10920X X-series
+series: Core X-series
+form_factor: Desktops
+codename: Cascade Lake
+socket: FCLGA2066
+cores: 12
+threads: 24
+base_clock_ghz: 3.5
+boost_clock_ghz: 4.6
+l3_cache_mb: 19
+tdp_w: 165
+process_nm: 14
+tjmax: 94
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 256
+max_memory_bandwidth_gbs: 94
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-10
+url: https://www.intel.com/content/www/us/en/products/sku/198012/intel-core-i910920x-xseries-processor-19-25m-cache-3-50-ghz/specifications.html

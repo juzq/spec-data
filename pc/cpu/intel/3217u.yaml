@@ -1,0 +1,38 @@
+slug: intel-3217u
+brand: Intel
+model: Core™ i3-3217U
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Ivy Bridge
+socket: FCBGA1023
+cores: 2
+threads: 4
+base_clock_ghz: 1.8
+l3_cache_mb: 3
+tdp_w: 17
+process_nm: 22
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 4000
+graphics_frequency: 1050
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x166'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/65697/intel-core-i33217u-processor-3m-cache-1-80-ghz/specifications.html

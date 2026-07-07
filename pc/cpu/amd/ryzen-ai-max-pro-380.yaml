@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI Max PRO 380
 family: Ryzen PRO
 series: Ryzen AI Max PRO 300 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Strix Halo
 socket: FP11
 architecture: Zen 5
@@ -34,7 +34,6 @@ ext_instruction:
   - SSE4A
   - SSSE3
   - x86-64
-supported_memory_types: []
 max_memory: 64
 max_memory_speed_mt: 5
 pcie_version: "4.0"
@@ -48,7 +47,7 @@ nvme:
   - RAID1
 integrated_graphics: Radeon 8040S Graphics
 graphics_frequency: 2800
-graphics_cores: 16
+execution_units: 16
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-pro-380.html
 pbo: false
 expo: false

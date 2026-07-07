@@ -1,0 +1,45 @@
+slug: intel-3965y
+brand: Intel
+model: Celeron® Processor 3965Y
+series: Celeron Processor 3000 Series
+form_factor: Mobile
+codename: Kaby Lake
+socket: FCBGA1515
+cores: 2
+threads: 2
+base_clock_ghz: 1.5
+l3_cache_mb: 2
+tdp_w: 6
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - LPDDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 29.8
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 615
+graphics_frequency: 850
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@24Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.4'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x591E'
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-04
+url: https://www.intel.com/content/www/us/en/products/sku/122698/intel-celeron-processor-3965y-2m-cache-1-50-ghz/specifications.html

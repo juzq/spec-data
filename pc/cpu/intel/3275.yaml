@@ -1,0 +1,31 @@
+slug: intel-3275
+brand: Intel
+model: Xeon® W-3275
+series: Xeon W
+form_factor: Workstation
+codename: Cascade Lake
+socket: FCLGA3647
+cores: 28
+threads: 56
+base_clock_ghz: 2.5
+boost_clock_ghz: 4.4
+l3_cache_mb: 38
+tdp_w: 205
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 6
+max_memory: 1
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-04
+url: https://www.intel.com/content/www/us/en/products/sku/193752/intel-xeon-w3275-processor-38-5m-cache-2-50-ghz/specifications.html

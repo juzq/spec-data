@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 PRO 5355G
 family: Ryzen PRO
 series: Ryzen PRO 5000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Cezanne
 socket: AM4
 architecture: Zen 3
@@ -24,6 +24,6 @@ max_memory_speed_mt: 3200
 pcie_version: "3.0"
 integrated_graphics: Radeon™ Graphics
 graphics_frequency: 1700
-graphics_cores: 6
+execution_units: 6
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/5000-series/amd-ryzen-3-pro-5355g.html
 product_id_tray: 100-000001749

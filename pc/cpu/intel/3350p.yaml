@@ -1,0 +1,33 @@
+slug: intel-3350p
+brand: Intel
+model: Core™ i5-3350P
+series: legacy-intel-core-processors
+form_factor: Desktops
+codename: Ivy Bridge
+socket: FCLGA1155
+cores: 4
+threads: 4
+base_clock_ghz: 3.1
+boost_clock_ghz: 3.3
+l3_cache_mb: 6
+tdp_w: 69
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-07
+url: https://www.intel.com/content/www/us/en/products/sku/69114/intel-core-i53350p-processor-6m-cache-up-to-3-30-ghz/specifications.html

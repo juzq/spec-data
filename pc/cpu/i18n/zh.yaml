@@ -43,9 +43,36 @@ field_labels:
     nvme: NVMe支持
     integrated_graphics: 核显
     graphics_frequency: 核显频率
-    graphics_cores: 显示核心数
     product_id_boxed: 盒装产品ID
     product_id_tray: 散装产品ID
+    perf_cores: 性能核心数
+    eff_cores: 能效核心数
+    perf_core_base_ghz: 性能核基频
+    perf_core_boost_ghz: 性能核睿频
+    eff_core_base_ghz: 能效核基频
+    eff_core_boost_ghz: 能效核睿频
+    max_turbo_power_w: 最大睿频功耗
+    max_memory_bandwidth_gbs: 最大内存带宽
+    ecc_memory: ECC 内存支持
+    execution_units: 执行单元数
+    graphics_output: 显示输出
+    max_resolution_hdmi: 最大分辨率(HDMI)
+    max_resolution_dp: 最大分辨率(DP)
+    max_resolution_edp: 最大分辨率(eDP)
+    directx: DirectX 支持
+    opengl: OpenGL 支持
+    opencl: OpenCL 支持
+    codec_engines: 多格式编解码引擎
+    quick_sync: Quick Sync 视频
+    clear_video: Clear Video HD
+    max_displays: 最大显示器数
+    gpu_device_id: 核显设备ID
+    hyper_threading: 超线程
+    turbo_boost: 睿频加速技术
+    vpro: vPro 资格
+    vt_x: VT-x 虚拟化
+    vt_d: VT-d 定向I/O
+    aes_ni: AES-NI 指令
     name: 名称
     cores_threads: 核心/线程
     clocks: 基频/加速频
@@ -56,18 +83,161 @@ bools:
 values:
   family:
     Ryzen: 锐龙
+    Ryzen Threadripper: 锐龙 Threadripper
+    Ryzen PRO: 锐龙 PRO
+    Ryzen Threadripper PRO: 锐龙 Threadripper PRO
   series:
     Ryzen 5000 Series: 锐龙 5000 系列
     Ryzen 7000 Series: 锐龙 7000 系列
     Ryzen 8000 Series: 锐龙 8000 系列
     Ryzen 9000 Series: 锐龙 9000 系列
+    Ryzen 1000 Series: 锐龙 1000 系列
+    Ryzen Threadripper 1000 Series: 锐龙 Threadripper 1000 系列
+    Ryzen 2000 Series: 锐龙 2000 系列
+    Ryzen Threadripper 2000 Series: 锐龙 Threadripper 2000 系列
+    Ryzen 3000 Series: 锐龙 3000 系列
+    Ryzen Threadripper 3000 Series: 锐龙 Threadripper 3000 系列
+    Ryzen 4000 Series: 锐龙 4000 系列
+    Ryzen Threadripper 7000 Series: 锐龙 Threadripper 7000 系列
+    Ryzen Threadripper 9000 Series: 锐龙 Threadripper 9000 系列
+    Ryzen PRO 200 Series: 锐龙 PRO 200 系列
+    Ryzen PRO 2000 Series: Ryzen PRO 2000 系列
+    Ryzen PRO 3000 Series: 锐龙 PRO 3000 系列
+    Ryzen Threadripper PRO 3000 WX-Series: 锐龙 Threadripper PRO 3000 WX 系列
+    Ryzen PRO 4000 Series: 锐龙 PRO 4000 系列
+    Ryzen PRO 5000 Series: 锐龙 PRO 5000 系列
+    Ryzen Threadripper PRO 5000 WX-Series: 锐龙 Threadripper PRO 5000 WX 系列
+    Ryzen PRO 6000 Series: 锐龙 PRO 6000 系列
+    Ryzen PRO 7000 Series: 锐龙 PRO 7000 系列
+    Ryzen Threadripper PRO 7000 WX-Series: 锐龙 Threadripper PRO 7000 WX 系列
+    Ryzen PRO 8000 Series: 锐龙 PRO 8000 系列
+    Ryzen Threadripper PRO 9000 WX-Series: 锐龙 Threadripper PRO 9000 WX 系列
+    Ryzen AI PRO 300 Series: 锐龙 AI PRO 300 系列
+    Ryzen AI Max PRO 300 Series: 锐龙 AI Max PRO 300 系列
+    Ryzen 200 Series: 锐龙 200 系列
+    Ryzen 6000 Series: 锐龙 6000 系列
+    Ryzen AI 300 Series: 锐龙 AI 300 系列
+    Ryzen AI 400 Series: 锐龙 AI 400 系列
+    Ryzen AI Max 300 Series: 锐龙 AI Max 300 系列
+    Ryzen AI Max PRO 400 Series: 锐龙 AI Max PRO 400 系列
+    Ryzen AI PRO 400 Series: 锐龙 AI PRO 400 系列
+    Ryzen PRO 1000 Series: 锐龙 PRO 1000 系列
+    Ryzen PRO 9000 Series: 锐龙 PRO 9000 系列
+    Ryzen 10 Series: 锐龙 10 系列
+    Ryzen 100 Series: 锐龙 100 系列
+    Core i7 14th Gen: 酷睿 i7 14 代
+    Core i9 14th Gen: 酷睿 i9 14 代
+    Core i5 14th Gen: 酷睿 i5 14 代
+    Core i3 14th Gen: 酷睿 i3 14 代
+    Core X-series: 酷睿 X 系列
+    Core N-series: 酷睿 N 系列
+    Core Series 1: 酷睿 Series 1
+    Core Series 2: 酷睿 Series 2
+    Core Series 3: 酷睿 Series 3
+    Core Ultra Series 1: 酷睿 Ultra Series 1
+    Core Ultra Series 2: 酷睿 Ultra Series 2
+    Core Ultra Series 3: 酷睿 Ultra Series 3
+    intel-core-i9-processors-4th-gen: 酷睿 i9 4 代
+    intel-core-i9-processors-5th-gen: 酷睿 i9 5 代
+    intel-core-i7-processors-4th-gen: 酷睿 i7 4 代
+    intel-core-i7-processors-5th-gen: 酷睿 i7 5 代
+    intel-core-i7-processors-6th-gen: 酷睿 i7 6 代
+    intel-core-i7-processors-7th-gen: 酷睿 i7 7 代
+    intel-core-i7-processors-8th-gen: 酷睿 i7 8 代
+    intel-core-i7-processors-9th-gen: 酷睿 i7 9 代
+    intel-core-i7-processors-10th-gen: 酷睿 i7 10 代
+    intel-core-i7-processors-11th-gen: 酷睿 i7 11 代
+    intel-core-i7-processors-12th-gen: 酷睿 i7 12 代
+    intel-core-i7-processors-13th-gen: 酷睿 i7 13 代
+    intel-core-i5-processors-4th-gen: 酷睿 i5 4 代
+    intel-core-i5-processors-5th-gen: 酷睿 i5 5 代
+    intel-core-i5-processors-6th-gen: 酷睿 i5 6 代
+    intel-core-i5-processors-7th-gen: 酷睿 i5 7 代
+    intel-core-i5-processors-8th-gen: 酷睿 i5 8 代
+    intel-core-i5-processors-9th-gen: 酷睿 i5 9 代
+    intel-core-i5-processors-10th-gen: 酷睿 i5 10 代
+    intel-core-i5-processors-11th-gen: 酷睿 i5 11 代
+    intel-core-i5-processors-12th-gen: 酷睿 i5 12 代
+    intel-core-i5-processors-13th-gen: 酷睿 i5 13 代
+    intel-core-i3-processors-4th-gen: 酷睿 i3 4 代
+    intel-core-i3-processors-5th-gen: 酷睿 i3 5 代
+    intel-core-i3-processors-6th-gen: 酷睿 i3 6 代
+    intel-core-i3-processors-7th-gen: 酷睿 i3 7 代
+    intel-core-i3-processors-8th-gen: 酷睿 i3 8 代
+    intel-core-i3-processors-9th-gen: 酷睿 i3 9 代
+    intel-core-i3-processors-10th-gen: 酷睿 i3 10 代
+    intel-core-i3-processors-11th-gen: 酷睿 i3 11 代
+    intel-core-i3-processors-12th-gen: 酷睿 i3 12 代
+    intel-core-i3-processors-13th-gen: 酷睿 i3 13 代
+    intel-core-i9-processors-8th-gen: 酷睿 i9 8 代
+    intel-core-i9-processors-9th-gen: 酷睿 i9 9 代
+    intel-core-i9-processors-10th-gen: 酷睿 i9 10 代
+    intel-core-i9-processors-11th-gen: 酷睿 i9 11 代
+    intel-core-i9-processors-12th-gen: 酷睿 i9 12 代
+    intel-core-i9-processors-13th-gen: 酷睿 i9 13 代
+    intel-core-m-processors-5th-gen: 酷睿 M 5 代
+    intel-core-m-processors-6th-gen: 酷睿 M 6 代
+    intel-core-m-processors-7th-gen: 酷睿 M 7 代
+    intel-core-m-processors-8th-gen: 酷睿 M 8 代
+    legacy-intel-core-processors: 传统型酷睿
+    Xeon 6: 至强 6
+    Xeon Cpu Max Series: 至强 CPU Max 系列
+    Xeon D: 至强 D
+    Xeon E: 至强 E
+    Xeon Processor E3 Family: 至强 E3 系列
+    Xeon Processor E3 V2 Family: 至强 E3 v2 系列
+    Xeon Processor E3 V3 Family: 至强 E3 v3 系列
+    Xeon Processor E3 V4 Family: 至强 E3 v4 系列
+    Xeon Processor E3 V5 Family: 至强 E3 v5 系列
+    Xeon Processor E3 V6 Family: 至强 E3 v6 系列
+    Xeon Processor E5 Family: 至强 E5 系列
+    Xeon Processor E5 V2 Family: 至强 E5 v2 系列
+    Xeon Processor E5 V3 Family: 至强 E5 v3 系列
+    Xeon Processor E5 V4 Family: 至强 E5 v4 系列
+    Xeon Processor E7 Family: 至强 E7 系列
+    Xeon Processor E7 V2 Family: 至强 E7 v2 系列
+    Xeon Processor E7 V3 Family: 至强 E7 v3 系列
+    Xeon Processor E7 V4 Family: 至强 E7 v4 系列
+    Xeon Scalable: 至强 可扩展
+    Xeon W: 至强 W
+    Celeron Processor 1000 Series: 赛扬 1000 系列
+    Celeron Processor 2000 Series: 赛扬 2000 系列
+    Celeron Processor 3000 Series: 赛扬 3000 系列
+    Celeron Processor 4000 Series: 赛扬 4000 系列
+    Celeron Processor 5000 Series: 赛扬 5000 系列
+    Celeron Processor 6000 Series: 赛扬 6000 系列
+    Celeron Processor 7000 Series: 赛扬 7000 系列
+    Celeron Processor G Series: 赛扬 G 系列
+    Celeron Processor J Series: 赛扬 J 系列
+    Celeron Processor N Series: 赛扬 N 系列
+    Pentium Processor 1000 Series: 奔腾 1000 系列
+    Pentium Processor 2000 Series: 奔腾 2000 系列
+    Pentium Processor 3000 Series: 奔腾 3000 系列
+    Pentium Processor 4000 Series: 奔腾 4000 系列
+    Pentium Processor 6800 Series: 奔腾 6800 系列
+    Pentium Processor D Series: 奔腾 D 系列
+    Pentium Processor G Series: 奔腾 G 系列
+    Pentium Processor J Series: 奔腾 J 系列
+    Pentium Processor N Series: 奔腾 N 系列
+    Pentium Gold Processor Series: 奔腾 Gold 系列
+    Pentium Silver Processor Series: 奔腾 Silver 系列
   form_factor:
     Desktops , Boxed Processor: 台式机 , 盒装处理器
     Boxed Processor , Desktops: 盒装处理器 , 台式机
     Desktops: 台式机
+    Embedded: 嵌入式
+    Mobile: 移动版
+    Laptops , Desktops: 笔记本电脑 , 台式机
+    Desktops , 1L Desktops , Laptops , Mobile Workstations: 台式机 , 1L 台式机 , 笔记本电脑 , 移动工作站
+    Laptops , Mobile Workstations , 1L Desktops , Desktops: 笔记本电脑 , 移动工作站 , 1L 台式机 , 台式机
+    Server: 服务器
+    Workstation: 工作站
+    TBD: 待定
   integrated_graphics:
     Discrete Graphics Card Required: 需要独立显卡
   expo:
     Yes: 是
+    No: 否
   pbo:
     Yes: 是
+    No: 否

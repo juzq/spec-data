@@ -1,0 +1,30 @@
+slug: intel-1428lv3
+brand: Intel
+model: Xeon® Processor E5-1428L v3
+series: Xeon Processor E5 V3 Family
+form_factor: Embedded
+codename: Haswell
+socket: FCLGA1356
+cores: 8
+threads: 16
+base_clock_ghz: 2
+l3_cache_mb: 20
+tdp_w: 65
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+max_memory_bandwidth_gbs: 51.2
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-01
+url: https://www.intel.com/content/www/us/en/products/sku/84313/intel-xeon-processor-e51428l-v3-20m-cache-2-00-ghz/specifications.html

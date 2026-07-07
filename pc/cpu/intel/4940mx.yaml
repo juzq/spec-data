@@ -1,0 +1,40 @@
+slug: intel-4940mx
+brand: Intel
+model: Core™ i7-4940MX Processor Extreme Edition
+series: Core X-series
+form_factor: Mobile
+codename: Haswell
+socket: FCPGA946
+cores: 4
+threads: 8
+base_clock_ghz: 3.1
+boost_clock_ghz: 4
+l3_cache_mb: 8
+tdp_w: 57
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1350
+graphics_output: eDP/DP/HDMI/VGA
+quick_sync: true
+clear_video: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/78940/intel-core-i74940mx-processor-extreme-edition-8m-cache-up-to-4-00-ghz/specifications.html

@@ -1,0 +1,32 @@
+slug: intel-5930k
+brand: Intel
+model: Core™ i7-5930K
+series: Core X-series
+form_factor: Desktops
+codename: Haswell E
+socket: FCLGA2011
+cores: 6
+threads: 12
+base_clock_ghz: 3.5
+boost_clock_ghz: 3.7
+l3_cache_mb: 15
+tdp_w: 140
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 64
+max_memory_bandwidth_gbs: 68
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-07
+url: https://www.intel.com/content/www/us/en/products/sku/82931/intel-core-i75930k-processor-15m-cache-up-to-3-70-ghz/specifications.html

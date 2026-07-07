@@ -1,0 +1,48 @@
+slug: intel-2286m
+brand: Intel
+model: Xeon® E-2286M
+series: Xeon E
+form_factor: Mobile
+codename: Coffee Lake
+socket: FCBGA1440
+cores: 8
+threads: 16
+base_clock_ghz: 2.4
+boost_clock_ghz: 5
+l3_cache_mb: 16
+tdp_w: 45
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - LPDDR3
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 41.8
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics P630
+graphics_frequency: 1250
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@30Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x3E94'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-04
+url: https://www.intel.com/content/www/us/en/products/sku/192993/intel-xeon-e2286m-processor-16m-cache-2-40-ghz/specifications.html

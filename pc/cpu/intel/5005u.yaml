@@ -1,0 +1,43 @@
+slug: intel-5005u
+brand: Intel
+model: Core™ i3-5005U
+series: intel-core-i3-processors-5th-gen
+form_factor: Mobile
+codename: Broadwell
+socket: FCBGA1168
+cores: 2
+threads: 4
+base_clock_ghz: 2
+l3_cache_mb: 3
+tdp_w: 15
+process_nm: 14
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 5500
+graphics_frequency: 850
+graphics_output: eDP/DP/HDMI
+max_resolution_hdmi: 2560x1600@60Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x1616'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-01
+url: https://www.intel.com/content/www/us/en/products/sku/84695/intel-core-i35005u-processor-3m-cache-2-00-ghz/specifications.html

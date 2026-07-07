@@ -1,9 +1,9 @@
 slug: amd-ryzen-ai-9-h-365
 brand: AMD
 model: Ryzen AI 9 H 365
-family: 锐龙
-series: 锐龙 AI 300 系列
-form_factor: Desktop
+family: Ryzen
+series: Ryzen AI 300 Series
+form_factor: Laptops , Desktops
 codename: Strix Point
 socket: FP8
 architecture: 4x Zen 5 , 6x Zen 5c
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 880M
 graphics_frequency: 2900
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-h-365.html
 pbo: true
 expo: true

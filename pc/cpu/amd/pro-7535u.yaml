@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 PRO 7535U
 family: Ryzen PRO
 series: Ryzen PRO 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Rembrandt R
 architecture: Zen 3+
 release_date: 2023-09
@@ -51,6 +51,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 660M
 graphics_frequency: 1900
-graphics_cores: 6
+execution_units: 6
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/7000-series/amd-ryzen-5-pro-7535u.html
 product_id_tray: 100-000001293 (FP7r2)

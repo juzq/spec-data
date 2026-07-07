@@ -1,9 +1,9 @@
 slug: amd-ryzen-ai-5-h-330
 brand: AMD
 model: Ryzen AI 5 H 330
-family: 锐龙
-series: 锐龙 AI 300 系列
-form_factor: Desktop
+family: Ryzen
+series: Ryzen AI 300 Series
+form_factor: Laptops , Desktops
 codename: Krackan Point
 socket: FP8
 architecture: 1x Zen 5 , 3x Zen 5c
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 820M
 graphics_frequency: 2800
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-h-330.html
 pbo: true
 expo: false

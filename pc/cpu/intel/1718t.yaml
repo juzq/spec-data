@@ -1,0 +1,30 @@
+slug: intel-1718t
+brand: Intel
+model: Xeon® D-1718T
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 4
+threads: 8
+perf_cores: 4
+base_clock_ghz: 2.6
+boost_clock_ghz: 3.5
+l3_cache_mb: 10
+tdp_w: 46
+process_nm: 10
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+max_memory: 256
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/226107/intel-xeon-d1718t-processor-10m-cache-up-to-3-50-ghz/specifications.html

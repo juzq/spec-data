@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 PRO 220
 family: Ryzen PRO
 series: Ryzen PRO 200 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Hawk Point
 socket: FP8
 architecture: 2x Zen 4 , 4x Zen 4c
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2800
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-220.html
 pbo: false
 expo: false

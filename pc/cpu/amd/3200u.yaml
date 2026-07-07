@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 3200U
 family: Ryzen
 series: Ryzen 3000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP5
 cores: 2
 threads: 4

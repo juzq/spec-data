@@ -1,0 +1,34 @@
+slug: intel-1240v2
+brand: Intel
+model: Xeon® Processor E3-1240 v2
+series: Xeon Processor E3 V2 Family
+form_factor: Server
+codename: Ivy Bridge
+socket: FCLGA1155
+cores: 4
+threads: 8
+base_clock_ghz: 3.4
+boost_clock_ghz: 3.8
+l3_cache_mb: 8
+tdp_w: 69
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/65730/intel-xeon-processor-e31240-v2-8m-cache-3-40-ghz/specifications.html

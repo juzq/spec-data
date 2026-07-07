@@ -1,0 +1,43 @@
+slug: intel-7100h
+brand: Intel
+model: Core™ i3-7100H
+series: intel-core-i3-processors-7th-gen
+form_factor: Mobile
+codename: Kaby Lake
+socket: FCBGA1440
+cores: 2
+threads: 4
+base_clock_ghz: 3
+l3_cache_mb: 3
+tdp_w: 35
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 37.5
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 630
+graphics_frequency: 950
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@30Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x591B'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-01
+url: https://www.intel.com/content/www/us/en/products/sku/97126/intel-core-i37100h-processor-3m-cache-3-00-ghz/specifications.html

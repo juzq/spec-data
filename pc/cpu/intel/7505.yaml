@@ -1,0 +1,46 @@
+slug: intel-7505
+brand: Intel
+model: Pentium® Gold 7505
+series: Pentium Gold Processor Series
+form_factor: Mobile
+codename: Tiger Lake
+socket: FCBGA1449
+cores: 2
+threads: 4
+boost_clock_ghz: 3.5
+l3_cache_mb: 4
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - LPDDR4x
+memory_channel: 2
+max_memory: 64
+ecc_memory: false
+integrated_graphics: Intel® UHD Graphics for 11th Gen Intel® Processors
+graphics_frequency: 1250
+execution_units: 48
+graphics_output: eDP 1.4b, MIPI-DSI 2.0, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 1
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0x9A78'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-10
+url: https://www.intel.com/content/www/us/en/products/sku/208667/intel-pentium-gold-7505-processor-4m-cache-up-to-3-50-ghz-with-ipu/specifications.html

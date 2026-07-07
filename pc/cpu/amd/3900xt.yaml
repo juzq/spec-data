@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 9 3900XT
 family: Ryzen
 series: Ryzen 3000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 cores: 12
 threads: 24
 base_clock_ghz: 3.8

@@ -1,9 +1,9 @@
 slug: amd-7435h
 brand: AMD
 model: Ryzen 7 7435H
-family: 锐龙
-series: 锐龙 7000 系列
-form_factor: Desktop
+family: Ryzen
+series: Ryzen 7000 Series
+form_factor: Desktops
 codename: Rembrandt R
 socket: FP7r2
 architecture: Zen 3+

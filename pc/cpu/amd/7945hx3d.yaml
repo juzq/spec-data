@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 9 7945HX3D
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Dragon Range
 socket: FL1
 architecture: Zen 4
@@ -56,7 +56,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 610M
 graphics_frequency: 2200
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7950hx3d.html
 pbo: true
 expo: true

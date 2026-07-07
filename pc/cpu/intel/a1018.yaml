@@ -1,0 +1,38 @@
+slug: intel-a1018
+brand: Intel
+model: Pentium® Processor A1018
+series: Pentium Processor 1000 Series
+form_factor: Mobile
+codename: Ivy Bridge
+socket: FCPGA988
+cores: 2
+threads: 2
+base_clock_ghz: 2.1
+l3_cache_mb: 1
+tdp_w: 35
+process_nm: 22
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for 3rd Generation Intel® Processors
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: false
+clear_video: false
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/78429/intel-pentium-processor-a1018-1m-cache-2-10-ghz/specifications.html

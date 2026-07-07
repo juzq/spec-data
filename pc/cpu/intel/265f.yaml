@@ -1,0 +1,43 @@
+slug: intel-265f
+brand: Intel
+model: Core™ Ultra 7 Processor 265F
+series: Core Ultra Series 2
+form_factor: Desktops
+codename: Arrow Lake
+socket: FCLGA1851
+cores: 20
+threads: 20
+perf_cores: 8
+eff_cores: 12
+base_clock_ghz: 2.4
+boost_clock_ghz: 5.3
+perf_core_base_ghz: 2.4
+perf_core_boost_ghz: 5.2
+eff_core_base_ghz: 1.8
+eff_core_boost_ghz: 4.6
+l2_cache_mb: 36
+l3_cache_mb: 30
+tdp_w: 65
+max_turbo_power_w: 182
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 6400
+ecc_memory: false
+pcie_version: '5.0'
+graphics_output: n/a
+quick_sync: false
+max_displays: 0
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html

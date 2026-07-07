@@ -1,0 +1,36 @@
+slug: intel-1220l
+brand: Intel
+model: Xeon® Processor E3-1220L
+series: Xeon Processor E3 Family
+form_factor: Server
+codename: Sandy Bridge
+socket: FCLGA1155
+cores: 2
+threads: 4
+base_clock_ghz: 2.2
+boost_clock_ghz: 3.4
+l3_cache_mb: 3
+tdp_w: 20
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: true
+pcie_version: '2.0'
+quick_sync: false
+clear_video: false
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/53401/intel-xeon-processor-e31220l-3m-cache-2-20-ghz/specifications.html

@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper PRO 5975WX
 family: Ryzen Threadripper PRO
 series: Ryzen Threadripper PRO 5000 WX-Series
-form_factor: Desktop
+form_factor: Desktops
 socket: sWRX8
 release_date: 2022-03
 cores: 32

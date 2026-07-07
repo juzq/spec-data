@@ -1,0 +1,35 @@
+slug: intel-2336
+brand: Intel
+model: Xeon® E-2336
+series: Xeon E
+form_factor: Server
+codename: Rocket Lake
+socket: FCLGA1200
+cores: 6
+threads: 12
+base_clock_ghz: 2.9
+boost_clock_ghz: 4.8
+l3_cache_mb: 12
+tdp_w: 65
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-07
+url: https://www.intel.com/content/www/us/en/products/sku/212253/intel-xeon-e2336-processor-12m-cache-2-90-ghz/specifications.html

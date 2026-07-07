@@ -1,0 +1,39 @@
+slug: intel-2960xm
+brand: Intel
+model: Core™ i7-2960XM Processor Extreme Edition
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Sandy Bridge
+socket: FCPGA988
+cores: 4
+threads: 8
+base_clock_ghz: 2.7
+boost_clock_ghz: 3.7
+l3_cache_mb: 8
+tdp_w: 55
+process_nm: 32
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 3000
+graphics_frequency: 1300
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 2
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-10
+url: https://www.intel.com/content/www/us/en/products/sku/53478/intel-core-i72960xm-processor-extreme-edition-8m-cache-up-to-3-70-ghz/specifications.html

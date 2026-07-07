@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 3700X
 family: Ryzen
 series: Ryzen 3000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 socket: AM4
 release_date: 2019-07
 cores: 8

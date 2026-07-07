@@ -1,0 +1,30 @@
+slug: intel-1735tr
+brand: Intel
+model: Xeon® D-1735TR
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 8
+threads: 16
+perf_cores: 8
+base_clock_ghz: 2.2
+boost_clock_ghz: 3.4
+l3_cache_mb: 15
+tdp_w: 59
+process_nm: 10
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+max_memory: 384
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/226103/intel-xeon-d1735tr-processor-15m-cache-up-to-3-40-ghz/specifications.html

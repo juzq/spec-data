@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 8745HX
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Dragon Range
 socket: FL1
 architecture: Zen 4
@@ -54,7 +54,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 610M
 graphics_frequency: 2200
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745hx.html
 pbo: true
 expo: true

@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 4800HS
 family: Ryzen
 series: Ryzen 4000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP6
 cores: 8
 threads: 16

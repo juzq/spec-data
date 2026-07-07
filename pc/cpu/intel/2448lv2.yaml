@@ -1,0 +1,31 @@
+slug: intel-2448lv2
+brand: Intel
+model: Xeon® Processor E5-2448L v2
+series: Xeon Processor E5 V2 Family
+form_factor: Embedded
+codename: Ivy Bridge EN
+socket: FCLGA1356
+cores: 10
+threads: 20
+base_clock_ghz: 1.8
+boost_clock_ghz: 2.4
+l3_cache_mb: 25
+tdp_w: 70
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+max_memory_bandwidth_gbs: 38.4
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/75973/intel-xeon-processor-e52448l-v2-25m-cache-1-80-ghz/specifications.html

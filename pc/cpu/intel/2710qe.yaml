@@ -1,0 +1,39 @@
+slug: intel-2710qe
+brand: Intel
+model: Core™ i7-2710QE
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Sandy Bridge
+socket: FCPGA988
+cores: 4
+threads: 8
+base_clock_ghz: 2.1
+boost_clock_ghz: 3
+l3_cache_mb: 6
+tdp_w: 45
+process_nm: 32
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 16
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 3000
+graphics_frequency: 1200
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 2
+gpu_device_id: '0x116'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-01
+url: https://www.intel.com/content/www/us/en/products/sku/53472/intel-core-i72710qe-processor-6m-cache-up-to-3-00-ghz/specifications.html

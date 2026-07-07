@@ -1,0 +1,31 @@
+slug: intel-1577
+brand: Intel
+model: Xeon® Processor D-1577
+series: Xeon D
+form_factor: Server
+codename: Broadwell
+socket: FCBGA1667
+cores: 16
+threads: 32
+base_clock_ghz: 1.3
+boost_clock_ghz: 2.1
+l3_cache_mb: 24
+tdp_w: 45
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-01
+url: https://www.intel.com/content/www/us/en/products/sku/93353/intel-xeon-processor-d1577-24m-cache-1-30-ghz/specifications.html

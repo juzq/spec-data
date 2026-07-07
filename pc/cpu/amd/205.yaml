@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 205
 family: Ryzen
 series: Ryzen 200 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Hawk Point
 socket: FP8
 architecture: 2x Zen 4 , 4x Zen 4c
@@ -48,7 +48,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 740M Graphics
 graphics_frequency: 2300
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-205.html
 pbo: false
 expo: false

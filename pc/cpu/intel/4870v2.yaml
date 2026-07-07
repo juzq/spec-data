@@ -1,0 +1,31 @@
+slug: intel-4870v2
+brand: Intel
+model: Xeon® Processor E7-4870 v2
+series: Xeon Processor E7 V2 Family
+form_factor: Server
+codename: Ivy Bridge
+socket: FCLGA2011
+cores: 15
+threads: 30
+base_clock_ghz: 2.3
+boost_clock_ghz: 2.9
+l3_cache_mb: 30
+tdp_w: 130
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 1
+max_memory_bandwidth_gbs: 85
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/75250/intel-xeon-processor-e74870-v2-30m-cache-2-30-ghz/specifications.html

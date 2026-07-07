@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 PRO 8305G
 family: Ryzen PRO
 series: Ryzen PRO 8000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Phoenix
 socket: AM5
 architecture: 1x Zen 4 , 3x Zen 4c
@@ -54,6 +54,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2600
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-3-pro-8305g.html
 product_id_tray: 100-000002085

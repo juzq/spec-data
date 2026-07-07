@@ -1,0 +1,47 @@
+slug: intel-2378g
+brand: Intel
+model: Xeon® E-2378G
+series: Xeon E
+form_factor: Server
+codename: Rocket Lake
+socket: FCLGA1200
+cores: 8
+threads: 16
+base_clock_ghz: 2.8
+boost_clock_ghz: 5.1
+l3_cache_mb: 16
+tdp_w: 80
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '4.0'
+integrated_graphics: Intel® UHD Graphics P750
+graphics_frequency: 1300
+execution_units: 32
+max_resolution_hdmi: 4096 x 2160 @60 Hz
+max_resolution_dp: 5120 x 3200 @ 60 Hz
+max_resolution_edp: 5120 x 3200 @ 60 Hz
+directx: '12.1'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 1
+gpu_device_id: '0x4C9A'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-07
+url: https://www.intel.com/content/www/us/en/products/sku/212262/intel-xeon-e2378g-processor-16m-cache-2-80-ghz/specifications.html

@@ -1,0 +1,46 @@
+slug: intel-11375h
+brand: Intel
+model: Core™ i7-11375H
+series: intel-core-i7-processors-11th-gen
+form_factor: Mobile
+codename: Tiger Lake
+socket: FCBGA1449,FCLGA1449
+cores: 4
+threads: 8
+boost_clock_ghz: 5
+l3_cache_mb: 12
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+  - LPDDR4x
+memory_channel: 2
+max_memory: 64
+ecc_memory: false
+integrated_graphics: Intel® Iris® Xe Graphics
+graphics_frequency: 1350
+execution_units: 96
+graphics_output: eDP 1.4b, MIPI-DSI 2.0, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 2
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x9A49'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-01
+url: https://www.intel.com/content/www/us/en/products/sku/197384/intel-core-i711375h-processor-12m-cache-up-to-5-00-ghz-with-ipu/specifications.html

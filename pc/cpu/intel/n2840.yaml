@@ -1,0 +1,34 @@
+slug: intel-n2840
+brand: Intel
+model: Celeron® Processor N2840
+series: Celeron Processor N Series
+form_factor: Mobile
+codename: Bay Trail
+socket: FCBGA1170
+cores: 2
+threads: 2
+base_clock_ghz: 2.16
+l3_cache_mb: 1
+tdp_w: 7
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 8
+max_memory_bandwidth_gbs: 21.32
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for Intel Atom® Processor Z3700 Series
+graphics_frequency: 792
+quick_sync: true
+clear_video: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2014-07
+url: https://www.intel.com/content/www/us/en/products/sku/82103/intel-celeron-processor-n2840-1m-cache-up-to-2-58-ghz/specifications.html

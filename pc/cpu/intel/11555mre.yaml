@@ -1,0 +1,45 @@
+slug: intel-11555mre
+brand: Intel
+model: Xeon® W-11555MRE
+series: Xeon W
+form_factor: Embedded
+codename: Tiger Lake
+socket: FCBGA1787
+cores: 6
+threads: 12
+boost_clock_ghz: 4.5
+l3_cache_mb: 12
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+integrated_graphics: Intel® UHD Graphics for 11th Gen Intel® Processors
+graphics_frequency: 1350
+execution_units: 32
+graphics_output: eDP 1.4b, MIPI-DSI 2.0, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x9A70'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-07
+url: https://www.intel.com/content/www/us/en/products/sku/217376/intel-xeon-w11555mre-processor-12m-cache-up-to-4-50-ghz/specifications.html

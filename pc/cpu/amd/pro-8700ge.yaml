@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 8700GE
 family: Ryzen PRO
 series: Ryzen PRO 8000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Phoenix
 socket: AM5
 architecture: Zen 4
@@ -51,6 +51,6 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2700
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8700ge.html
 product_id_tray: 100-000001240 (AM5)

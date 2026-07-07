@@ -1,0 +1,46 @@
+slug: intel-9600k
+brand: Intel
+model: Core™ i5-9600K
+series: intel-core-i5-processors-9th-gen
+form_factor: Desktops
+codename: Coffee Lake
+socket: FCLGA1151
+cores: 6
+threads: 6
+base_clock_ghz: 3.7
+boost_clock_ghz: 4.6
+l3_cache_mb: 9
+tdp_w: 95
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 41.6
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics 630
+graphics_frequency: 1150
+max_resolution_hdmi: 4096 x 2304@24Hz
+max_resolution_dp: 4096 x 2304@60Hz
+max_resolution_edp: 4096 x 2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x3E98'
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2018-10
+url: https://www.intel.com/content/www/us/en/products/sku/134896/intel-core-i59600k-processor-9m-cache-up-to-4-60-ghz/specifications.html

@@ -1,0 +1,36 @@
+slug: intel-1270-v3
+brand: Intel
+model: Xeon® Processor E3-1270 v3
+series: Xeon Processor E3 V3 Family
+form_factor: Server
+codename: Haswell
+socket: FCLGA1150
+cores: 4
+threads: 8
+perf_cores: 4
+base_clock_ghz: 3.5
+boost_clock_ghz: 3.9
+l3_cache_mb: 8
+tdp_w: 80
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-04
+url: https://www.intel.com/content/www/us/en/products/sku/75056/intel-xeon-processor-e31270-v3-8m-cache-3-50-ghz/specifications.html

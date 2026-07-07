@@ -1,0 +1,45 @@
+slug: intel-4288u
+brand: Intel
+model: Core™ i5-4288U
+series: intel-core-i5-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCBGA1168
+cores: 2
+threads: 4
+base_clock_ghz: 2.6
+boost_clock_ghz: 3.1
+l3_cache_mb: 3
+tdp_w: 28
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® Iris® Graphics 5100
+graphics_frequency: 1200
+graphics_output: eDP/DP/HDMI
+max_resolution_hdmi: 3280x2000@60Hz
+max_resolution_dp: 3200x2000@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0xA2E'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75991/intel-core-i54288u-processor-3m-cache-up-to-3-10-ghz/specifications.html

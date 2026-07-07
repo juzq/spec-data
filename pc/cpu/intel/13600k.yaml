@@ -1,0 +1,60 @@
+slug: intel-13600k
+brand: Intel
+model: Core™ i5-13600K
+series: intel-core-i5-processors-13th-gen
+form_factor: Desktops
+codename: Raptor Lake
+socket: FCLGA1700
+cores: 14
+threads: 20
+perf_cores: 6
+eff_cores: 8
+base_clock_ghz: 3.5
+boost_clock_ghz: 5.1
+perf_core_base_ghz: 3.5
+perf_core_boost_ghz: 5.1
+eff_core_base_ghz: 2.6
+eff_core_boost_ghz: 3.9
+l2_cache_mb: 20
+l3_cache_mb: 24
+tdp_w: 125
+max_turbo_power_w: 181
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 192
+max_memory_speed_mt: 5600
+max_memory_bandwidth_gbs: 89.6
+ecc_memory: true
+pcie_version: '5.0'
+integrated_graphics: Intel® UHD Graphics 770
+graphics_frequency: 1500
+execution_units: 32
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2160 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 5120 x 3200 @ 120Hz
+directx: '12'
+opengl: '4.5'
+opencl: '3.0'
+codec_engines: 2
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0xA780'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise, Intel vPro® Essentials, Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-10
+url: https://www.intel.com/content/www/us/en/products/sku/230493/intel-core-i513600k-processor-24m-cache-up-to-5-10-ghz/specifications.html

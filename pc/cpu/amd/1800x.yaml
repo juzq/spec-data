@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 1800X
 family: Ryzen
 series: Ryzen 1000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 socket: AM4
 release_date: 2017-03
 cores: 8

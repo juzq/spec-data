@@ -1,0 +1,47 @@
+slug: intel-7020u
+brand: Intel
+model: Core™ i3-7020U
+series: intel-core-i3-processors-7th-gen
+form_factor: Mobile
+codename: Kaby Lake
+socket: FCBGA1356,FC-BGA1356,FPBGA1356
+cores: 2
+threads: 4
+base_clock_ghz: 2.3
+l3_cache_mb: 3
+tdp_w: 15
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - LPDDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 34.1
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 620
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@24Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x5916'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2018-04
+url: https://www.intel.com/content/www/us/en/products/sku/122590/intel-core-i37020u-processor-3m-cache-2-30-ghz/specifications.html

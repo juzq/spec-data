@@ -1,0 +1,32 @@
+slug: intel-3960x
+brand: Intel
+model: Core™ i7-3960X Processor Extreme Edition
+series: Core X-series
+form_factor: Desktops
+codename: Sandy Bridge E
+socket: FCLGA2011
+cores: 6
+threads: 12
+base_clock_ghz: 3.3
+boost_clock_ghz: 3.9
+l3_cache_mb: 15
+tdp_w: 130
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 64
+max_memory_bandwidth_gbs: 51.2
+ecc_memory: false
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-10
+url: https://www.intel.com/content/www/us/en/products/sku/63696/intel-core-i73960x-processor-extreme-edition-15m-cache-up-to-3-90-ghz/specifications.html

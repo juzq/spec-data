@@ -1,0 +1,36 @@
+slug: intel-1270
+brand: Intel
+model: Xeon® Processor E3-1270
+series: Xeon Processor E3 Family
+form_factor: Server
+codename: Sandy Bridge
+socket: LGA1155
+cores: 4
+threads: 8
+base_clock_ghz: 3.4
+boost_clock_ghz: 3.8
+l3_cache_mb: 8
+tdp_w: 80
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: true
+pcie_version: '2.0'
+quick_sync: false
+clear_video: false
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/52276/intel-xeon-processor-e31270-8m-cache-3-40-ghz/specifications.html

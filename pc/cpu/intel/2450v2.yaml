@@ -1,0 +1,31 @@
+slug: intel-2450v2
+brand: Intel
+model: Xeon® Processor E5-2450 v2
+series: Xeon Processor E5 V2 Family
+form_factor: Server
+codename: Ivy Bridge EN
+socket: FCLGA1356
+cores: 8
+threads: 16
+base_clock_ghz: 2.5
+boost_clock_ghz: 3.3
+l3_cache_mb: 20
+tdp_w: 95
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+max_memory_bandwidth_gbs: 38.4
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/75264/intel-xeon-processor-e52450-v2-20m-cache-2-50-ghz/specifications.html

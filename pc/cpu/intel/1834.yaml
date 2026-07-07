@@ -1,0 +1,30 @@
+slug: intel-1834
+brand: Intel
+model: Xeon® D-1834
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 8
+threads: 16
+perf_cores: 8
+base_clock_ghz: 1.8
+boost_clock_ghz: 2.9
+l3_cache_mb: 15360
+tdp_w: 42
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 256
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-10
+url: https://www.intel.com/content/www/us/en/products/sku/235735/intel-xeon-d1834-processor-15m-cache-up-to-2-90-ghz/specifications.html

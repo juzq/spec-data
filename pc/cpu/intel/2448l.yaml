@@ -1,0 +1,28 @@
+slug: intel-2448l
+brand: Intel
+model: Xeon® Processor E5-2448L
+series: Xeon Processor E5 Family
+form_factor: Embedded
+codename: Sandy Bridge EN
+socket: FCLGA1356
+cores: 8
+threads: 16
+base_clock_ghz: 1.8
+boost_clock_ghz: 2.1
+l3_cache_mb: 20
+tdp_w: 70
+process_nm: 32
+instruction: x86-64
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/67024/intel-xeon-processor-e52448l-20m-1-8-ghz-8-0-gts-intel-qpi/specifications.html

@@ -1,0 +1,39 @@
+slug: intel-3632qm
+brand: Intel
+model: Core™ i7-3632QM
+series: legacy-intel-core-processors
+form_factor: Mobile
+codename: Ivy Bridge
+socket: FCBGA1224
+cores: 4
+threads: 8
+base_clock_ghz: 2.2
+boost_clock_ghz: 3.2
+l3_cache_mb: 6
+tdp_w: 35
+process_nm: 22
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 4000
+graphics_frequency: 1150
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x166'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-07
+url: https://www.intel.com/content/www/us/en/products/sku/71670/intel-core-i73632qm-processor-6m-cache-up-to-3-20-ghz-bga/specifications.html

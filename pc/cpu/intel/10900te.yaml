@@ -1,0 +1,47 @@
+slug: intel-10900te
+brand: Intel
+model: Core™ i9-10900TE
+series: intel-core-i9-processors-10th-gen
+form_factor: Embedded
+codename: Comet Lake
+socket: FCLGA1200
+cores: 10
+threads: 20
+base_clock_ghz: 1.8
+boost_clock_ghz: 4.5
+l3_cache_mb: 20
+tdp_w: 35
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 45.8
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics 630
+graphics_frequency: 1200
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096 x 2160@30Hz
+max_resolution_dp: 4096 x 2304@60Hz
+max_resolution_edp: 4096 x 2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x9BC5'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/203901/intel-core-i910900te-processor-20m-cache-up-to-4-60-ghz/specifications.html

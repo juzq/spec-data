@@ -1,0 +1,53 @@
+slug: intel-125u
+brand: Intel
+model: Core™ Ultra 5 Processor 125U
+series: Core Ultra Series 1
+form_factor: Mobile
+codename: Meteor Lake
+socket: FCBGA2049
+cores: 12
+threads: 14
+perf_cores: 2
+eff_cores: 8
+base_clock_ghz: 1.3
+boost_clock_ghz: 4.3
+perf_core_base_ghz: 1.3
+perf_core_boost_ghz: 4.3
+eff_core_base_ghz: 0.8
+eff_core_boost_ghz: 3.6
+l3_cache_mb: 12
+tdp_w: 15
+max_turbo_power_w: 57
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5
+  - DDR5
+memory_channel: 2
+max_memory: 96
+max_memory_speed_mt: 7467
+ecc_memory: false
+pcie_version: '4.0'
+integrated_graphics: Intel® Graphics
+graphics_frequency: 1850
+graphics_output: eDP1.4b, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_hdmi: "4096 x 2304 @ 60Hz (HDMI 2.1 TMDS); 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)"
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: '12.2'
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x7D45'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Essentials
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-10
+url: https://www.intel.com/content/www/us/en/products/sku/237330/intel-core-ultra-5-processor-125u-12m-cache-up-to-4-30-ghz/specifications.html

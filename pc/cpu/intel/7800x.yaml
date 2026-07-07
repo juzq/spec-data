@@ -1,0 +1,35 @@
+slug: intel-7800x
+brand: Intel
+model: Core™ i7-7800X X-series
+series: Core X-series
+form_factor: Desktops
+codename: Skylake
+socket: FCLGA2066
+cores: 6
+threads: 12
+base_clock_ghz: 3.5
+boost_clock_ghz: 4
+l3_cache_mb: 8
+tdp_w: 140
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 128
+max_memory_bandwidth_gbs: 77
+ecc_memory: false
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-04
+url: https://www.intel.com/content/www/us/en/products/sku/123589/intel-core-i77800x-xseries-processor-8-25m-cache-up-to-4-00-ghz/specifications.html

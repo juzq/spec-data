@@ -1,0 +1,39 @@
+slug: intel-3205u
+brand: Intel
+model: Celeron® Processor 3205U
+series: Celeron Processor 3000 Series
+form_factor: Mobile
+codename: Broadwell
+socket: FCBGA1168
+cores: 2
+threads: 2
+base_clock_ghz: 1.5
+l3_cache_mb: 2
+tdp_w: 15
+process_nm: 14
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for 5th Generation Intel® Processors
+graphics_frequency: 800
+graphics_output: eDP/DP/HDMI
+directx: 11.2/12
+quick_sync: true
+clear_video: false
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: false
+release_date: 2015-01
+url: https://www.intel.com/content/www/us/en/products/sku/84809/intel-celeron-processor-3205u-2m-cache-1-50-ghz/specifications.html

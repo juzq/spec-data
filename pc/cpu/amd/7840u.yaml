@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 7840U
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Phoenix
 socket: FP7 , FP7r2 , FP8
 architecture: Zen 4
@@ -53,7 +53,7 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2700
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840u.html
 pbo: false
 expo: false

@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI 5 PRO 435G
 family: Ryzen PRO
 series: Ryzen AI PRO 400 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 codename: Gorgon Point AM5
 socket: AM5
 chipsets:
@@ -65,6 +65,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 840M graphics
 graphics_frequency: 2800
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/ai-400-series/amd-ryzen-ai-5-pro-435g.html
 product_id_tray: 100-000001783

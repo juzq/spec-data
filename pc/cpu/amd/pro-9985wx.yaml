@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper PRO 9985WX
 family: Ryzen Threadripper PRO
 series: Ryzen Threadripper PRO 9000 WX-Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Shimada Peak
 socket: sTR5
 chipsets:

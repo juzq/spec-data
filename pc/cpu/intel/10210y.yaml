@@ -1,0 +1,46 @@
+slug: intel-10210y
+brand: Intel
+model: Core™ i5-10210Y
+series: intel-core-i5-processors-10th-gen
+form_factor: Mobile
+codename: Amber Lake Y
+socket: UTFCBGA1377
+cores: 4
+threads: 8
+base_clock_ghz: 1
+boost_clock_ghz: 4
+l3_cache_mb: 6
+tdp_w: 7
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+supported_memory_types:
+  - LPDDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 33.33
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics for 10th Gen Intel® Processors
+graphics_frequency: 1050
+execution_units: 24
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096 x 2304@24Hz
+max_resolution_dp: 3840 x 2160@60Hz
+max_resolution_edp: 3840 x 2160@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x87CA'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-07
+url: https://www.intel.com/content/www/us/en/products/sku/196454/intel-core-i510210y-processor-6m-cache-up-to-4-00-ghz/specifications.html

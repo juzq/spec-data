@@ -1,0 +1,32 @@
+slug: intel-1660v2
+brand: Intel
+model: Xeon® Processor E5-1660 v2
+series: Xeon Processor E5 V2 Family
+form_factor: Server
+codename: Ivy Bridge EP
+socket: FCLGA2011
+cores: 6
+threads: 12
+base_clock_ghz: 3.7
+boost_clock_ghz: 4
+l3_cache_mb: 15
+tdp_w: 130
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 256
+max_memory_bandwidth_gbs: 59.7
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75781/intel-xeon-processor-e51660-v2-15m-cache-3-70-ghz/specifications.html

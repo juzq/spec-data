@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI Max 385
 family: Ryzen
 series: Ryzen AI Max 300 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Strix Halo
 socket: FP11
 architecture: 8x Zen 5
@@ -34,7 +34,6 @@ ext_instruction:
   - SSSE3
   - SSE
   - x86-64
-supported_memory_types: []
 max_memory: 128
 max_memory_speed_mt: 5
 pcie_version: "4.0"
@@ -48,7 +47,7 @@ nvme:
   - RAID1
 integrated_graphics: Radeon 8050S Graphics
 graphics_frequency: 2800
-graphics_cores: 32
+execution_units: 32
 url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-385.html
 pbo: true
 expo: false

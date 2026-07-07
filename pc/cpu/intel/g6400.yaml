@@ -1,0 +1,42 @@
+slug: intel-g6400
+brand: Intel
+model: Pentium® Gold G6400
+series: Pentium Gold Processor Series
+form_factor: Desktops
+codename: Comet Lake
+socket: FCLGA1200
+cores: 2
+threads: 4
+base_clock_ghz: 4
+l3_cache_mb: 4
+tdp_w: 58
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 41.6
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics 610
+graphics_frequency: 1050
+max_resolution_hdmi: 4096x2160@30Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x9BA8'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/199288/intel-pentium-gold-g6400-processor-4m-cache-4-00-ghz/specifications.html

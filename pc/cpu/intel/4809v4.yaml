@@ -1,0 +1,31 @@
+slug: intel-4809v4
+brand: Intel
+model: Xeon® Processor E7-4809 v4
+series: Xeon Processor E7 V4 Family
+form_factor: Server
+codename: Broadwell
+socket: FCLGA2011
+cores: 8
+threads: 16
+base_clock_ghz: 2.1
+l3_cache_mb: 20
+tdp_w: 115
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 4
+max_memory: 3
+max_memory_bandwidth_gbs: 85
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-04
+url: https://www.intel.com/content/www/us/en/products/sku/93794/intel-xeon-processor-e74809-v4-20m-cache-2-10-ghz/specifications.html

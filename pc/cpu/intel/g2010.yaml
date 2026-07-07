@@ -1,0 +1,36 @@
+slug: intel-g2010
+brand: Intel
+model: Pentium® Processor G2010
+series: Pentium Processor G Series
+form_factor: Desktops
+codename: Ivy Bridge
+socket: FCLGA1155
+cores: 2
+threads: 2
+base_clock_ghz: 2.8
+l3_cache_mb: 3
+tdp_w: 55
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: true
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for 3rd Generation Intel® Processors
+graphics_frequency: 1050
+quick_sync: false
+clear_video: false
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-01
+url: https://www.intel.com/content/www/us/en/products/sku/71071/intel-pentium-processor-g2010-3m-cache-2-80-ghz/specifications.html

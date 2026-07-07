@@ -1,0 +1,50 @@
+slug: intel-10310u
+brand: Intel
+model: Core™ i5-10310U
+series: intel-core-i5-processors-10th-gen
+form_factor: Mobile
+codename: Comet Lake
+socket: FCBGA1528
+cores: 4
+threads: 8
+base_clock_ghz: 1.7
+boost_clock_ghz: 4.4
+l3_cache_mb: 6
+tdp_w: 15
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - LPDDR3
+  - LPDDR4
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 45.8
+ecc_memory: false
+pcie_version: '3.0'
+integrated_graphics: Intel® UHD Graphics for 10th Gen Intel® Processors
+graphics_frequency: 1150
+execution_units: 24
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096 x 2304@24Hz
+max_resolution_dp: 4096 x 2304@60Hz
+max_resolution_edp: 4096 x 2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x9B41,0x9BCC'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2020-04
+url: https://www.intel.com/content/www/us/en/products/sku/201892/intel-core-i510310u-processor-6m-cache-up-to-4-40-ghz/specifications.html

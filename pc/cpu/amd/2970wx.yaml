@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper 2970WX
 family: Ryzen Threadripper
 series: Ryzen Threadripper 2000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 socket: sTR4
 cores: 24
 threads: 48

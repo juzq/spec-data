@@ -1,0 +1,34 @@
+slug: intel-6315p
+brand: Intel
+model: Xeon® 6315P
+series: Xeon 6
+form_factor: Server
+codename: Raptor Lake
+socket: FCLGA1700
+cores: 4
+threads: 4
+perf_cores: 4
+base_clock_ghz: 2.8
+boost_clock_ghz: 4.7
+l3_cache_mb: 12
+tdp_w: 55
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/241603/intel-xeon-6315p-processor-12m-cache-2-80-ghz/specifications.html

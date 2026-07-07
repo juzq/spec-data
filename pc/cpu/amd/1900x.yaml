@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper 1900X
 family: Ryzen Threadripper
 series: Ryzen Threadripper 1000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 socket: sTR4
 release_date: 2017-08
 cores: 8

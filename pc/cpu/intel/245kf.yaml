@@ -1,0 +1,38 @@
+slug: intel-245kf
+brand: Intel
+model: Core™ Ultra 5 Processor 245KF
+series: Core Ultra Series 2
+form_factor: Desktops
+codename: Arrow Lake
+socket: FCLGA1851
+cores: 14
+threads: 14
+perf_cores: 6
+eff_cores: 8
+base_clock_ghz: 4.2
+boost_clock_ghz: 5.2
+perf_core_base_ghz: 4.2
+perf_core_boost_ghz: 5.2
+eff_core_base_ghz: 3.6
+eff_core_boost_ghz: 4.6
+l2_cache_mb: 26
+l3_cache_mb: 24
+tdp_w: 125
+max_turbo_power_w: 159
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 256
+max_memory_speed_mt: 6400
+pcie_version: '5.0'
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-10
+url: https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html

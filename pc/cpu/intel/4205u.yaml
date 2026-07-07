@@ -1,0 +1,45 @@
+slug: intel-4205u
+brand: Intel
+model: Celeron® Processor 4205U
+series: Celeron Processor 4000 Series
+form_factor: Mobile
+codename: Whiskey Lake
+socket: FCBGA1528
+cores: 2
+threads: 2
+base_clock_ghz: 1.8
+l3_cache_mb: 2
+tdp_w: 15
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR4
+  - LPDDR3
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 37.5
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® UHD Graphics for 8th Generation Intel® Processors
+graphics_frequency: 900
+graphics_output: eDP/DP/HDMI/DVI
+max_resolution_hdmi: 4096x2304@24Hz
+max_resolution_dp: 4096x2304@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12'
+opengl: '4.5'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x3EA1'
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-01
+url: https://www.intel.com/content/www/us/en/products/sku/189309/intel-celeron-processor-4205u-2m-cache-1-80-ghz/specifications.html

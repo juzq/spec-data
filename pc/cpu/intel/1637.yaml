@@ -1,0 +1,32 @@
+slug: intel-1637
+brand: Intel
+model: Xeon® D-1637
+series: Xeon D
+form_factor: Server
+codename: Hewitt Lake
+socket: FCBGA1667
+cores: 6
+threads: 12
+base_clock_ghz: 2.9
+boost_clock_ghz: 3.2
+l3_cache_mb: 9
+tdp_w: 55
+process_nm: 14
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-04
+url: https://www.intel.com/content/www/us/en/products/sku/193693/intel-xeon-d1637-processor-9m-cache-2-90ghz/specifications.html

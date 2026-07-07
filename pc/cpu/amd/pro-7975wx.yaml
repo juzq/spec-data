@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper PRO 7975WX
 family: Ryzen Threadripper PRO
 series: Ryzen Threadripper PRO 7000 WX-Series
-form_factor: Desktop
+form_factor: Desktops
 socket: sTR5
 release_date: 2023-10
 cores: 32

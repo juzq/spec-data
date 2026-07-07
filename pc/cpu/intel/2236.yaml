@@ -1,0 +1,43 @@
+slug: intel-2236
+brand: Intel
+model: Xeon® E-2236
+series: Xeon E
+form_factor: Server
+codename: Coffee Lake
+socket: FCLGA1151
+cores: 6
+threads: 12
+base_clock_ghz: 3.4
+boost_clock_ghz: 4.8
+l3_cache_mb: 12
+tdp_w: 80
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '3.0'
+graphics_output: N/A
+max_resolution_hdmi: N/A
+max_resolution_dp: N/A
+max_resolution_edp: N/A
+directx: N/A
+opengl: N/A
+quick_sync: false
+clear_video: false
+gpu_device_id: N/A
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-04
+url: https://www.intel.com/content/www/us/en/products/sku/191040/intel-xeon-e2236-processor-12m-cache-3-40-ghz/specifications.html

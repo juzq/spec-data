@@ -1,0 +1,35 @@
+slug: intel-2155
+brand: Intel
+model: Xeon® W-2155
+series: Xeon W
+form_factor: Server
+codename: Skylake
+socket: FCLGA2066
+cores: 10
+threads: 20
+base_clock_ghz: 3.3
+boost_clock_ghz: 4.5
+l3_cache_mb: 13
+tdp_w: 140
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 512
+max_memory_bandwidth_gbs: 85.3
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-07
+url: https://www.intel.com/content/www/us/en/products/sku/125042/intel-xeon-w2155-processor-13-75m-cache-3-30-ghz/specifications.html

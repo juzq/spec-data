@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI 5 430
 family: Ryzen
 series: Ryzen AI 400 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Gorgon Point
 socket: FP8
 architecture: 1x Zen 5 , 3x Zen 5c
@@ -50,7 +50,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 840M
 graphics_frequency: 2800
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-430.html
 pbo: true
 expo: false

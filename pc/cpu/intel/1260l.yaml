@@ -1,0 +1,39 @@
+slug: intel-1260l
+brand: Intel
+model: Xeon® Processor E3-1260L
+series: Xeon Processor E3 Family
+form_factor: Server
+codename: Sandy Bridge
+socket: LGA1155
+cores: 4
+threads: 8
+base_clock_ghz: 2.4
+boost_clock_ghz: 3.3
+l3_cache_mb: 8
+tdp_w: 45
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: true
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 2000
+graphics_frequency: 1250
+quick_sync: true
+clear_video: true
+max_displays: 2
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/52275/intel-xeon-processor-e31260l-8m-cache-2-40-ghz/specifications.html

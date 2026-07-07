@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 8300GE
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Phoenix
 socket: AM5
 architecture: 1x Zen 4 , 3x Zen 4c
@@ -50,7 +50,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2600
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-3-8300ge.html
 pbo: true
 expo: true

@@ -1,0 +1,45 @@
+slug: intel-4010y
+brand: Intel
+model: Core™ i3-4010Y
+series: intel-core-i3-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCBGA1168
+cores: 2
+threads: 4
+base_clock_ghz: 1.3
+l3_cache_mb: 3
+tdp_w: 11
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 4200
+graphics_frequency: 850
+graphics_output: eDP/DP/HDMI
+max_resolution_hdmi: 2560x1600@60Hz
+max_resolution_dp: 2561x1600@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x402'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75988/intel-core-i34010y-processor-3m-cache-1-30-ghz/specifications.html

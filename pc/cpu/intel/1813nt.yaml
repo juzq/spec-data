@@ -1,0 +1,30 @@
+slug: intel-1813nt
+brand: Intel
+model: Xeon® D-1813NT
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 4
+threads: 8
+perf_cores: 4
+base_clock_ghz: 2.2
+boost_clock_ghz: 2.4
+l3_cache_mb: 10240
+tdp_w: 42
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 256
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-10
+url: https://www.intel.com/content/www/us/en/products/sku/235740/intel-xeon-d1813nt-processor-10m-cache-up-to-2-40-ghz/specifications.html

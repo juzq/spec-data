@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI 7 PRO 360
 family: Ryzen PRO
 series: Ryzen AI PRO 300 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Strix Point
 socket: FP8
 architecture: 3x Zen 5 , 5x Zen 5c
@@ -50,7 +50,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 880M
 graphics_frequency: 2900
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-360.html
 pbo: false
 expo: false

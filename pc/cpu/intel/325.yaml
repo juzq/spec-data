@@ -1,0 +1,48 @@
+slug: intel-325
+brand: Intel
+model: Core™ Ultra 5 Processor 325
+series: Core Ultra Series 3
+form_factor: Mobile
+codename: Panther Lake
+socket: FCBGA2540
+cores: 8
+threads: 8
+perf_cores: 4
+eff_cores: 0
+base_clock_ghz: 2.1
+boost_clock_ghz: 4.5
+perf_core_base_ghz: 2.1
+perf_core_boost_ghz: 4.5
+eff_core_base_ghz: 1.6
+l3_cache_mb: 12
+tdp_w: 25
+max_turbo_power_w: 55
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5X
+  - DDR5
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 7467
+pcie_version: '5.0'
+integrated_graphics: Intel® Graphics
+graphics_frequency: 2450
+graphics_output: eDP1.5, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: DirectX 12 Ultimate
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0xB090'
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-01
+url: https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html

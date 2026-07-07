@@ -1,0 +1,30 @@
+slug: intel-d1507
+brand: Intel
+model: Pentium® Processor D1507
+series: Pentium Processor D Series
+form_factor: Server
+codename: Broadwell
+socket: FCBGA1667
+cores: 2
+threads: 2
+base_clock_ghz: 1.2
+l3_cache_mb: 3
+tdp_w: 20
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '2.0'
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-10
+url: https://www.intel.com/content/www/us/en/products/sku/91561/intel-pentium-processor-d1507-3m-cache-1-20-ghz/specifications.html

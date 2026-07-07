@@ -1,0 +1,49 @@
+slug: intel-11500
+brand: Intel
+model: Core™ i5-11500
+series: intel-core-i5-processors-11th-gen
+form_factor: Desktops
+codename: Rocket Lake
+socket: FCLGA1200
+cores: 6
+threads: 12
+base_clock_ghz: 2.7
+boost_clock_ghz: 4.6
+l3_cache_mb: 12
+tdp_w: 65
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 50
+ecc_memory: false
+pcie_version: '4.0'
+integrated_graphics: Intel® UHD Graphics 750
+graphics_frequency: 1300
+execution_units: 32
+max_resolution_hdmi: 4096x2160@60Hz
+max_resolution_dp: 5120 x 3200 @60Hz
+max_resolution_edp: 5120 x 3200 @60Hz
+directx: '12.1'
+opengl: '4.5'
+opencl: '3.0'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x4C8A'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-01
+url: https://www.intel.com/content/www/us/en/products/sku/212277/intel-core-i511500-processor-12m-cache-up-to-4-60-ghz/specifications.html

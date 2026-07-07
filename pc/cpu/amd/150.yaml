@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 150
 family: Ryzen
 series: Ryzen 100 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Rembrandt
 socket: FP7 , FP7r2
 architecture: Zen 3+
@@ -53,6 +53,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 660M
 graphics_frequency: 1900
-graphics_cores: 6
+execution_units: 6
 url: https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-5-150.html
 product_id_tray: 100-000000986 (FP7) , 100-000000990 (FP7r2) , 100-000001956 (FP7r2)

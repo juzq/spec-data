@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 9800X3D
 family: Ryzen
 series: Ryzen 9000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 codename: Granite Ridge AM5
 socket: AM5
 chipsets:
@@ -66,9 +66,9 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 2200
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html
-pbo: true
-expo: true
 product_id_boxed: 100-100001084WOF
 product_id_tray: 100-000001084
+pbo: true
+expo: true

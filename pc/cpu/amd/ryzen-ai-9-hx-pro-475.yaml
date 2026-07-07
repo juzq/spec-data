@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI 9 HX PRO 475
 family: Ryzen PRO
 series: Ryzen AI PRO 400 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Gorgon Point
 socket: FP8
 architecture: 4x Zen 5 , 8x Zen 5c
@@ -50,7 +50,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 890M
 graphics_frequency: 3100
-graphics_cores: 16
+execution_units: 16
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html
 pbo: false
 expo: false

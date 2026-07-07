@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 9 6980HS
 family: Ryzen
 series: Ryzen 6000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP7
 cores: 8
 threads: 16

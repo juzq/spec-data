@@ -1,0 +1,29 @@
+slug: intel-2803
+brand: Intel
+model: Xeon® Processor E7-2803
+series: Xeon Processor E7 Family
+form_factor: Server
+codename: Westmere EX
+socket: FCLGA1567,LGA1567
+cores: 6
+threads: 12
+base_clock_ghz: 1.73
+l3_cache_mb: 18
+tdp_w: 105
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 1
+ecc_memory: true
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/53568/intel-xeon-processor-e72803-18m-cache-1-73-ghz-4-80-gts-intel-qpi/specifications.html

@@ -1,0 +1,37 @@
+slug: intel-2105
+brand: Intel
+model: Core™ i3-2105
+series: legacy-intel-core-processors
+form_factor: Desktops
+codename: Sandy Bridge
+socket: FCLGA1155
+cores: 2
+threads: 4
+base_clock_ghz: 3.1
+l3_cache_mb: 3
+tdp_w: 65
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics 3000
+graphics_frequency: 1100
+quick_sync: true
+clear_video: true
+max_displays: 2
+gpu_device_id: '0x112'
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/55448/intel-core-i32105-processor-3m-cache-3-10-ghz/specifications.html

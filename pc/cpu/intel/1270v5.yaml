@@ -1,0 +1,44 @@
+slug: intel-1270v5
+brand: Intel
+model: Xeon® Processor E3-1270 v5
+series: Xeon Processor E3 V5 Family
+form_factor: Server
+codename: Skylake
+socket: FCLGA1151
+cores: 4
+threads: 8
+base_clock_ghz: 3.6
+boost_clock_ghz: 4
+l3_cache_mb: 8
+tdp_w: 80
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3L
+memory_channel: 2
+max_memory: 64
+max_memory_bandwidth_gbs: 34.1
+ecc_memory: true
+pcie_version: '3.0'
+graphics_output: N/A
+max_resolution_hdmi: N/A
+max_resolution_dp: N/A
+max_resolution_edp: N/A
+directx: N/A
+opengl: N/A
+quick_sync: false
+clear_video: false
+max_displays: 0
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-10
+url: https://www.intel.com/content/www/us/en/products/sku/88174/intel-xeon-processor-e31270-v5-8m-cache-3-60-ghz/specifications.html

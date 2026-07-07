@@ -1,0 +1,31 @@
+slug: intel-1747nte
+brand: Intel
+model: Xeon® D-1747NTE
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 10
+threads: 20
+perf_cores: 10
+base_clock_ghz: 2.5
+boost_clock_ghz: 3.5
+l3_cache_mb: 15
+tdp_w: 80
+process_nm: 10
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 3
+max_memory: 384
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/226116/intel-xeon-d1747nte-processor-15m-cache-up-to-3-50-ghz/specifications.html

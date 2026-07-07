@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper 7960X
 family: Ryzen Threadripper
 series: Ryzen Threadripper 7000 Series
-form_factor: Desktop
+form_factor: Desktops
 socket: sTR5
 release_date: 2023-10
 cores: 24

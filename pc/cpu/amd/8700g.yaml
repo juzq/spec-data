@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 8700G
 family: Ryzen
 series: Ryzen 8000 Series
-form_factor: Desktop
+form_factor: Desktops
 codename: Phoenix
 socket: AM5
 chipsets:
@@ -61,7 +61,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2900
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html
 pbo: true
 expo: true

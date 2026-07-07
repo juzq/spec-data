@@ -1,0 +1,31 @@
+slug: intel-3235
+brand: Intel
+model: Xeon® W-3235
+series: Xeon W
+form_factor: Workstation
+codename: Cascade Lake
+socket: FCLGA3647
+cores: 12
+threads: 24
+base_clock_ghz: 3.3
+boost_clock_ghz: 4.4
+l3_cache_mb: 19
+tdp_w: 180
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 6
+max_memory: 1
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-04
+url: https://www.intel.com/content/www/us/en/products/sku/193749/intel-xeon-w3235-processor-19-25m-cache-3-30-ghz/specifications.html

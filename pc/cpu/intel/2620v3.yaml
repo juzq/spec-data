@@ -1,0 +1,32 @@
+slug: intel-2620v3
+brand: Intel
+model: Xeon® Processor E5-2620 v3
+series: Xeon Processor E5 V3 Family
+form_factor: Server
+codename: Haswell
+socket: FCLGA2011
+cores: 6
+threads: 12
+base_clock_ghz: 2.4
+boost_clock_ghz: 3.2
+l3_cache_mb: 15
+tdp_w: 85
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 768
+max_memory_bandwidth_gbs: 59
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-07
+url: https://www.intel.com/content/www/us/en/products/sku/83352/intel-xeon-processor-e52620-v3-15m-cache-2-40-ghz/specifications.html

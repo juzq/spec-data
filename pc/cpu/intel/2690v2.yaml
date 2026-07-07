@@ -1,0 +1,32 @@
+slug: intel-2690v2
+brand: Intel
+model: Xeon® Processor E5-2690 v2
+series: Xeon Processor E5 V2 Family
+form_factor: Server
+codename: Ivy Bridge EP
+socket: FCLGA2011
+cores: 10
+threads: 20
+base_clock_ghz: 3
+boost_clock_ghz: 3.6
+l3_cache_mb: 25
+tdp_w: 130
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 4
+max_memory: 768
+max_memory_bandwidth_gbs: 59.7
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/75279/intel-xeon-processor-e52690-v2-25m-cache-3-00-ghz/specifications.html

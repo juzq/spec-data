@@ -1,0 +1,39 @@
+slug: intel-1285v4
+brand: Intel
+model: Xeon® Processor E3-1285 v4
+series: Xeon Processor E3 V4 Family
+form_factor: Server
+codename: Broadwell
+socket: FCLGA1150
+cores: 4
+threads: 8
+base_clock_ghz: 3.5
+boost_clock_ghz: 3.8
+l3_cache_mb: 6
+tdp_w: 95
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 29.8
+ecc_memory: true
+pcie_version: '3.0'
+graphics_frequency: 1150
+execution_units: 48
+quick_sync: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-04
+url: https://www.intel.com/content/www/us/en/products/sku/88046/intel-xeon-processor-e31285-v4-6m-cache-3-50-ghz/specifications.html

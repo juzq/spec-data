@@ -1,0 +1,31 @@
+slug: intel-1731nte
+brand: Intel
+model: Xeon® D-1731NTE
+series: Xeon D
+form_factor: Server
+codename: Ice Lake
+socket: FCBGA2227
+cores: 8
+threads: 16
+perf_cores: 8
+base_clock_ghz: 1.7
+boost_clock_ghz: 2.8
+l3_cache_mb: 15
+tdp_w: 45
+process_nm: 10
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 256
+ecc_memory: true
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/229915/intel-xeon-d1731nte-processor-15m-cache-up-to-2-80-ghz/specifications.html

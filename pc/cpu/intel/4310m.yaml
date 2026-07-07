@@ -1,0 +1,45 @@
+slug: intel-4310m
+brand: Intel
+model: Core™ i5-4310M
+series: intel-core-i5-processors-4th-gen
+form_factor: Mobile
+codename: Haswell
+socket: FCPGA946
+cores: 2
+threads: 4
+base_clock_ghz: 2.7
+boost_clock_ghz: 3.4
+l3_cache_mb: 3
+tdp_w: 37
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1250
+graphics_output: eDP/DP/HDMI
+max_resolution_hdmi: 3840x2160@60Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0x416'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/80373/intel-core-i54310m-processor-3m-cache-up-to-3-40-ghz/specifications.html

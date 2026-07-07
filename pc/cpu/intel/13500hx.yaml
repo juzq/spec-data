@@ -1,0 +1,52 @@
+slug: intel-13500hx
+brand: Intel
+model: Core™ i5-13500HX
+series: intel-core-i5-processors-13th-gen
+form_factor: Mobile
+codename: Raptor Lake
+socket: FCBGA1964
+cores: 14
+threads: 20
+perf_cores: 6
+eff_cores: 8
+boost_clock_ghz: 4.7
+perf_core_boost_ghz: 4.7
+eff_core_boost_ghz: 3.5
+l3_cache_mb: 24
+tdp_w: 55
+max_turbo_power_w: 157
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 192
+max_memory_speed_mt: 4800
+max_memory_bandwidth_gbs: 76.8
+pcie_version: '5.0'
+integrated_graphics: Intel® UHD Graphics for 13th Gen Intel® Processors
+graphics_frequency: 1500
+execution_units: 16
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2160 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 5120 x 3200 @ 120Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 1
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x468B'
+hyper_threading: true
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-01
+url: https://www.intel.com/content/www/us/en/products/sku/232156/intel-core-i513500hx-processor-24m-cache-up-to-4-70-ghz/specifications.html

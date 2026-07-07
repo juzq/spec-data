@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 7520C
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Mendocino
 socket: FT6
 architecture: Zen 2
@@ -18,7 +18,6 @@ l3_cache_mb: 4
 tdp_w: 15
 process_nm: 6
 instruction: x86-64
-supported_memory_types: []
 memory_channel: 2
 max_memory: 16
 max_memory_speed_mt: 5500
@@ -30,6 +29,6 @@ usb:
   - 480Mbps
 integrated_graphics: AMD Radeon™ 610M
 graphics_frequency: 1900
-graphics_cores: 2
+execution_units: 2
 url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7520c.html
 product_id_tray: 100-000000773

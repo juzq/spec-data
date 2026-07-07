@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 5625C
 family: Ryzen
 series: Ryzen 5000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP6
 cores: 6
 threads: 12

@@ -1,0 +1,35 @@
+slug: intel-2225
+brand: Intel
+model: Xeon® W-2225
+series: Xeon W
+form_factor: Workstation
+codename: Cascade Lake
+socket: FCLGA2066
+cores: 4
+threads: 8
+base_clock_ghz: 4.1
+boost_clock_ghz: 4.6
+l3_cache_mb: 8
+tdp_w: 105
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 4
+max_memory: 1
+max_memory_bandwidth_gbs: 93.85
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2019-10
+url: https://www.intel.com/content/www/us/en/products/sku/198610/intel-xeon-w2225-processor-8-25m-cache-4-10-ghz/specifications.html

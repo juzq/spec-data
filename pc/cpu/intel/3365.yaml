@@ -1,0 +1,29 @@
+slug: intel-3365
+brand: Intel
+model: Xeon® W-3365
+series: Xeon W
+form_factor: Workstation
+codename: Ice Lake
+socket: FCLGA4189
+cores: 32
+threads: 64
+base_clock_ghz: 2.7
+boost_clock_ghz: 4
+l3_cache_mb: 48
+tdp_w: 270
+process_nm: 10
+instruction: x86-64
+ext_instruction:
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 8
+max_memory: 4
+ecc_memory: true
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-07
+url: https://www.intel.com/content/www/us/en/products/sku/217243/intel-xeon-w3365-processor-48m-cache-up-to-4-00-ghz/specifications.html

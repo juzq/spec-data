@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 PRO 253
 family: Ryzen PRO
 series: Ryzen PRO 200 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Hawk Point
 socket: FP8
 architecture: Zen 4
@@ -48,7 +48,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2500
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-253.html
 pbo: false
 expo: false

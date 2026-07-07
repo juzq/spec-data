@@ -1,0 +1,43 @@
+slug: intel-12700kf
+brand: Intel
+model: Core™ i7-12700KF
+series: intel-core-i7-processors-12th-gen
+form_factor: Desktops
+codename: Alder Lake
+socket: FCLGA1700
+cores: 12
+threads: 20
+perf_cores: 8
+eff_cores: 4
+base_clock_ghz: 3.6
+boost_clock_ghz: 5
+perf_core_base_ghz: 3.6
+perf_core_boost_ghz: 4.9
+eff_core_base_ghz: 2.7
+eff_core_boost_ghz: 3.8
+l2_cache_mb: 12
+l3_cache_mb: 25
+tdp_w: 125
+max_turbo_power_w: 190
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 4800
+max_memory_bandwidth_gbs: 76.8
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-10
+url: https://www.intel.com/content/www/us/en/products/sku/134595/intel-core-i712700kf-processor-25m-cache-up-to-5-00-ghz/specifications.html

@@ -1,0 +1,30 @@
+slug: intel-2438lv3
+brand: Intel
+model: Xeon® Processor E5-2438L v3
+series: Xeon Processor E5 V3 Family
+form_factor: Embedded
+codename: Haswell
+socket: FCLGA1356
+cores: 10
+threads: 20
+base_clock_ghz: 1.8
+l3_cache_mb: 25
+tdp_w: 70
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+max_memory_bandwidth_gbs: 51.2
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2015-01
+url: https://www.intel.com/content/www/us/en/products/sku/84317/intel-xeon-processor-e52438l-v3-25m-cache-1-80-ghz/specifications.html

@@ -1,0 +1,35 @@
+slug: intel-11900kf
+brand: Intel
+model: Core™ i9-11900KF
+series: intel-core-i9-processors-11th-gen
+form_factor: Desktops
+codename: Rocket Lake
+socket: FCLGA1200
+cores: 8
+threads: 16
+base_clock_ghz: 3.5
+boost_clock_ghz: 5.3
+l3_cache_mb: 16
+tdp_w: 125
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_bandwidth_gbs: 50
+ecc_memory: false
+pcie_version: '4.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-01
+url: https://www.intel.com/content/www/us/en/products/sku/212321/intel-core-i911900kf-processor-16m-cache-up-to-5-30-ghz/specifications.html

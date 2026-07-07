@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI 7 PRO 450GE
 family: Ryzen PRO
 series: Ryzen AI PRO 400 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 codename: Gorgon Point AM5
 socket: AM5
 chipsets:
@@ -65,6 +65,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ 860M graphics
 graphics_frequency: 3100
-graphics_cores: 8
+execution_units: 8
 url: https://www.amd.com/en/products/processors/desktops/ryzen-pro/ai-400-series/amd-ryzen-ai-7-pro-450ge.html
 product_id_tray: 100-000001921

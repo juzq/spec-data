@@ -1,0 +1,33 @@
+slug: intel-3104
+brand: Intel
+model: Xeon® Bronze 3104
+series: Xeon Scalable
+form_factor: Server
+codename: Skylake
+socket: FCLGA3647
+cores: 6
+threads: 6
+base_clock_ghz: 1.7
+l3_cache_mb: 8
+tdp_w: 85
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 6
+max_memory: 768
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: false
+turbo_boost: 'No'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-07
+url: https://www.intel.com/content/www/us/en/products/sku/123546/intel-xeon-bronze-3104-processor-8-25m-cache-1-70-ghz/specifications.html

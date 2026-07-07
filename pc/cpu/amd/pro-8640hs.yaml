@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 PRO 8640HS
 family: Ryzen PRO
 series: Ryzen PRO 8000 Series
-form_factor: Desktop
+form_factor: Desktops , 1L Desktops , Laptops , Mobile Workstations
 codename: Hawk Point
 socket: FP7 , FP7r2
 architecture: Zen 4
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 760M
 graphics_frequency: 2600
-graphics_cores: 8
+execution_units: 8
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/8000-series/amd-ryzen-5-pro-8640hs.html
 pbo: true
 expo: false

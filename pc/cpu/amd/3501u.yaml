@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 3501U
 family: Ryzen
 series: Ryzen 3000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Picasso
 socket: FP5
 cores: 4
@@ -21,6 +21,6 @@ max_memory_speed_mt: 2400
 pcie_version: "3.0"
 integrated_graphics: Radeon™ Vega 8 Graphics
 graphics_frequency: 1200
-graphics_cores: 8
+execution_units: 8
 url: https://www.amd.com/en/products/processors/laptop/ryzen/3000-series/amd-ryzen-5-3501u.html
 product_id_tray: YM3501C4T4MFG

@@ -1,0 +1,38 @@
+slug: intel-3465x
+brand: Intel
+model: Xeon® w7-3465X
+series: Xeon W
+form_factor: Workstation
+codename: Sapphire Rapids
+socket: FCLGA4677
+cores: 28
+threads: 56
+perf_cores: 28
+eff_cores: 0
+base_clock_ghz: 2.5
+boost_clock_ghz: 4.8
+l3_cache_mb: 75
+tdp_w: 300
+max_turbo_power_w: 360
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - AMX
+  - SSE4.2
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-01
+url: https://www.intel.com/content/www/us/en/products/sku/233417/intel-xeon-w73465x-processor-75m-cache-2-50-ghz/specifications.html

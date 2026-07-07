@@ -1,0 +1,35 @@
+slug: intel-n3710
+brand: Intel
+model: Pentium® Processor N3710
+series: Pentium Processor N Series
+form_factor: Mobile
+codename: Braswell
+socket: FCBGA1170
+cores: 4
+threads: 4
+base_clock_ghz: 1.6
+l3_cache_mb: 2
+tdp_w: 6
+process_nm: 14
+tjmax: 90
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 8
+ecc_memory: false
+pcie_version: '2.0'
+execution_units: 16
+graphics_output: eDP/DP/HDMI
+directx: 'Yes'
+opengl: 'Yes'
+quick_sync: true
+clear_video: true
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: true
+release_date: 2016-01
+url: https://www.intel.com/content/www/us/en/products/sku/91830/intel-pentium-processor-n3710-2m-cache-up-to-2-56-ghz/specifications.html

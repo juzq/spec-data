@@ -1,0 +1,32 @@
+slug: intel-n2805
+brand: Intel
+model: Celeron® Processor N2805
+series: Celeron Processor N Series
+form_factor: Mobile
+codename: Bay Trail
+socket: FCBGA1170
+cores: 2
+threads: 2
+base_clock_ghz: 1.46
+l3_cache_mb: 1
+tdp_w: 4
+process_nm: 22
+tjmax: 80
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 1
+max_memory: 4
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for Intel Atom® Processor Z3700 Series
+graphics_frequency: 667
+quick_sync: false
+clear_video: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/76754/intel-celeron-processor-n2805-1m-cache-1-46-ghz/specifications.html

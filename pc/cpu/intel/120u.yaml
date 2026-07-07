@@ -1,0 +1,54 @@
+slug: intel-120u
+brand: Intel
+model: Core™ 5 processor 120U
+series: Core Series 1
+form_factor: Mobile
+codename: Raptor Lake
+socket: FCBGA1744
+cores: 10
+threads: 12
+perf_cores: 2
+eff_cores: 8
+base_clock_ghz: 1.4
+boost_clock_ghz: 5
+perf_core_base_ghz: 1.4
+perf_core_boost_ghz: 5
+eff_core_base_ghz: 0.9
+eff_core_boost_ghz: 3.8
+l3_cache_mb: 12
+tdp_w: 15
+max_turbo_power_w: 55
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+  - LPDDR5
+  - LPDDR4X
+memory_channel: 2
+max_memory: 96
+max_memory_speed_mt: 5200
+ecc_memory: false
+integrated_graphics: Intel® Graphics
+graphics_frequency: 1300
+execution_units: 80
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2304 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 4096 x 2304 @ 120Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0xA7AC'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-01
+url: https://www.intel.com/content/www/us/en/products/sku/236796/intel-core-5-processor-120u-12m-cache-up-to-5-00-ghz/specifications.html

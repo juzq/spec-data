@@ -1,0 +1,53 @@
+slug: intel-285h
+brand: Intel
+model: Core™ Ultra 9 Processor 285H
+series: Core Ultra Series 2
+form_factor: Mobile
+codename: Arrow Lake
+socket: FCBGA2049
+cores: 16
+threads: 16
+perf_cores: 6
+eff_cores: 8
+base_clock_ghz: 2.9
+boost_clock_ghz: 5.4
+perf_core_base_ghz: 2.9
+perf_core_boost_ghz: 5.4
+eff_core_base_ghz: 2.7
+eff_core_boost_ghz: 4.5
+l3_cache_mb: 24
+tdp_w: 45
+max_turbo_power_w: 115
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5
+  - DDR5
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 8400
+ecc_memory: false
+pcie_version: '5.0'
+integrated_graphics: Intel® Arc™ 140T GPU
+graphics_frequency: 2350
+graphics_output: eDP1.4b, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_hdmi: "4096 x 2304 @ 60Hz (HDMI 2.1 TMDS); 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)"
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: '12.2'
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x7D51'
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Enterprise
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2025-01
+url: https://www.intel.com/content/www/us/en/products/sku/241747/intel-core-ultra-9-processor-285h-24m-cache-up-to-5-40-ghz/specifications.html

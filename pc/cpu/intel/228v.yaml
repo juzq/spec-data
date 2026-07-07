@@ -1,0 +1,47 @@
+slug: intel-228v
+brand: Intel
+model: Core™ Ultra 5 Processor 228V
+series: Core Ultra Series 2
+form_factor: Mobile
+codename: Lunar Lake
+socket: FCBGA2833
+cores: 8
+threads: 8
+perf_cores: 4
+base_clock_ghz: 2.1
+boost_clock_ghz: 4.5
+perf_core_base_ghz: 2.1
+perf_core_boost_ghz: 4.5
+l3_cache_mb: 8
+tdp_w: 17
+max_turbo_power_w: 37
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - LPDDR5X
+memory_channel: 2
+max_memory: 32
+max_memory_speed_mt: 8533
+pcie_version: '5.0'
+integrated_graphics: Intel® Arc™ 130V GPU
+graphics_frequency: 1850
+graphics_output: eDP1.5, DP 2.1 UHBR20, HDMI 2.1 FRL
+max_resolution_hdmi: "4096 x 2304 @ 60Hz (HDMI 2.1 TMDS); 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)"
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 3840 x 2400 @ 120Hz
+directx: '12.2'
+opengl: '4.6'
+opencl: '3.0'
+quick_sync: true
+max_displays: 3
+gpu_device_id: '0x64A0'
+hyper_threading: false
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2024-07
+url: https://www.intel.com/content/www/us/en/products/sku/240955/intel-core-ultra-5-processor-228v-8m-cache-up-to-4-50-ghz/specifications.html

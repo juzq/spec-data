@@ -1,0 +1,53 @@
+slug: intel-g6900
+brand: Intel
+model: Celeron® Processor G6900
+series: Celeron Processor G Series
+form_factor: Desktops
+codename: Alder Lake
+socket: FCLGA1700
+cores: 2
+threads: 2
+perf_cores: 2
+eff_cores: 0
+base_clock_ghz: 3.4
+perf_core_base_ghz: 3.4
+l2_cache_mb: 2.5
+l3_cache_mb: 4
+tdp_w: 46
+process_nm: 7
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+  - DDR4
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 4800
+max_memory_bandwidth_gbs: 76.8
+pcie_version: '5.0'
+integrated_graphics: Intel® UHD Graphics 710
+graphics_frequency: 1300
+execution_units: 16
+graphics_output: eDP 1.4b, DP 1.4a, HDMI 2.1
+max_resolution_hdmi: 4096 x 2160 @ 60Hz
+max_resolution_dp: 7680 x 4320 @ 60Hz
+max_resolution_edp: 5120 x 3200 @ 120Hz
+directx: '12'
+opengl: '4.5'
+opencl: '3.0'
+codec_engines: 1
+quick_sync: true
+clear_video: true
+max_displays: 4
+gpu_device_id: '0x4693'
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2022-01
+url: https://www.intel.com/content/www/us/en/products/sku/96163/intel-celeron-processor-g6900-4m-cache-3-40-ghz/specifications.html

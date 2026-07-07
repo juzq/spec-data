@@ -1,0 +1,41 @@
+slug: intel-1565lv5
+brand: Intel
+model: Xeon® Processor E3-1565L v5
+series: Xeon Processor E3 V5 Family
+form_factor: Server
+codename: Skylake
+socket: FCBGA1440
+cores: 4
+threads: 8
+base_clock_ghz: 2.5
+boost_clock_ghz: 3.5
+l3_cache_mb: 8
+tdp_w: 35
+process_nm: 14
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+  - LPDDR3
+  - DDR4
+memory_channel: 2
+max_memory: 64
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® Iris® Pro Graphics P580
+graphics_frequency: 1050
+execution_units: 72
+quick_sync: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2016-04
+url: https://www.intel.com/content/www/us/en/products/sku/93740/intel-xeon-processor-e31565l-v5-8m-cache-2-50-ghz/specifications.html

@@ -1,0 +1,29 @@
+slug: intel-6980e-plus
+brand: Intel
+model: Xeon® 6980E+ processor
+series: Xeon 6
+codename: Clearwater Forest
+socket: FCLGA7529
+cores: 264
+threads: 264
+perf_cores: 264
+eff_cores: 264
+base_clock_ghz: 2.1
+boost_clock_ghz: 3.2
+l3_cache_mb: 528
+tdp_w: 400
+process_nm: 18
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 12
+max_memory: 1
+max_memory_speed_mt: 8000
+ecc_memory: true
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-04
+url: https://www.intel.com/content/www/us/en/products/sku/246075/intel-xeon-6980e-processor-528m-cache-2-10-ghz/specifications.html

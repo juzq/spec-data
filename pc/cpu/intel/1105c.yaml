@@ -1,0 +1,29 @@
+slug: intel-1105c
+brand: Intel
+model: Xeon® Processor E3-1105C
+series: Xeon Processor E3 Family
+form_factor: Embedded
+codename: Gladden
+socket: FCBGA1284
+cores: 4
+threads: 8
+base_clock_ghz: 1
+l3_cache_mb: 6
+tdp_w: 25
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/68331/intel-xeon-processor-e31105c-6m-cache-1-00-ghz/specifications.html

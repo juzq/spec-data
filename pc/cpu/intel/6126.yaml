@@ -1,0 +1,34 @@
+slug: intel-6126
+brand: Intel
+model: Xeon® Gold 6126
+series: Xeon Scalable
+form_factor: Server
+codename: Skylake
+socket: FCLGA3647
+cores: 12
+threads: 24
+base_clock_ghz: 2.6
+boost_clock_ghz: 3.7
+l3_cache_mb: 19
+tdp_w: 125
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 6
+max_memory: 768
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-07
+url: https://www.intel.com/content/www/us/en/products/sku/120483/intel-xeon-gold-6126-processor-19-25m-cache-2-60-ghz/specifications.html

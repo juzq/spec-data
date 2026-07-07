@@ -1,0 +1,40 @@
+slug: intel-11850h
+brand: Intel
+model: Core™ i7-11850H
+series: intel-core-i7-processors-11th-gen
+form_factor: Mobile
+codename: Tiger Lake
+socket: FCBGA1787
+cores: 8
+threads: 16
+boost_clock_ghz: 4.8
+l3_cache_mb: 24
+process_nm: 10
+tjmax: 100
+instruction: x86-64
+memory_channel: 2
+max_memory: 128
+max_memory_speed_mt: 3200
+max_memory_bandwidth_gbs: 51.2
+ecc_memory: false
+integrated_graphics: Intel® UHD Graphics for 11th Gen Intel® Processors
+graphics_frequency: 1450
+execution_units: 32
+graphics_output: eDP 1.4b, DP 1.4, HDMI 2.0b
+max_resolution_hdmi: 4096x2304@60Hz
+max_resolution_dp: 7680x4320@60Hz
+max_resolution_edp: 4096x2304@60Hz
+directx: '12.1'
+opengl: '4.6'
+opencl: '3.0'
+codec_engines: 2
+quick_sync: true
+max_displays: 4
+gpu_device_id: '0x9A60'
+hyper_threading: true
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2021-04
+url: https://www.intel.com/content/www/us/en/products/sku/213799/intel-core-i711850h-processor-24m-cache-up-to-4-80-ghz/specifications.html

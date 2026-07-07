@@ -1,0 +1,28 @@
+slug: intel-1405v2
+brand: Intel
+model: Pentium® Processor 1405 v2
+series: Pentium Processor 1000 Series
+form_factor: Embedded
+codename: Ivy Bridge
+socket: FCLGA1356
+cores: 2
+base_clock_ghz: 1.4
+l3_cache_mb: 6
+tdp_w: 40
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 384
+max_memory_bandwidth_gbs: 38.4
+ecc_memory: true
+pcie_version: '3.0'
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/77918/intel-pentium-processor-1405-v2-6m-cache-1-40-ghz/specifications.html

@@ -1,0 +1,40 @@
+slug: intel-3555le
+brand: Intel
+model: Core™ i7-3555LE
+series: legacy-intel-core-processors
+form_factor: Embedded
+codename: Ivy Bridge
+socket: FCBGA1023
+cores: 2
+threads: 4
+base_clock_ghz: 2.5
+boost_clock_ghz: 3.2
+l3_cache_mb: 4
+tdp_w: 25
+process_nm: 22
+tjmax: 105
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+  - DDR3L
+memory_channel: 2
+max_memory: 16
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 4000
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI/SDVO/CRT
+quick_sync: true
+clear_video: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/65712/intel-core-i73555le-processor-4m-cache-up-to-3-20-ghz/specifications.html

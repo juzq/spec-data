@@ -1,0 +1,31 @@
+slug: intel-1543n
+brand: Intel
+model: Xeon® Processor D-1543N
+series: Xeon D
+form_factor: Server
+codename: Broadwell
+socket: FCBGA1667
+cores: 8
+threads: 16
+base_clock_ghz: 1.9
+boost_clock_ghz: 2.5
+l3_cache_mb: 12
+tdp_w: 45
+process_nm: 14
+instruction: x86-64
+ext_instruction:
+  - AVX2
+supported_memory_types:
+  - DDR4
+  - DDR3
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '2.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2017-07
+url: https://www.intel.com/content/www/us/en/products/sku/123000/intel-xeon-processor-d1543n-12m-cache-1-90-ghz/specifications.html

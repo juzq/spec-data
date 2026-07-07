@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 2600E
 family: Ryzen
 series: Ryzen 2000 Series
-form_factor: Desktop
+form_factor: Desktops
 socket: AM4
 cores: 6
 threads: 12

@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen Threadripper 3970X
 family: Ryzen Threadripper
 series: Ryzen Threadripper 3000 Series
-form_factor: Desktop
+form_factor: Desktops , Boxed Processor
 socket: sTRX4
 release_date: 2019-11
 cores: 32

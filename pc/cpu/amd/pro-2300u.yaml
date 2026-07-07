@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 3 PRO 2300U
 family: Ryzen PRO
 series: Ryzen PRO 2000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 socket: FP5
 cores: 4
 threads: 4

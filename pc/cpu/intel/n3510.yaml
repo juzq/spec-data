@@ -1,0 +1,32 @@
+slug: intel-n3510
+brand: Intel
+model: Pentium® Processor N3510
+series: Pentium Processor N Series
+form_factor: Mobile
+codename: Bay Trail
+socket: FCBGA1170
+cores: 4
+threads: 4
+base_clock_ghz: 2
+l3_cache_mb: 2
+tdp_w: 7
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 8
+pcie_version: '2.0'
+integrated_graphics: Intel® HD Graphics for Intel Atom® Processor Z3700 Series
+graphics_frequency: 750
+quick_sync: false
+clear_video: false
+max_displays: 2
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2013-07
+url: https://www.intel.com/content/www/us/en/products/sku/76751/intel-pentium-processor-n3510-2m-cache-2-00-ghz/specifications.html

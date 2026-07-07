@@ -1,0 +1,36 @@
+slug: intel-g1820te
+brand: Intel
+model: Celeron® Processor G1820TE
+series: Celeron Processor G Series
+form_factor: Embedded
+codename: Haswell
+socket: FCLGA1150
+cores: 2
+threads: 2
+base_clock_ghz: 2.2
+l3_cache_mb: 2
+tdp_w: 35
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21.3
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics for 4th Generation Intel® Processors
+graphics_frequency: 1000
+graphics_output: eDP/DP/HDMI/DVI/VGA
+quick_sync: true
+max_displays: 3
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: false
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/78957/intel-celeron-processor-g1820te-2m-cache-2-20-ghz/specifications.html

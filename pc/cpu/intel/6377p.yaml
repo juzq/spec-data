@@ -1,0 +1,32 @@
+slug: intel-6377p
+brand: Intel
+model: Xeon® 6377P
+series: Xeon 6
+codename: Raptor Lake
+socket: FCLGA1700
+cores: 12
+threads: 24
+perf_cores: 12
+base_clock_ghz: 3.1
+boost_clock_ghz: 5.7
+l3_cache_mb: 36
+tdp_w: 95
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR5
+memory_channel: 2
+max_memory: 128
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2026-04
+url: https://www.intel.com/content/www/us/en/products/sku/246153/intel-xeon-6377p-processor-36m-cache-3-100-ghz/specifications.html

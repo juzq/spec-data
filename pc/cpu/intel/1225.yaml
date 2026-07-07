@@ -1,0 +1,38 @@
+slug: intel-1225
+brand: Intel
+model: Xeon® Processor E3-1225
+series: Xeon Processor E3 Family
+form_factor: Server
+codename: Sandy Bridge
+socket: LGA1155
+cores: 4
+threads: 4
+base_clock_ghz: 3.1
+boost_clock_ghz: 3.4
+l3_cache_mb: 6
+tdp_w: 95
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 21
+ecc_memory: true
+pcie_version: '2.0'
+graphics_frequency: 1350
+quick_sync: true
+clear_video: true
+max_displays: 2
+hyper_threading: false
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2011-04
+url: https://www.intel.com/content/www/us/en/products/sku/52270/intel-xeon-processor-e31225-6m-cache-3-10-ghz/specifications.html

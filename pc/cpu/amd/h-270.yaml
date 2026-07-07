@@ -1,9 +1,9 @@
 slug: amd-h-270
 brand: AMD
 model: Ryzen 9 H 270
-family: 锐龙
-series: 锐龙 200 系列
-form_factor: Desktop
+family: Ryzen
+series: Ryzen 200 Series
+form_factor: Desktops
 codename: Hawk Point
 socket: FP8
 architecture: Zen 4
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 780M
 graphics_frequency: 2800
-graphics_cores: 12
+execution_units: 12
 url: https://www.amd.com/zh-cn/products/processors/laptop/ryzen/200-series/amd-ryzen-9-h-270.html
 pbo: true
 expo: true

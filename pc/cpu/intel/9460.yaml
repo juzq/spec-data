@@ -1,0 +1,35 @@
+slug: intel-9460
+brand: Intel
+model: Xeon® CPU Max 9460
+series: Xeon Cpu Max Series
+form_factor: Server
+codename: Sapphire Rapids HBM
+socket: FCLGA4677
+cores: 40
+threads: 80
+base_clock_ghz: 2.2
+boost_clock_ghz: 3.5
+l3_cache_mb: 97
+tdp_w: 350
+process_nm: 7
+instruction: x86-64
+ext_instruction:
+  - AMX
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR5
+memory_channel: 8
+max_memory: 4
+max_memory_speed_mt: 4800
+ecc_memory: true
+pcie_version: '5.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2023-01
+url: https://www.intel.com/content/www/us/en/products/sku/232595/intel-xeon-cpu-max-9460-processor-97-5m-cache-2-20-ghz/specifications.html

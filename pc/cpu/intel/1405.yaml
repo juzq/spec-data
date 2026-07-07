@@ -1,0 +1,32 @@
+slug: intel-1405
+brand: Intel
+model: Pentium® Processor 1405
+series: Pentium Processor 1000 Series
+form_factor: Server
+codename: Sandy Bridge EN
+socket: FCLGA1356
+cores: 2
+threads: 2
+base_clock_ghz: 1.2
+boost_clock_ghz: 1.8
+l3_cache_mb: 5
+tdp_w: 40
+process_nm: 32
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 375
+max_memory_bandwidth_gbs: 25
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: false
+turbo_boost: 'No'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2012-04
+url: https://www.intel.com/content/www/us/en/products/sku/66660/intel-pentium-processor-1405-5m-cache-1-2-ghz/specifications.html

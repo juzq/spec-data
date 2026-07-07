@@ -1,0 +1,31 @@
+slug: intel-2407v2
+brand: Intel
+model: Xeon® Processor E5-2407 v2
+series: Xeon Processor E5 V2 Family
+form_factor: Server
+codename: Ivy Bridge EN
+socket: FCLGA1356
+cores: 4
+threads: 4
+base_clock_ghz: 2.4
+boost_clock_ghz: 2.4
+l3_cache_mb: 10
+tdp_w: 80
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 3
+max_memory: 384
+max_memory_bandwidth_gbs: 32
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: false
+turbo_boost: 'No'
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-01
+url: https://www.intel.com/content/www/us/en/products/sku/75782/intel-xeon-processor-e52407-v2-10m-cache-2-40-ghz/specifications.html

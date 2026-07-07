@@ -1,0 +1,45 @@
+slug: intel-4870hq
+brand: Intel
+model: Core™ i7-4870HQ
+series: intel-core-i7-processors-4th-gen
+form_factor: Mobile
+codename: Crystal Well
+socket: FCBGA1364
+cores: 4
+threads: 8
+base_clock_ghz: 2.5
+boost_clock_ghz: 3.7
+l3_cache_mb: 6
+tdp_w: 47
+process_nm: 22
+tjmax: 100
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX2
+supported_memory_types:
+  - DDR3L
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: false
+integrated_graphics: Intel® Iris® Pro Graphics 5200
+graphics_frequency: 1200
+graphics_output: eDP/DP/HDMI/VGA
+max_resolution_hdmi: 2560x1600@60Hz
+max_resolution_dp: 3840x2160@60Hz
+directx: 11.2/12
+opengl: '4.3'
+quick_sync: true
+clear_video: true
+max_displays: 3
+gpu_device_id: '0xD26'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2014-07
+url: https://www.intel.com/content/www/us/en/products/sku/83504/intel-core-i74870hq-processor-6m-cache-up-to-3-70-ghz/specifications.html

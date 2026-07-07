@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 7 165
 family: Ryzen
 series: Ryzen 100 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Hawk Point
 socket: FP7r2
 architecture: Zen 3+
@@ -31,7 +31,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 760M Graphics
 graphics_frequency: 2400
-graphics_cores: 8
+execution_units: 8
 url: https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-7-165.html
 pbo: false
 expo: false

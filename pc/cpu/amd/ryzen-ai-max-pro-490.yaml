@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen AI Max PRO 490
 family: Ryzen PRO
 series: Ryzen AI Max PRO 400 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Gorgon Halo
 chipsets:
   - FP11
@@ -35,7 +35,6 @@ ext_instruction:
   - SSE4A
   - SSSE3
   - x86-64
-supported_memory_types: []
 max_memory: 192
 max_memory_speed_mt: 5
 pcie_version: "4.0"
@@ -49,7 +48,7 @@ nvme:
   - RAID1
 integrated_graphics: Radeon 8050S Graphics
 graphics_frequency: 2800
-graphics_cores: 32
+execution_units: 32
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-400-series/amd-ryzen-ai-max-pro-490.html
 pbo: false
 expo: false

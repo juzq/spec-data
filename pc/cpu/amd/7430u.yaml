@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 7430U
 family: Ryzen
 series: Ryzen 7000 Series
-form_factor: Desktop
+form_factor: Laptops , Desktops
 codename: Barcelo R
 socket: FP6
 architecture: Zen 3
@@ -52,6 +52,6 @@ nvme:
   - RAID10
 integrated_graphics: AMD Radeon™ Graphics
 graphics_frequency: 1800
-graphics_cores: 7
+execution_units: 7
 url: https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7430u.html
 product_id_tray: 100-000001471

@@ -1,0 +1,35 @@
+slug: intel-3175x
+brand: Intel
+model: Xeon® W-3175X
+series: Xeon W
+form_factor: Desktops
+codename: Skylake
+socket: FCLGA3647
+cores: 28
+threads: 56
+base_clock_ghz: 3.1
+boost_clock_ghz: 3.8
+l3_cache_mb: 38
+tdp_w: 255
+process_nm: 14
+tjmax: 85
+instruction: x86-64
+ext_instruction:
+  - SSE4.2
+  - AVX
+  - AVX2
+  - AVX-512
+supported_memory_types:
+  - DDR4
+memory_channel: 6
+max_memory: 512
+ecc_memory: true
+pcie_version: '3.0'
+hyper_threading: true
+turbo_boost: '2.0'
+vpro: Intel vPro® Platform
+vt_x: true
+vt_d: true
+aes_ni: true
+release_date: 2018-10
+url: https://www.intel.com/content/www/us/en/products/sku/189452/intel-xeon-w3175x-processor-38-5m-cache-3-10-ghz/specifications.html

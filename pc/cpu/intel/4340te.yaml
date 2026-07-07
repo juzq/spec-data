@@ -1,0 +1,37 @@
+slug: intel-4340te
+brand: Intel
+model: Core™ i3-4340TE
+series: intel-core-i3-processors-4th-gen
+form_factor: Embedded
+codename: Haswell
+socket: FCLGA1150
+cores: 2
+threads: 4
+base_clock_ghz: 2.6
+l3_cache_mb: 4
+tdp_w: 35
+process_nm: 22
+instruction: x86-64
+ext_instruction:
+  - SSE4.1
+  - SSE4.2
+  - AVX
+supported_memory_types:
+  - DDR3
+memory_channel: 2
+max_memory: 32
+max_memory_bandwidth_gbs: 25.6
+ecc_memory: true
+pcie_version: '3.0'
+integrated_graphics: Intel® HD Graphics 4600
+graphics_frequency: 1000
+quick_sync: true
+clear_video: true
+max_displays: 3
+hyper_threading: true
+turbo_boost: 'No'
+vt_x: true
+vt_d: false
+aes_ni: true
+release_date: 2014-04
+url: https://www.intel.com/content/www/us/en/products/sku/80918/intel-core-i34340te-processor-4m-cache-2-60-ghz/specifications.html

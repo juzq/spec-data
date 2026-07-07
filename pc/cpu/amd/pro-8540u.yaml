@@ -3,7 +3,7 @@ brand: AMD
 model: Ryzen 5 PRO 8540U
 family: Ryzen PRO
 series: Ryzen PRO 8000 Series
-form_factor: Desktop
+form_factor: Desktops , 1L Desktops , Laptops , Mobile Workstations
 codename: Hawk Point
 socket: FP7 , FP7r2
 architecture: 2x Zen 4 , 4x Zen 4c
@@ -49,7 +49,7 @@ nvme:
   - RAID1
 integrated_graphics: AMD Radeon™ 740M
 graphics_frequency: 2800
-graphics_cores: 4
+execution_units: 4
 url: https://www.amd.com/en/products/processors/laptop/ryzen-pro/8000-series/amd-ryzen-5-pro-8540u.html
 pbo: false
 expo: false
