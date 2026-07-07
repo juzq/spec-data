@@ -83,35 +83,35 @@ bools:
 values:
   family:
     Ryzen: 锐龙
-    Ryzen Threadripper: 锐龙 Threadripper
+    Ryzen Threadripper: 锐龙 线程撕裂者
     Ryzen PRO: 锐龙 PRO
-    Ryzen Threadripper PRO: 锐龙 Threadripper PRO
+    Ryzen Threadripper PRO: 锐龙 线程撕裂者 PRO
   series:
     Ryzen 5000 Series: 锐龙 5000 系列
     Ryzen 7000 Series: 锐龙 7000 系列
     Ryzen 8000 Series: 锐龙 8000 系列
     Ryzen 9000 Series: 锐龙 9000 系列
     Ryzen 1000 Series: 锐龙 1000 系列
-    Ryzen Threadripper 1000 Series: 锐龙 Threadripper 1000 系列
+    Ryzen Threadripper 1000 Series: 锐龙 线程撕裂者 1000 系列
     Ryzen 2000 Series: 锐龙 2000 系列
-    Ryzen Threadripper 2000 Series: 锐龙 Threadripper 2000 系列
+    Ryzen Threadripper 2000 Series: 锐龙 线程撕裂者 2000 系列
     Ryzen 3000 Series: 锐龙 3000 系列
-    Ryzen Threadripper 3000 Series: 锐龙 Threadripper 3000 系列
+    Ryzen Threadripper 3000 Series: 锐龙 线程撕裂者 3000 系列
     Ryzen 4000 Series: 锐龙 4000 系列
-    Ryzen Threadripper 7000 Series: 锐龙 Threadripper 7000 系列
-    Ryzen Threadripper 9000 Series: 锐龙 Threadripper 9000 系列
+    Ryzen Threadripper 7000 Series: 锐龙 线程撕裂者 7000 系列
+    Ryzen Threadripper 9000 Series: 锐龙 线程撕裂者 9000 系列
     Ryzen PRO 200 Series: 锐龙 PRO 200 系列
-    Ryzen PRO 2000 Series: Ryzen PRO 2000 系列
+    Ryzen PRO 2000 Series: 锐龙 PRO 2000 系列
     Ryzen PRO 3000 Series: 锐龙 PRO 3000 系列
-    Ryzen Threadripper PRO 3000 WX-Series: 锐龙 Threadripper PRO 3000 WX 系列
+    Ryzen Threadripper PRO 3000 WX-Series: 锐龙 线程撕裂者 PRO 3000 WX 系列
     Ryzen PRO 4000 Series: 锐龙 PRO 4000 系列
     Ryzen PRO 5000 Series: 锐龙 PRO 5000 系列
-    Ryzen Threadripper PRO 5000 WX-Series: 锐龙 Threadripper PRO 5000 WX 系列
+    Ryzen Threadripper PRO 5000 WX-Series: 锐龙 线程撕裂者 PRO 5000 WX 系列
     Ryzen PRO 6000 Series: 锐龙 PRO 6000 系列
     Ryzen PRO 7000 Series: 锐龙 PRO 7000 系列
-    Ryzen Threadripper PRO 7000 WX-Series: 锐龙 Threadripper PRO 7000 WX 系列
+    Ryzen Threadripper PRO 7000 WX-Series: 锐龙 线程撕裂者 PRO 7000 WX 系列
     Ryzen PRO 8000 Series: 锐龙 PRO 8000 系列
-    Ryzen Threadripper PRO 9000 WX-Series: 锐龙 Threadripper PRO 9000 WX 系列
+    Ryzen Threadripper PRO 9000 WX-Series: 锐龙 线程撕裂者 PRO 9000 WX 系列
     Ryzen AI PRO 300 Series: 锐龙 AI PRO 300 系列
     Ryzen AI Max PRO 300 Series: 锐龙 AI Max PRO 300 系列
     Ryzen 200 Series: 锐龙 200 系列
@@ -241,3 +241,31 @@ values:
   pbo:
     Yes: 是
     No: 否
+series_groups:
+  celeron: "赛扬"
+  pentium: "奔腾"
+  core: "酷睿"
+  core_legacy: "酷睿 2-3 代"
+  core_gen_14: "酷睿 14 代"
+  core_gen_13: "酷睿 13 代"
+  core_gen_12: "酷睿 12 代"
+  core_gen_11: "酷睿 11 代"
+  core_gen_10: "酷睿 10 代"
+  core_gen_9: "酷睿 9 代"
+  core_gen_8: "酷睿 8 代"
+  core_gen_7: "酷睿 7 代"
+  core_gen_6: "酷睿 6 代"
+  core_gen_5: "酷睿 5 代"
+  core_gen_4: "酷睿 4 代"
+  core_x: "酷睿 X"
+  core_n: "酷睿 N"
+  core_series: "酷睿 Series"
+  core_ultra: "酷睿 Ultra Series"
+  xeon: "至强"
+  ryzen: "锐龙"
+  ryzen_threadripper: "锐龙 线程撕裂者"
+  ryzen_threadripper_pro: "锐龙 线程撕裂者 PRO"
+  ryzen_pro: "锐龙 PRO"
+  ryzen_ai: "锐龙 AI"
+  moorethreads: "摩尔线程"
+  other: "其他"
