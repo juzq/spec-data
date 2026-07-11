@@ -1,0 +1,24 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-x870-a-gaming-wifi/spec/
+chipset: AMD X870
+slug: rog-strix-x870-a-gaming-wifi
+model: ROG-STRIX-X870-A-GAMING-WIFI
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 8000
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 4
+sata_ports: 4
+socket: AM5

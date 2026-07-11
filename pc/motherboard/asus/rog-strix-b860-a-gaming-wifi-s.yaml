@@ -1,0 +1,15 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-b860-a-gaming-wifi-s/spec/
+slug: rog-strix-b860-a-gaming-wifi-s
+model: ROG-STRIX-B860-A-GAMING-WIFI-S
+has_bluetooth: true
+chipset: B860
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 8000
+m2_slots: 3
+sata_ports: 4
+socket: LGA1851
+has_wifi: true
+form_factor: ATX

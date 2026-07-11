@@ -1,0 +1,22 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-maximus/rog-maximus-z890-apex/spec/
+chipset: Intel® Z890 芯片组
+slug: rog-maximus-z890-apex
+model: ROG-MAXIMUS-Z890-APEX
+memory_slots: 2
+memory_max_gb: 128
+memory_type: DDR5
+memory_profile: EXPO/XMP
+pcie_x16_slots: 2
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+usb_front_count: 10
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+memory_speed_max_mt: 9200
+m2_slots: 5
+sata_ports: 6
+socket: LGA1851

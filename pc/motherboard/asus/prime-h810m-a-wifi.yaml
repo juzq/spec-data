@@ -1,0 +1,20 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-h810m-a-wifi/techspec/
+chipset: Intel® H810 芯片组
+memory_slots: 2
+memory_max_gb: 128
+memory_type: DDR5
+memory_speed_max_mt: 7200
+memory_profile: EXPO/XMP
+sata_ports: 4
+pcie_x16_slots: 1
+audio_codec: Realtek 7.1 环绕声道高保真音频芯片*
+form_factor: mATX
+slug: prime-h810m-a-wifi
+model: PRIME H810M-A WIFI
+socket: LGA1851
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.3
+has_bluetooth: true
+m2_slots: 2

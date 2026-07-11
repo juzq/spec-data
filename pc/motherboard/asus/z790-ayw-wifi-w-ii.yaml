@@ -1,0 +1,32 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/others/z790-ayw-wifi-w-ii/techspec/
+socket: LGA1700
+chipset: Intel® Z790
+memory_slots: 4
+memory_max_gb: 192
+memory_type: DDR5
+memory_profile: EXPO/XMP
+m2_slots: 3
+sata_ports: 4
+raid_support: RAID 0/1/5/10,
+pcie_x16_slots: 3
+ethernet_2_5g: 1
+ethernet_count: 1
+usb_rear_count: 8
+usb_front_count: 9
+usb_5gbps_rear: 2
+audio_codec: Realtek 7.1 Surround Sound High Definition Audio CODEC*
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+argb_headers: 3
+has_rgb: true
+has_clear_cmos: true
+power_cpu_connectors: 1 x 8-pin +12V
+slug: z790-ayw-wifi-w-ii
+model: Z790-AYW WIFI W II 哎呦喂主板
+memory_speed_max_mt: 8000
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.3
+has_bluetooth: true

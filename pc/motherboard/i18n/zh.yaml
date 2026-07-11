@@ -1,8 +1,16 @@
 field_labels:
   groups:
     basic: 基本信息
-    spec: 规格参数
+    memory: 内存
+    display: 显示输出
+    pcie: 扩展槽
+    storage: 存储
     network: 网络与无线
+    usb: USB 接口
+    audio_io: 音效与音频接口
+    features: 特色功能
+    bios_power: BIOS 与供电
+    physical: 尺寸
     price_date: 价格与发布
   fields:
     brand: 品牌
@@ -10,16 +18,55 @@ field_labels:
     chipset: 芯片组
     socket: 接口
     form_factor: 版型
+    cpu_series: 支持处理器系列
     memory_slots: 内存槽数
     memory_type: 内存类型
     memory_max_gb: 最大内存 (GB)
     memory_speed_max_mt: 最高内存频率 (MT/s)
+    memory_speed_oc_mt: 内存 OC 频率 (MT/s)
+    memory_profile: 内存超频技术
+    hdmi_ports: HDMI 接口数
+    hdmi_version: HDMI 版本
+    displayport_alt: DP 替代模式
+    pcie_x16_slots: PCIe x16 槽数
+    pcie_5_slots: PCIe 5.0 槽数
+    pcie_4_slots: PCIe 4.0 槽数
+    pcie_3_slots: PCIe 3.0 槽数
     m2_slots: M.2 接口数
-    pcie_version: PCIe 版本
+    m2_pcie5_slots: M.2 PCIe 5.0 槽数
+    m2_pcie4_slots: M.2 PCIe 4.0 槽数
     sata_ports: SATA 接口数
+    raid_support: RAID 支持
     has_wifi: Wi-Fi
     wifi_version: Wi-Fi 版本
     has_bluetooth: 蓝牙
+    bluetooth_version: 蓝牙版本
+    ethernet_count: 网口数
+    ethernet_2_5g: 2.5GbE 网口数
+    ethernet_5g: 5GbE 网口数
+    ethernet_10g: 10GbE 网口数
+    usb4_rear: 后置 USB4
+    usb_10gbps_rear: 后置 USB 10Gbps
+    usb_5gbps_rear: 后置 USB 5Gbps
+    usb_2_0_rear: 后置 USB 2.0
+    usb_20gbps_internal: 内置 USB 20Gbps
+    usb_10gbps_internal: 内置 USB 10Gbps
+    usb_5gbps_internal: 内置 USB 5Gbps
+    usb_2_0_internal: 内置 USB 2.0
+    thunderbolt_rear: 后置雷雳
+    audio_codec: 音频编解码
+    audio_channels: 音频声道
+    has_optical_spdif: 光纤 S/PDIF
+    has_audio_jacks: 后置音频口
+    has_rgb: RGB 灯效
+    argb_headers: 可寻址 RGB 接头数
+    has_bios_flashback: BIOS FlashBack
+    has_clear_cmos: Clear CMOS
+    bios_size_mb: BIOS 容量 (MB)
+    power_cpu_connectors: CPU 供电接口
+    power_pcie_connectors: PCIe 供电接口
+    width_mm: 宽度 (mm)
+    depth_mm: 深度 (mm)
     price_cny: 价格 (¥)
     release_date: 发布日期
     name: 名称

@@ -1,0 +1,25 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-x870-p-wifi/techspec/
+socket: AM5
+chipset: AMD X870 芯片组
+memory_slots: 4
+memory_type: DDR5
+memory_speed_max_mt: 8000
+memory_profile: EXPO/XMP
+sata_ports: 2
+raid_support: RAID 0/1/5/10
+pcie_x16_slots: 3
+ethernet_2_5g: 1
+audio_codec: Realtek 7.1 环绕声高清音频芯片*
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+slug: prime-x870-p-wifi
+model: PRIME X870-P WIFI
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+memory_max_gb: 256
+m2_slots: 4

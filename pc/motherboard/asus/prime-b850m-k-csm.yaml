@@ -1,0 +1,31 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/csm/prime-b850m-k-csm/techspec/
+socket: AM5
+chipset: AMD B850
+memory_slots: 2
+memory_max_gb: 128
+memory_type: DDR5
+memory_speed_max_mt: 8200
+memory_profile: EXPO/XMP
+sata_ports: 4
+raid_support: RAID 0/1/5/10
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+ethernet_count: 1
+usb_rear_count: 8
+usb_front_count: 7
+usb_5gbps_rear: 2
+audio_codec: Realtek 7.1 Surround Sound High Definition Audio CODEC*
+bios_size_mb: 256
+form_factor: mATX
+width_mm: 244
+depth_mm: 221
+argb_headers: 3
+has_rgb: true
+has_clear_cmos: true
+power_cpu_connectors: 1 x 8-pin +12V
+slug: prime-b850m-k-csm
+model: PRIME B850M-K-CSM
+m2_slots: 2
+has_wifi: false
+has_bluetooth: false

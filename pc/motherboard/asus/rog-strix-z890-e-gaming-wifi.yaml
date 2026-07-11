@@ -1,0 +1,24 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z890-e-gaming-wifi/spec/
+chipset: 英特尔® Z890 芯片组
+slug: rog-strix-z890-e-gaming-wifi
+model: ROG-STRIX-Z890-E-GAMING-WIFI
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 9200
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+ethernet_count: 1
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 5
+sata_ports: 6
+socket: LGA1851

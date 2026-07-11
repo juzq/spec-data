@@ -1,0 +1,31 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-crosshair/rog-crosshair-x870e-dark-hero/spec/
+chipset: AMD X870E
+raid_support: |-
+  AMD RAIDXpert2 Technology
+  Ryzen™ 9000 & 8000 & 7000 Series Processors: RAID 0/1/5/10*
+  * SATA ports from ASM1162 cannot support RAID
+slug: rog-crosshair-x870e-dark-hero
+model: ROG-CROSSHAIR-X870E-DARK-HERO
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 8600
+memory_profile: EXPO/XMP
+pcie_x16_slots: 2
+ethernet_10g: 1
+ethernet_count: 2
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+usb_rear_count: 11
+usb_front_count: 12
+audio_codec: ALC4082
+bios_size_mb: 64
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 4
+sata_ports: 4
+socket: AM5

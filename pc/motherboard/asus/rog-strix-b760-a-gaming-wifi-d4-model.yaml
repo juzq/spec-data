@@ -1,0 +1,24 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-b760-a-gaming-wifi-d4-model/spec/
+chipset: 英特尔® B760 芯片组
+slug: rog-strix-b760-a-gaming-wifi-d4-model
+model: ROG-STRIX-B760-A-GAMING-WIFI-D4-MODEL
+memory_slots: 4
+memory_max_gb: 128
+memory_type: DDR4
+memory_speed_max_mt: 5333
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.3
+has_bluetooth: true
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 2
+sata_ports: 4
+socket: LGA1700

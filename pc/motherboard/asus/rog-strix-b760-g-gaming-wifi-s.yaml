@@ -1,0 +1,26 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-b760-g-gaming-wifi-s/spec/
+chipset: Intel® B760 Chipset
+slug: rog-strix-b760-g-gaming-wifi-s
+model: ROG-STRIX-B760-G-GAMING-WIFI-S
+memory_slots: 4
+memory_max_gb: 192
+memory_type: DDR5
+memory_speed_max_mt: 8000
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+ethernet_count: 1
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.3
+has_bluetooth: true
+usb_rear_count: 9
+usb_front_count: 7
+bios_size_mb: 256
+width_mm: 244
+depth_mm: 244
+m2_slots: 2
+sata_ports: 4
+socket: LGA1700
+form_factor: mATX

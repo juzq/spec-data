@@ -1,0 +1,29 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-x870e-h-gaming-wifi7-s-hatsune-miku-edition/spec/
+chipset: AMD X870E
+raid_support: |-
+  AMD RAIDXpert2 技术*
+  锐龙 9000 系列处理器：RAID 0/1/5/10
+  锐龙™ 8000 系列处理器：RAID 0/1
+  锐龙™ 7000 系列处理器：RAID 0/1/10
+  * 规格因 CPU 类型而异。
+slug: rog-strix-x870e-h-gaming-wifi7-s-hatsune-miku-edition
+model: ROG-STRIX-X870E-H-GAMING-WIFI7-S-HATSUNE-MIKU-EDITION
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 8000
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+audio_codec: ALC1220P
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 4
+sata_ports: 4
+socket: AM5

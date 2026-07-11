@@ -1,0 +1,26 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/workstation/pro-ws-wrx80e-sage-se-wifi-ii/techspec/
+socket: sWRX8
+chipset: AMD WRX80
+memory_slots: 8
+memory_max_gb: 2048
+memory_type: DDR4
+m2_slots: 3
+sata_ports: 8
+pcie_x16_slots: 7
+ethernet_count: 1
+usb_rear_count: 10
+usb_front_count: 7
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 310
+depth_mm: 330
+power_cpu_connectors: 2 x 8-pin +12V
+slug: pro-ws-wrx80e-sage-se-wifi-ii
+model: Pro WS WRX80E-SAGE SE WIFI II
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.3
+has_bluetooth: true
+memory_speed_max_mt: 3200

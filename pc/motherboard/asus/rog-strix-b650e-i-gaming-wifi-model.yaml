@@ -1,0 +1,23 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-b650e-i-gaming-wifi-model/spec/
+chipset: AMD B650
+slug: rog-strix-b650e-i-gaming-wifi-model
+model: ROG-STRIX-B650E-I-GAMING-WIFI-MODEL
+memory_slots: 2
+memory_max_gb: 64
+memory_type: DDR5
+memory_speed_max_mt: 6400
+memory_profile: EXPO/XMP
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+wifi_version: Wi-Fi 6
+has_wifi: true
+bluetooth_version: v5.2
+has_bluetooth: true
+usb_front_count: 5
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ITX
+m2_slots: 3
+sata_ports: 6
+socket: AM5

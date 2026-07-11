@@ -1,0 +1,29 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b860m-plus/techspec/
+chipset: Intel® B860 芯片组
+memory_slots: 4
+memory_max_gb: 256
+memory_type: DDR5
+memory_speed_max_mt: 8800
+memory_profile: EXPO/XMP
+sata_ports: 4
+raid_support: RAID 0/1/5/10
+pcie_x16_slots: 1
+ethernet_2_5g: 1
+ethernet_count: 1
+usb_rear_count: 8
+usb_front_count: 8
+usb_5gbps_rear: 4
+audio_codec: Realtek 7.1 环绕声高清音频编解码器
+bios_size_mb: 128
+form_factor: mATX
+width_mm: 244
+depth_mm: 244
+has_clear_cmos: true
+power_cpu_connectors: 2 x 8-pin +12V
+slug: tuf-gaming-b860m-plus
+model: TUF GAMING B860M-PLUS
+m2_slots: 3
+has_wifi: false
+has_bluetooth: false
+socket: LGA1851

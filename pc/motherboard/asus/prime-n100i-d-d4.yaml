@@ -1,0 +1,24 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-n100i-d-d4/techspec/
+memory_max_gb: 16
+memory_type: DDR4
+m2_slots: 1
+sata_ports: 1
+ethernet_count: 1
+usb_rear_count: 6
+usb_front_count: 4
+audio_codec: Realtek 7.1 Surround Sound High Definition Audio CODEC*
+bios_size_mb: 128
+form_factor: ITX
+width_mm: 170
+depth_mm: 170
+has_clear_cmos: true
+power_cpu_connectors: 1 x 8-pin +12V
+slug: prime-n100i-d-d4
+model: PRIME N100I-D D4
+has_wifi: true
+has_bluetooth: false
+socket: Onboard
+chipset: Intel SoC
+memory_slots: 1
+memory_speed_max_mt: 3200

@@ -1,0 +1,26 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-h610m-k-argb/techspec/
+socket: LGA1700
+chipset: Intel® H610
+memory_slots: 2
+memory_max_gb: 96
+memory_type: DDR5
+memory_profile: EXPO/XMP
+m2_slots: 1
+sata_ports: 4
+pcie_x16_slots: 1
+ethernet_count: 1
+usb_rear_count: 6
+usb_front_count: 3
+audio_codec: Realtek 7.1 Surround Sound High Definition Audio CODEC*
+bios_size_mb: 128
+form_factor: mATX
+width_mm: 234
+depth_mm: 203
+has_clear_cmos: true
+power_cpu_connectors: 1 x 8-pin +12V
+slug: prime-h610m-k-argb
+model: PRIME H610M-K ARGB
+has_wifi: false
+has_bluetooth: false
+memory_speed_max_mt: 5600

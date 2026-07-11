@@ -1,0 +1,28 @@
+brand: asus
+url: https://rog.asus.com.cn/motherboards/rog-maximus/rog-maximus-z790-apex-encore/spec/
+chipset: Intel® Z790 Chipset
+slug: rog-maximus-z790-apex-encore
+model: ROG-MAXIMUS-Z790-APEX-ENCORE
+memory_slots: 2
+memory_max_gb: 96
+memory_type: DDR5
+memory_speed_max_mt: 4800
+memory_profile: EXPO/XMP
+pcie_x16_slots: 2
+ethernet_2_5g: 1
+ethernet_count: 1
+wifi_version: Wi-Fi 7
+has_wifi: true
+bluetooth_version: v5.4
+has_bluetooth: true
+usb_rear_count: 10
+usb_front_count: 9
+usb_5gbps_rear: 4
+audio_codec: ALC4080
+bios_size_mb: 256
+form_factor: ATX
+width_mm: 305
+depth_mm: 244
+m2_slots: 4
+sata_ports: 8
+socket: LGA1700

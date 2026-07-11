@@ -1,0 +1,20 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/business/pro-a620m-dash-csm/techspec/
+socket: AM5
+chipset: AMD A620 芯片组
+memory_type: DDR5
+memory_profile: EXPO/XMP
+raid_support: RAID 0/1/10
+pcie_x16_slots: 1
+audio_codec: Realtek 7.1 环绕声高清音频编解码器*
+bios_size_mb: 256
+form_factor: mATX
+slug: pro-a620m-dash-csm
+model: Pro A620M-DASH-CSM
+memory_speed_max_mt: 7200
+has_wifi: false
+has_bluetooth: false
+m2_slots: 1
+sata_ports: 4
+memory_slots: 2
+memory_max_gb: 96

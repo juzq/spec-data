@@ -4,12 +4,28 @@ slug_pattern: '^[a-z0-9-]+$'
 groups:
   - key: basic
     order: 1
-  - key: spec
+  - key: memory
     order: 2
-  - key: network
+  - key: display
     order: 3
-  - key: price_date
+  - key: pcie
     order: 4
+  - key: storage
+    order: 5
+  - key: network
+    order: 6
+  - key: usb
+    order: 7
+  - key: audio_io
+    order: 8
+  - key: features
+    order: 9
+  - key: bios_power
+    order: 10
+  - key: physical
+    order: 11
+  - key: price_date
+    order: 12
 
 fields:
   - key: slug
@@ -20,7 +36,6 @@ fields:
   - key: brand
     type: string
     required: true
-    list: true
     group: basic
     filter:
       control: enum
@@ -28,13 +43,6 @@ fields:
   - key: model
     type: string
     required: true
-    list: true
-    group: basic
-
-  - key: chipset
-    type: string
-    required: true
-    list: true
     group: basic
 
   - key: socket
@@ -45,6 +53,11 @@ fields:
     filter:
       control: enum
 
+  - key: chipset
+    type: string
+    required: true
+    group: basic
+
   - key: form_factor
     type: enum
     values: [E-ATX, ATX, mATX, ITX]
@@ -54,11 +67,26 @@ fields:
     filter:
       control: enum
 
+  - key: cpu_series
+    type: string
+    group: basic
+
+  - key: memory_max_gb
+    type: integer
+    required: true
+    positive: true
+    group: memory
+    list: true
+    filter:
+      control: range
+      stepKind: integer
+
   - key: memory_slots
     type: integer
     required: true
     positive: true
-    group: spec
+    group: memory
+    list: true
     filter:
       control: range
       stepKind: integer
@@ -67,46 +95,106 @@ fields:
     type: enum
     values: [DDR4, DDR5]
     required: true
-    group: spec
-
-  - key: memory_max_gb
-    type: integer
-    required: true
-    positive: true
-    group: spec
-    filter:
-      control: range
-      stepKind: integer
+    group: memory
 
   - key: memory_speed_max_mt
     type: integer
     required: true
     positive: true
-    group: spec
+    group: memory
     filter:
       control: range
       stepKind: integer
+
+  - key: memory_speed_oc_mt
+    type: integer
+    positive: true
+    group: memory
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: memory_profile
+    type: string
+    group: memory
+
+  - key: hdmi_ports
+    type: integer
+    nonnegative: true
+    group: display
+
+  - key: hdmi_version
+    type: string
+    group: display
+
+  - key: displayport_alt
+    type: string
+    group: display
+
+  - key: pcie_x16_slots
+    type: integer
+    nonnegative: true
+    group: pcie
+
+  - key: pcie_5_slots
+    type: integer
+    nonnegative: true
+    group: pcie
+
+  - key: pcie_4_slots
+    type: integer
+    nonnegative: true
+    group: pcie
+
+  - key: pcie_3_slots
+    type: integer
+    nonnegative: true
+    group: pcie
 
   - key: m2_slots
     type: integer
     required: true
     nonnegative: true
     list: true
-    group: spec
+    group: storage
     filter:
       control: range
       stepKind: integer
 
-  - key: pcie_version
-    type: string
-    group: spec
+  - key: m2_pcie5_slots
+    type: integer
+    nonnegative: true
+    group: storage
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: m2_pcie4_slots
+    type: integer
+    nonnegative: true
+    group: storage
+    filter:
+      control: range
+      stepKind: integer
 
   - key: sata_ports
     type: integer
     required: true
     nonnegative: true
     list: true
-    group: spec
+    group: storage
+    filter:
+      control: range
+      stepKind: integer
+
+  - key: pcie_version
+    type: enum
+    values: ['2.0', '3.0', '4.0', '5.0']
+    group: pcie
+
+  - key: raid_support
+    type: string
+    group: storage
 
   - key: has_wifi
     type: bool
@@ -122,10 +210,136 @@ fields:
     required: true
     group: network
 
+  - key: bluetooth_version
+    type: string
+    pattern: '^v?\d+(\.\d+)?$'
+    group: network
+
+  - key: ethernet_count
+    type: integer
+    nonnegative: true
+    group: network
+
+  - key: ethernet_2_5g
+    type: integer
+    nonnegative: true
+    group: network
+
+  - key: ethernet_5g
+    type: integer
+    nonnegative: true
+    group: network
+
+  - key: ethernet_10g
+    type: integer
+    nonnegative: true
+    group: network
+
+  - key: usb4_rear
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_10gbps_rear
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_5gbps_rear
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_2_0_rear
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_20gbps_internal
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_10gbps_internal
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_5gbps_internal
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: usb_2_0_internal
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: thunderbolt_rear
+    type: integer
+    nonnegative: true
+    group: usb
+
+  - key: audio_codec
+    type: string
+    group: audio_io
+
+  - key: audio_channels
+    type: enum
+    values: ['2.0', '5.1', '7.1']
+    group: audio_io
+
+  - key: has_optical_spdif
+    type: bool
+    group: audio_io
+
+  - key: has_audio_jacks
+    type: bool
+    group: audio_io
+
+  - key: has_rgb
+    type: bool
+    group: features
+
+  - key: argb_headers
+    type: integer
+    nonnegative: true
+    group: features
+
+  - key: has_bios_flashback
+    type: bool
+    group: features
+
+  - key: has_clear_cmos
+    type: bool
+    group: features
+
+  - key: bios_size_mb
+    type: integer
+    positive: true
+    group: bios_power
+
+  - key: power_cpu_connectors
+    type: string
+    group: bios_power
+
+  - key: power_pcie_connectors
+    type: string
+    group: bios_power
+
+  - key: width_mm
+    type: number
+    positive: true
+    group: physical
+
+  - key: depth_mm
+    type: number
+    positive: true
+    group: physical
+
   - key: price_cny
     type: integer
     positive: true
-    list: true
     group: price_date
     filter:
       control: range
@@ -138,6 +352,13 @@ fields:
     filter:
       control: year
 
+  # --------------来源--------------
+  - key: url
+    type: string
+    pattern: '^https:\/\/'
+    nullable: true
+    # 故意不挂 group: 详情页底部链接读取，不在 SpecTable / 列表里渲染
+
 derived_fields:
   - key: name
     formula: '{brand} {model}'
@@ -146,17 +367,12 @@ derived_fields:
 
   - key: memory
     formula: '{memory_type}×{memory_slots}/{memory_max_gb}GB'
-    list: true
 
   - key: m2_pcie
     formula: '{m2_slots} / {pcie_version ?? "—"}'
-    list: true
 
   - key: wifi_bt
     formula: '{wifi_version ?? "—"} / {has_bluetooth ? "是" : "否"}'
-    list: true
 
   - key: price_release
     formula: '{price_cny != null ? "¥" + price_cny : "—"} / {release_date ?? "—"}'
-    list: true
-

@@ -1,0 +1,21 @@
+brand: asus
+url: https://www.asus.com.cn/motherboards-components/motherboards/csm/prime-h610m-k-d4-argb-csm/techspec/
+chipset: Intel® H610 芯片组
+memory_type: DDR4
+memory_profile: EXPO/XMP
+sata_ports: 4
+pcie_x16_slots: 1
+audio_codec: Realtek 7.1 环绕声道高保真音频编译码芯片**
+bios_size_mb: 128
+form_factor: mATX
+power_cpu_connectors: 1 x 8-pin +12V
+slug: prime-h610m-k-d4-argb-csm
+model: PRIME H610M-K D4 ARGB-CSM
+socket: LGA1700
+usb_front_count: 3
+memory_max_gb: 64
+has_wifi: false
+has_bluetooth: false
+memory_slots: 2
+m2_slots: 1
+memory_speed_max_mt: 5600
