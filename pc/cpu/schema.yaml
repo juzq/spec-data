@@ -2,18 +2,12 @@ category: cpu
 slug_pattern: '^[a-z0-9-]+$'
 
 groups:
-  - key: basic
-    order: 1
-  - key: spec
-    order: 2
-  - key: memory
-    order: 3
-  - key: extensions
-    order: 4
-  - key: display
-    order: 5
-  - key: other
-    order: 6
+  - basic
+  - spec
+  - memory
+  - extensions
+  - display
+  - other
 
 fields:
 

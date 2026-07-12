@@ -2,30 +2,18 @@ category: motherboard
 slug_pattern: '^[a-z0-9-]+$'
 
 groups:
-  - key: basic
-    order: 1
-  - key: memory
-    order: 2
-  - key: display
-    order: 3
-  - key: pcie
-    order: 4
-  - key: storage
-    order: 5
-  - key: network
-    order: 6
-  - key: usb
-    order: 7
-  - key: audio_io
-    order: 8
-  - key: features
-    order: 9
-  - key: bios_power
-    order: 10
-  - key: physical
-    order: 11
-  - key: price_date
-    order: 12
+  - basic
+  - memory
+  - display
+  - pcie
+  - storage
+  - network
+  - usb
+  - audio_io
+  - features
+  - bios_power
+  - physical
+  - price_date
 
 fields:
   - key: slug
