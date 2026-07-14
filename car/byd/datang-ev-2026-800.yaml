@@ -21,7 +21,8 @@ wheelbase: 3130
 whole_warranty: 8年或15万公里
 max_km_per_12_month: 50000
 # ------------ battery ------------
-battery_type: LFP
+battery_type: 
+ - LFP
 battery_technology: 第二代刀片电池（闪充）
 battery_capacity: 105.7
 cltc_electric_range: 800

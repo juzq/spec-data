@@ -20,7 +20,8 @@ wheelbase: 3130
 whole_warranty: 8年或15万公里（空悬8年或16万公里）
 max_km_per_12_month: 50000
 # ------------ battery ------------
-battery_type: LFP
+battery_type: 
+ - LFP
 battery_technology: 第二代刀片电池（闪充）
 battery_capacity: 130.1
 cltc_electric_range: 850
@@ -28,7 +29,7 @@ fast_charging_range: 10-97
 fast_charging_time: 9
 integrated_battery_body: true
 # ------------ drivetrain ------------
-motor_layout: Rear
+motor_layout: Front+Rear
 front_motor_max_power: 215
 front_motor_max_torque: 310
 rear_motor_max_power: 370
@@ -132,8 +133,8 @@ suspension_adjust:
  - SoftHard
  - HighLow
 speed_adjust_body_height: true
-wheel_drive: 4WD
 # ------------ wheel ------------
+wheel_drive: 4WD
 front_wheel: 265/45 R21
 rear_wheel: 265/45 R21
 rear_wheel_steering: true

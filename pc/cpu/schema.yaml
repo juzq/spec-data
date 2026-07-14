@@ -193,7 +193,6 @@ fields:
   - key: ext_instruction
     type: array
     items: { type: string }
-    nullable: true
     group: spec
 
   - key: pbo
@@ -336,27 +335,23 @@ fields:
     type: array
     items: { type: string }
     brand_only: AMD
-    nullable: true
     group: extensions
 
   - key: nvme
     type: array
     items: { type: enum, values: [ Boot, RAID0, RAID1, RAID5, RAID10 ] }
     brand_only: AMD
-    nullable: true
     group: extensions
 
   # --------------显示--------------
   - key: integrated_graphics
     type: string
-    nullable: true
     group: display
     list: true
 
   - key: graphics_frequency
     type: integer
     nonnegative: true
-    nullable: true
     unit: MHz
     group: display
 
@@ -460,7 +455,6 @@ fields:
   - key: url
     type: string
     pattern: '^https:\/\/'
-    nullable: true
     # 故意不挂 group: 详情页底部链接读取，不在 SpecTable / 列表里渲染
 
     # ======= 衍生字段  =======

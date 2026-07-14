@@ -1,0 +1,63 @@
+slug: leap-d19-ev-2026-720-6seat
+# ------------ basic ------------
+brand: Leap Motor
+model: D19 720智尊 6座
+type: SUV
+energy_type: EV
+price: 249800
+length: 5252
+width: 1995
+height: 1780
+wheelbase: 3110
+voltage_platform: 1000
+curb_weight: 2730
+whole_warranty: 整车终身
+# ------------ battery ------------
+battery_type: 
+ - LFP
+ - TL
+battery_cell_brand: CATL
+battery_capacity: 115
+cltc_electric_range: 720
+fast_charging_range: 30-80
+fast_charging_time: 15
+integrated_battery_body: true
+# ------------ drivetrain ------------
+motor_layout: Front+Rear
+front_motor_max_power: 180
+front_motor_max_torque: 265
+rear_motor_max_power: 230
+rear_motor_max_torque: 360
+acceleration_0_100: 4.93
+max_speed: 180
+drive_mode: 
+  - 舒适
+  - 标准
+  - 运动
+# ------------ body ------------
+front_trunk_volume: 176
+trunk_volume: 337
+under_trunk_partition_volume: 81
+# ------------ suspension ------------
+front_suspension: DoubleWishbone
+rear_suspension: 5Link
+air_suspension: DoubleChamber
+damping_body_control: true
+damping_body_preview: true
+suspension_adjust:
+ - SoftHard
+ - HighLow
+speed_adjust_body_height: true
+minimum_ground_clearance: 188
+# ------------ wheel ------------
+wheel_drive: 4WD
+front_wheel: 265/45 R21
+rear_wheel: 265/45 R21
+tires_brand: Michelin
+front_brake: Vented
+rear_brake: Vented
+aluminium_alloy_hub: true
+four_piston_caliper:
+ - Front
+# ------------ seats_steering ------------
+gearshift_lever_form: ElectronicGearLever

@@ -2,13 +2,16 @@ groups:
   - basic
   - battery
   - drivetrain
-  - body
-  - seat
-  - smart_cockpit
   - suspension
   - wheel
   - light
-  - door
+  - doors_windows
+  - seats_steering
+  - interior_convenience
+  - cockpit_display
+  - audio_entertainment
+  - climate_comfort
+  - smart_connect_safety
   - active_safe
   - passive_safety
   - adas
@@ -23,7 +26,7 @@ fields:
 # ------------ basic ------------
   - key: brand
     type: enum
-    values: [BYD]
+    values: [BYD, Leap Motor]
     required: true
     group: basic
     filter:
@@ -61,12 +64,10 @@ fields:
     type: array
     items: { type: string }
     group: basic
-    required: true
   - key: interior_color
     type: array
     items: { type: string }
     group: basic
-    required: true
   - key: length
     type: integer
     positive: true
@@ -80,17 +81,11 @@ fields:
     positive: true
     group: basic
     unit: mm
-    filter:
-      control: range
-      stepKind: integer
   - key: height
     type: integer
     positive: true
     group: basic
     unit: mm
-    filter:
-      control: range
-      stepKind: integer
   - key: wheelbase
     type: integer
     positive: true
@@ -100,21 +95,46 @@ fields:
     filter:
       control: range
       stepKind: integer
+  - key: voltage_platform
+    type: integer
+    positive: true
+    list: true
+    group: basic
+    unit: V
+    filter:
+      control: range
+      stepKind: integer
+  - key: curb_weight
+    type: integer
+    positive: true
+    list: true
+    group: basic
+    unit: kg
+    filter:
+      control: range
+      stepKind: integer
   - key: whole_warranty
     type: string
-    group: wheel
+    group: basic
   - key: max_km_per_12_month
     type: integer
     positive: true
-    group: wheel
+    group: basic
     unit: km
 # ------------ battery ------------
   - key: battery_type
-    type: enum
-    values: [LFP, TL]
+    type: array
+    items: {
+      type: enum,
+      values: [LFP, TL]
+    }
     group: battery
     filter:
       control: enum
+  - key: battery_cell_brand
+    type: enum
+    values: [CATL, Fudi]
+    group: battery
   - key: battery_technology
     type: string
     group: battery
@@ -191,284 +211,6 @@ fields:
     type: array
     items: { type: string }
     group: drivetrain
-# ------------ body ------------
-  - key: heated_steering_wheel
-    type: bool
-    group: body
-  - key: electric_adjust_steering_wheel
-    type: bool
-    group: body
-  - key: steering_wheel_memory
-    type: bool
-    group: body
-  - key: gearshift_lever_form
-    type: enum
-    values: [ElectronicGearLever, TraditionalGearLever]
-    group: body
-  - key: front_makeup_mirror
-    type: bool
-    group: body
-  - key: front_trunk_volume
-    type: integer
-    positive: true
-    group: body
-    unit: L
-    filter:
-      control: range
-      stepKind: integer
-  - key: electric_front_trunk
-    type: bool
-    group: body
-  - key: passenger_golve_compartment
-    type: bool
-    group: body
-  - key: trunk_volume
-    type: integer
-    positive: true
-    group: body
-    unit: L
-    filter:
-      control: range
-      stepKind: integer
-  - key: trunk_volume_second_inverted
-    type: integer
-    positive: true
-    group: body
-    unit: L
-    filter:
-      control: range
-      stepKind: integer
-  - key: trunk_volume_third_inverted
-    type: integer
-    positive: true
-    group: body
-    unit: L
-  - key: cup_holder
-    type: integer
-    positive: true
-    group: body
-    unit: 个
-  - key: real_wood_veneer
-    type: bool
-    group: body
-  - key: active_grille_shutter
-    type: bool
-    group: body
-  - key: heat_pump
-    type: bool
-    group: body
-  - key: vihicle_etc
-    type: bool
-    group: body
-  - key: air_cooled_wireless_charging_power
-    type: integer
-    positive: true
-    group: body
-    unit: W
-  - key: inside_220v_socket_power
-    type: number
-    positive: true
-    group: body
-  - key: VTOL_power
-    type: number
-    positive: true
-    group: body
-    unit: kW
-# ------------ seat ------------
-  - key: seat_num
-    type: integer
-    positive: true
-    group: seat
-    unit: 个
-    filter:
-      control: range
-      stepKind: integer
-  - key: seat_layout
-    type: enum
-    values: [2+3, 2+2+2, 2+2+3, 2+3+2]
-    group: seat
-  - key: seat_material
-    type: enum
-    values: [Nappa, Leather, Fabric]
-    group: seat
-  - key: zero_gravity_seat
-    type: string
-    group: seat
-  - key: electric_adjust_seat
-    type: string
-    group: seat
-  - key: seat_ventilation
-    type: string
-    group: seat
-  - key: seat_heating
-    type: string
-    group: seat
-  - key: seat_massage
-    type: string
-    group: seat
-  - key: seat_memory
-    type: string
-    group: seat
-  - key: seat_leg_rest
-    type: string
-    group: seat
-  - key: seat_lumbar_support
-    type: string
-    group: seat
-  - key: seat_back_small_table
-    type: string
-    group: seat
-  - key: second_row_independent_aviation_seat
-    type: bool
-    group: seat
-  - key: one_key_seat_folded
-    type: string
-    group: seat
-  - key: seat_46_folded
-    type: string
-    group: seat
-  - key: child_iso_fix
-    type: string
-    group: seat
-# ------------ smart_cockpit ------------
-  - key: vehicle_os
-    type: string
-    group: smart_cockpit
-  - key: vehicle_chip
-    type: string
-    group: smart_cockpit
-  - key: vehicle_chip_process
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: nm
-  - key: network_type
-    type: enum
-    values: [5G, 4G]
-    group: smart_cockpit
-  - key: instrument_panel_size
-    type: number
-    positive: true
-    group: smart_cockpit
-    unit: inch
-  - key: central_control_screen_size
-    type: number
-    positive: true
-    group: smart_cockpit
-    unit: inch
-  - key: central_control_screen_resolution
-    type: enum
-    values: [1K, 2K, 3K, 4K]
-    group: smart_cockpit
-  - key: front_passenger_screen_size
-    type: number
-    positive: true
-    group: smart_cockpit
-    unit: inch
-  - key: hud_size
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: inch
-  - key: rear_entertain_screen_size
-    type: number
-    positive: true
-    group: smart_cockpit
-    unit: inch
-  - key: rear_entertain_screen_resolution
-    type: enum
-    values: [1K, 2K, 3K, 4K]
-    group: smart_cockpit
-  - key: rear_multi_function_screen
-    type: bool
-    group: smart_cockpit
-  - key: aircondition
-    type: string
-    group: smart_cockpit
-  - key: fragrance_system
-    type: bool
-    group: smart_cockpit
-  - key: refrigerator_volume
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: L
-    filter:
-      control: range
-      stepKind: integer
-  - key: vehicle_audio_brand
-    type: enum
-    group: smart_cockpit
-    values: [Devialet, Dynaudio]
-  - key: vehicle_audio_num
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: 个
-  - key: driver_head_speaker_num
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: 个
-  - key: front_passenger_head_speaker_num
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: 个
-  - key: dolby_atmos
-    type: bool
-    group: smart_cockpit
-  - key: privacy_sound_shield
-    type: bool
-    group: smart_cockpit
-  - key: exterior_speaker
-    type: bool
-    group: smart_cockpit
-  - key: exterior_microphone
-    type: bool
-    group: smart_cockpit
-  - key: ai_agent
-    type: string
-    group: smart_cockpit
-  - key: driver_face_recognize
-    type: bool
-    group: smart_cockpit
-  - key: karaoke_without_microphone
-    type: bool
-    group: smart_cockpit
-  - key: app_remote_control
-    type: bool
-    group: smart_cockpit
-  - key: bluetooth_key
-    type: bool
-    group: smart_cockpit
-  - key: nfc_key
-    type: bool
-    group: smart_cockpit
-  - key: car_driving_recorder
-    type: enum
-    values: [Forward, 4Side]
-    group: smart_cockpit
-  - key: AVM
-    type: bool
-    group: smart_cockpit
-  - key: sentinel_mode
-    type: bool
-    group: smart_cockpit
-  - key: SR
-    type: bool
-    group: smart_cockpit
-  - key: emergency_call
-    type: bool
-    group: smart_cockpit
-  - key: comfort_control
-    type: bool
-    group: smart_cockpit
-  - key: customized_button_num
-    type: integer
-    positive: true
-    group: smart_cockpit
-    unit: 个
 # ------------ suspension ------------
   - key: front_suspension
     type: enum
@@ -503,6 +245,10 @@ fields:
   - key: speed_adjust_body_height
     type: bool
     group: suspension
+  - key: minimum_ground_clearance
+    type: integer
+    positive: true
+    group: suspension
 # ------------ wheel ------------
   - key: wheel_drive
     type: enum
@@ -513,6 +259,10 @@ fields:
     group: wheel
   - key: rear_wheel
     type: string
+    group: wheel
+  - key: tires_brand
+    type: enum
+    values: [Michelin]
     group: wheel
   - key: rear_wheel_steering
     type: bool
@@ -525,6 +275,9 @@ fields:
   - key: hub_type
     type: enum
     values: [LowWindResistance, MultiSpoke, LargeDisc]
+    group: wheel
+  - key: aluminium_alloy_hub
+    type: bool
     group: wheel
   - key: front_brake
     type: enum
@@ -560,7 +313,6 @@ fields:
   - key: lighting_source
     type: enum
     values: [LED, Halogen]
-    required: true
     group: light
   - key: DRL
     type: bool
@@ -613,67 +365,353 @@ fields:
   - key: welcome_light_carpet
     type: bool
     group: light
-# ------------ door ------------
+# ------------ doors_windows ------------
   - key: door_handle_type
     type: enum
     values: [SemiConcealed, FullyConcealed, Pull]
-    group: door
+    group: doors_windows
   - key: electric_suction_door
     type: bool
-    group: door
+    group: doors_windows
   - key: electric_open_close_door
     type: bool
-    group: door
+    group: doors_windows
   - key: child_safety_door_lock
     type: bool
-    group: door
+    group: doors_windows
   - key: skylight_type
     type: enum
     values: [PanoramicSkyScreen, OpenableSkylight, None]
-    group: door
+    group: doors_windows
   - key: sunshade_type
     type: enum
     values: [ElectricSunshade, None]
-    group: door
+    group: doors_windows
   - key: mezzanine_canopy
     type: bool
-    group: door
+    group: doors_windows
   - key: heat_protecting_glass
     type: string
-    group: door
+    group: doors_windows
   - key: double_layer_soundproof_glass
     type: string
-    group: door
+    group: doors_windows
   - key: privacy_glass
     type: string
-    group: door
+    group: doors_windows
   - key: four_window_one_key_handle
     type: bool
-    group: door
+    group: doors_windows
   - key: electric_fold_exterior_rearview
     type: bool
-    group: door
+    group: doors_windows
   - key: heated_exterior_rearview
     type: bool
-    group: door
+    group: doors_windows
   - key: exterior_rearview_reversing_auto_adjust
     type: bool
-    group: door
+    group: doors_windows
   - key: exterior_rearview_memory
     type: bool
-    group: door
+    group: doors_windows
   - key: electric_tailgate
     type: bool
-    group: door
+    group: doors_windows
   - key: rain_sensing_wiper
     type: bool
-    group: door
+    group: doors_windows
   - key: rear_gear_electric_defrost
     type: bool
-    group: door
+    group: doors_windows
   - key: electric_pedal
     type: bool
-    group: door
+    group: doors_windows
+# ------------ seats_steering ------------
+  - key: seat_num
+    type: integer
+    positive: true
+    group: seats_steering
+    unit: 个
+    filter:
+      control: range
+      stepKind: integer
+  - key: seat_layout
+    type: enum
+    values: [2+3, 2+2+2, 2+2+3, 2+3+2]
+    group: seats_steering
+  - key: seat_material
+    type: enum
+    values: [Nappa, Leather, Fabric]
+    group: seats_steering
+  - key: zero_gravity_seat
+    type: string
+    group: seats_steering
+  - key: electric_adjust_seat
+    type: string
+    group: seats_steering
+  - key: seat_ventilation
+    type: string
+    group: seats_steering
+  - key: seat_heating
+    type: string
+    group: seats_steering
+  - key: seat_massage
+    type: string
+    group: seats_steering
+  - key: seat_memory
+    type: string
+    group: seats_steering
+  - key: seat_leg_rest
+    type: string
+    group: seats_steering
+  - key: seat_lumbar_support
+    type: string
+    group: seats_steering
+  - key: seat_back_small_table
+    type: string
+    group: seats_steering
+  - key: second_row_independent_aviation_seat
+    type: bool
+    group: seats_steering
+  - key: one_key_seat_folded
+    type: string
+    group: seats_steering
+  - key: seat_46_folded
+    type: string
+    group: seats_steering
+  - key: child_iso_fix
+    type: string
+    group: seats_steering
+  - key: heated_steering_wheel
+    type: bool
+    group: seats_steering
+  - key: electric_adjust_steering_wheel
+    type: bool
+    group: seats_steering
+  - key: steering_wheel_memory
+    type: bool
+    group: seats_steering
+  - key: gearshift_lever_form
+    type: enum
+    values: [ElectronicGearLever, TraditionalGearLever]
+    group: seats_steering
+# ------------ interior_convenience ------------
+  - key: front_makeup_mirror
+    type: bool
+    group: interior_convenience
+  - key: front_trunk_volume
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
+    filter:
+      control: range
+      stepKind: integer
+  - key: electric_front_trunk
+    type: bool
+    group: interior_convenience
+  - key: passenger_golve_compartment
+    type: bool
+    group: interior_convenience
+  - key: trunk_volume
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
+    filter:
+      control: range
+      stepKind: integer
+  - key: trunk_volume_second_inverted
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
+    filter:
+      control: range
+      stepKind: integer
+  - key: trunk_volume_third_inverted
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
+  - key: under_trunk_partition_volume
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
+  - key: cup_holder
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: 个
+  - key: real_wood_veneer
+    type: bool
+    group: interior_convenience
+  - key: active_grille_shutter
+    type: bool
+    group: interior_convenience
+  - key: heat_pump
+    type: bool
+    group: interior_convenience
+  - key: vihicle_etc
+    type: bool
+    group: interior_convenience
+  - key: air_cooled_wireless_charging_power
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: W
+  - key: inside_220v_socket_power
+    type: number
+    positive: true
+    group: interior_convenience
+  - key: VTOL_power
+    type: number
+    positive: true
+    group: interior_convenience
+    unit: kW
+# ------------ cockpit_display ------------
+  - key: vehicle_os
+    type: string
+    group: cockpit_display
+  - key: vehicle_chip
+    type: string
+    group: cockpit_display
+  - key: vehicle_chip_process
+    type: integer
+    positive: true
+    group: cockpit_display
+    unit: nm
+  - key: network_type
+    type: enum
+    values: [5G, 4G]
+    group: cockpit_display
+  - key: instrument_panel_size
+    type: number
+    positive: true
+    group: cockpit_display
+    unit: inch
+  - key: central_control_screen_size
+    type: number
+    positive: true
+    group: cockpit_display
+    unit: inch
+  - key: central_control_screen_resolution
+    type: enum
+    values: [1K, 2K, 3K, 4K]
+    group: cockpit_display
+  - key: front_passenger_screen_size
+    type: number
+    positive: true
+    group: cockpit_display
+    unit: inch
+  - key: hud_size
+    type: integer
+    positive: true
+    group: cockpit_display
+    unit: inch
+  - key: rear_entertain_screen_size
+    type: number
+    positive: true
+    group: cockpit_display
+    unit: inch
+  - key: rear_entertain_screen_resolution
+    type: enum
+    values: [1K, 2K, 3K, 4K]
+    group: cockpit_display
+  - key: rear_multi_function_screen
+    type: bool
+    group: cockpit_display
+# ------------ audio_entertainment ------------
+  - key: vehicle_audio_brand
+    type: enum
+    group: audio_entertainment
+    values: [Devialet, Dynaudio]
+  - key: vehicle_audio_num
+    type: integer
+    positive: true
+    group: audio_entertainment
+    unit: 个
+  - key: driver_head_speaker_num
+    type: integer
+    positive: true
+    group: audio_entertainment
+    unit: 个
+  - key: front_passenger_head_speaker_num
+    type: integer
+    positive: true
+    group: audio_entertainment
+    unit: 个
+  - key: dolby_atmos
+    type: bool
+    group: audio_entertainment
+  - key: privacy_sound_shield
+    type: bool
+    group: audio_entertainment
+  - key: exterior_speaker
+    type: bool
+    group: audio_entertainment
+  - key: exterior_microphone
+    type: bool
+    group: audio_entertainment
+  - key: karaoke_without_microphone
+    type: bool
+    group: audio_entertainment
+  - key: ai_agent
+    type: string
+    group: audio_entertainment
+# ------------ climate_comfort ------------
+  - key: aircondition
+    type: string
+    group: climate_comfort
+  - key: fragrance_system
+    type: bool
+    group: climate_comfort
+  - key: refrigerator_volume
+    type: integer
+    positive: true
+    group: climate_comfort
+    unit: L
+    filter:
+      control: range
+      stepKind: integer
+  - key: comfort_control
+    type: bool
+    group: climate_comfort
+  - key: customized_button_num
+    type: integer
+    positive: true
+    group: climate_comfort
+    unit: 个
+# ------------ smart_connect_safety ------------
+  - key: driver_face_recognize
+    type: bool
+    group: smart_connect_safety
+  - key: app_remote_control
+    type: bool
+    group: smart_connect_safety
+  - key: bluetooth_key
+    type: bool
+    group: smart_connect_safety
+  - key: nfc_key
+    type: bool
+    group: smart_connect_safety
+  - key: car_driving_recorder
+    type: enum
+    values: [Forward, 4Side]
+    group: smart_connect_safety
+  - key: AVM
+    type: bool
+    group: smart_connect_safety
+  - key: sentinel_mode
+    type: bool
+    group: smart_connect_safety
+  - key: SR
+    type: bool
+    group: smart_connect_safety
+  - key: emergency_call
+    type: bool
+    group: smart_connect_safety
 # ------------ active_safe ------------
   - key: ESP
     type: bool
@@ -864,9 +902,12 @@ fields:
     group: option
   - key: option_package_price
     type: integer
-    psitive: true
+    positive: true
     group: option
     unit: ￥
+
+
+
 # --------------no_group--------------
   - key: url
     type: string
@@ -881,56 +922,3 @@ derived_fields:
   - key: size
     formula: '{length}x{width}x{height}'
     list: true
-
-# 忽略配置
-# 动力电池智能脉冲自加热 - 大唐
-# VDC2.0 车辆动态控制 - 大唐
-# 滑行/制动能量回收系统 - 大唐
-# EPB电子驻车系统 - 大唐
-# EPS电动助力转向系统 - 大唐
-# BOS刹车优先系统 - 大唐
-# 多重制动防护系统 - 大唐
-# 智能动力制动系统 (IPB) - 大唐
-# 全场景掉头 - 大唐
-# 13横9纵超强笼式车身 - 大唐
-# 动态迎宾灯 - 大唐
-# 智慧灯语 - 大唐
-# 7.1.4环绕音响 - 大唐
-# 魔方全景声2.0 - 大唐
-# 魔方传声筒 - 大唐
-# 多场景情景模式 - 大唐
-# DiCare车辆智能保养系统 - 大唐
-# 手车互联 - 大唐
-# 手机遥控驾驶 - 大唐
-# 智能上下电功能 - 大唐
-# 无钥匙进入及一键启动系统 - 大唐
-# 千里眼 - 大唐
-# 智慧物联 - 大唐
-# 车家互联 - 大唐
-# I-Call智慧客服 - 大唐
-# CN95高效滤网 - 大唐
-# 远程高温消毒杀菌模式 - 大唐
-# 负离子空气净化器 - 大唐
-# 负离子空气净化器 - 大唐
-# 方向盘智驾拨片 - 大唐
-# 全席位多维防晕车模式 - 大唐
-# 金属迎宾踏板 - 大唐
-# 智慧充电系统 - 大唐
-# BYD闪充即插即充 - 大唐
-# 螺纹生态接口（供电） - 大唐
-# 螺纹生态接口（供电） - 大唐
-# 磁吸点位（个） - 大唐
-
-# 所有车标配
-# 未系安全带提醒
-# 车速感应自动上锁
-# 可溃式转向管柱
-# 电子防盗系统
-# 前大灯提前开启/延时关闭
-# 高位制动灯
-# 后雾灯
-# 车门电子解锁
-# 车门应急机械解锁
-# 车载蓝牙
-# 车载WiFi
-# 车载12V电源

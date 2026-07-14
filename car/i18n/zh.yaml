@@ -2,14 +2,17 @@ field_labels:
   groups:
     basic: 基础信息
     battery: 电池
-    drivetrain: 动力
-    body: 车身
-    seat: 座椅
-    smart_cockpit: 智慧座舱
-    suspension: 悬架
-    wheel: 车轮
+    drivetrain: 动力系统
+    suspension: 底盘与悬架
+    wheel: 车轮与制动
     light: 灯光
-    door: 门窗
+    doors_windows: 车门与车窗
+    seats_steering: 座椅与方向盘
+    interior_convenience: 内饰与便利配置
+    cockpit_display: 座舱显示与车机
+    audio_entertainment: 音响与娱乐
+    climate_comfort: 空调与舒适系统
+    smart_connect_safety: 智能互联与安全显示
     active_safe: 主动安全
     passive_safety: 被动安全
     adas: 辅助驾驶
@@ -25,21 +28,24 @@ field_labels:
     price: 售价
     color: 颜色
     interior_color: 内饰颜色
-    length: 长
-    width: 宽
-    height: 高
+    length: 车长
+    width: 车宽
+    height: 车高
     wheelbase: 轴距
+    voltage_platform: 电压平台
+    curb_weight: 整备质量
     whole_warranty: 整车质保
     max_km_per_12_month: 三电终身质保每12个月最大公里数
     # 电池
     battery_type: 电池类型
+    battery_cell_brand: 电芯品牌
     battery_technology: 电池技术
     battery_capacity: 电池容量
     cltc_electric_range: CLTC纯电续航
     fast_charging_range: 快充区间
     fast_charging_time: 快充时间
     integrated_battery_body: 电池车身一体化
-    # 动力
+    # 动力系统
     motor_layout: 动力布局
     front_motor_max_power: 前电机最大功率
     front_motor_max_torque: 前电机最大扭矩
@@ -51,81 +57,7 @@ field_labels:
     distributed_traction_control: 分布式牵引力控制
     intelligent_torque_control: 智能扭矩控制
     drive_mode: 驾驶模式
-    # 车身
-    heated_steering_wheel: 方向盘加热
-    electric_adjust_steering_wheel: 方向盘电动调节
-    steering_wheel_memory: 方向盘电动记忆
-    gearshift_lever_form: 换挡杆形式
-    front_makeup_mirror: 前排化妆镜
-    front_trunk_volume: 前备箱容积
-    electric_front_trunk: 电动前备箱
-    passenger_golve_compartment: 副驾手套箱
-    trunk_volume: 后备箱容积
-    trunk_volume_second_inverted: 后备箱容积(第二排放倒)
-    trunk_volume_third_inverted: 后备箱容积(第三排放倒)
-    cup_holder: 独立杯架
-    real_wood_veneer: 真木饰板
-    active_grille_shutter: 主动进气格栅
-    heat_pump: 热泵
-    vihicle_etc: 车载ETC
-    air_cooled_wireless_charging_power: 风冷无限充电功率
-    inside_220v_socket_power: 车内220v插座功率
-    VTOL_power: 车载对外放电功率
-    # 座椅
-    seat_num: 座位数
-    seat_layout: 座椅布局
-    seat_material: 座椅材质
-    zero_gravity_seat: 零重力座椅
-    electric_adjust_seat: 座椅电动调节
-    seat_ventilation: 座椅通风
-    seat_heating: 座椅加热
-    seat_massage: 座椅按摩
-    seat_memory: 座椅记忆
-    seat_leg_rest: 座椅腿托
-    seat_lumbar_support: 座椅腰撑
-    seat_back_small_table: 座椅背小桌板
-    second_row_independent_aviation_seat: 二排独立航空座椅
-    one_key_seat_folded: 座椅一键放倒
-    seat_46_folded: 座椅4:6放倒
-    child_iso_fix: ISO FIX儿童座椅固定装置
-    # 智慧座舱
-    vehicle_os: 车机系统
-    vehicle_chip: 车机芯片
-    vehicle_chip_process: 车机芯片制程
-    network_type: 网络制式
-    instrument_panel_size: 仪表屏尺寸
-    central_control_screen_size: 中控屏尺寸
-    central_control_screen_resolution: 中控屏分辨率
-    front_passenger_screen_size: 副驾屏尺寸
-    hud_size: HUD尺寸
-    rear_entertain_screen_size: 后排娱乐屏尺寸
-    rear_entertain_screen_resolution: 后排娱乐屏分辨率
-    rear_multi_function_screen: 后排多功能触控屏
-    aircondition: 空调
-    fragrance_system: 香氛系统
-    refrigerator_volume: 车载冰箱尺寸
-    vehicle_audio_brand: 车载音响品牌
-    vehicle_audio_num: 车载音响个数
-    driver_head_speaker_num: 主驾头枕扬声器个数
-    front_passenger_head_speaker_num: 副驾头枕扬声器个数
-    dolby_atmos: 杜比全景声
-    privacy_sound_shield: 隐私声盾
-    exterior_speaker: 车外扬声器
-    exterior_microphone: 车外麦克风
-    ai_agent: AI超级智能体
-    driver_face_recognize: 驾驶员面部识别
-    karaoke_without_microphone: 无麦K歌
-    app_remote_control: 远程App控车
-    bluetooth_key: 蓝牙钥匙
-    nfc_key: NFC钥匙
-    car_driving_recorder: 行车记录仪
-    AVM: 全景影像（AVM）
-    sentinel_mode: 哨兵模式
-    SR: 全场景环境模拟显示(SR)
-    emergency_call: 紧急救援呼叫
-    comfort_control: 舒适控制
-    customized_button_num: 灵动按键
-    # 悬架
+    # 底盘与悬架
     front_suspension: 前悬架类型
     rear_suspension: 后悬架类型
     air_suspension: 空悬类型
@@ -133,13 +65,16 @@ field_labels:
     damping_body_preview: 阻尼车身预瞄
     suspension_adjust: 可变悬挂调节
     speed_adjust_body_height: 车身高度自动随速调节
-    # 车轮
+    minimum_ground_clearance: 最小离地间距
+    # 车轮与制动
     wheel_drive: 驱动形式
     front_wheel: 前轮规格
+    tires_brand: 轮胎品牌
     rear_wheel: 后轮规格
     rear_wheel_steering: 后轮转向
     min_turn_radius: 最小转弯半径
     hub_type: 轮毂类型
+    aluminium_alloy_hub: 轮毂类型
     front_brake: 前制动器类型
     rear_brake: 后制动器类型
     four_piston_caliper: 四活塞卡钳
@@ -165,7 +100,7 @@ field_labels:
     third_indoor_light: 三排室内灯
     adas_blue_light: 辅助驾驶蓝色指示灯
     welcome_light_carpet: 迎宾光毯
-    # 门窗
+    # 车门与车窗
     door_handle_type: 门把手类型
     electric_suction_door: 电吸门
     electric_open_close_door: 电动开合门
@@ -185,6 +120,84 @@ field_labels:
     rain_sensing_wiper: 雨量感应式雨刮
     rear_gear_electric_defrost: 后档电除霜
     electric_pedal: 电动踏板
+    # 座椅与方向盘
+    seat_num: 座位数
+    seat_layout: 座椅布局
+    seat_material: 座椅材质
+    zero_gravity_seat: 零重力座椅
+    electric_adjust_seat: 座椅电动调节
+    seat_ventilation: 座椅通风
+    seat_heating: 座椅加热
+    seat_massage: 座椅按摩
+    seat_memory: 座椅记忆
+    seat_leg_rest: 座椅腿托
+    seat_lumbar_support: 座椅腰撑
+    seat_back_small_table: 座椅背小桌板
+    second_row_independent_aviation_seat: 二排独立航空座椅
+    one_key_seat_folded: 座椅一键放倒
+    seat_46_folded: 座椅4:6放倒
+    child_iso_fix: ISO FIX儿童座椅固定装置
+    heated_steering_wheel: 方向盘加热
+    electric_adjust_steering_wheel: 方向盘电动调节
+    steering_wheel_memory: 方向盘电动记忆
+    gearshift_lever_form: 换挡杆形式
+    # 内饰与便利配置
+    front_makeup_mirror: 前排化妆镜
+    front_trunk_volume: 前备箱容积
+    electric_front_trunk: 电动前备箱
+    passenger_golve_compartment: 副驾手套箱
+    trunk_volume: 后备箱容积
+    trunk_volume_second_inverted: 后备箱容积(第二排放倒)
+    trunk_volume_third_inverted: 后备箱容积(第三排放倒)
+    under_trunk_partition_volume: 后备箱隔板下储物
+    cup_holder: 独立杯架
+    real_wood_veneer: 真木饰板
+    active_grille_shutter: 主动进气格栅
+    heat_pump: 热泵
+    vihicle_etc: 车载ETC
+    air_cooled_wireless_charging_power: 风冷无限充电功率
+    inside_220v_socket_power: 车内220v插座功率
+    VTOL_power: 车载对外放电功率
+    # 座舱显示与车机
+    vehicle_os: 车机系统
+    vehicle_chip: 车机芯片
+    vehicle_chip_process: 车机芯片制程
+    network_type: 网络制式
+    instrument_panel_size: 仪表屏尺寸
+    central_control_screen_size: 中控屏尺寸
+    central_control_screen_resolution: 中控屏分辨率
+    front_passenger_screen_size: 副驾屏尺寸
+    hud_size: HUD尺寸
+    rear_entertain_screen_size: 后排娱乐屏尺寸
+    rear_entertain_screen_resolution: 后排娱乐屏分辨率
+    rear_multi_function_screen: 后排多功能触控屏
+    # 音响与娱乐
+    vehicle_audio_brand: 车载音响品牌
+    vehicle_audio_num: 车载音响个数
+    driver_head_speaker_num: 主驾头枕扬声器个数
+    front_passenger_head_speaker_num: 副驾头枕扬声器个数
+    dolby_atmos: 杜比全景声
+    privacy_sound_shield: 隐私声盾
+    exterior_speaker: 车外扬声器
+    exterior_microphone: 车外麦克风
+    karaoke_without_microphone: 无麦K歌
+    ai_agent: AI超级智能体
+    # 空调与舒适系统
+    aircondition: 空调
+    fragrance_system: 香氛系统
+    refrigerator_volume: 车载冰箱尺寸
+    comfort_control: 舒适控制
+    customized_button_num: 灵动按键
+    # 智能互联与安全显示
+    driver_face_recognize: 驾驶员面部识别
+    app_remote_control: 远程App控车
+    bluetooth_key: 蓝牙钥匙
+    nfc_key: NFC钥匙
+    car_driving_recorder: 行车记录仪
+    AVM: 全景影像（AVM）
+    sentinel_mode: 哨兵模式
+    SR: 全场景环境模拟显示(SR)
+    emergency_call: 紧急救援呼叫
     # 主动安全
     ESP: 车身电子稳定系统
     EBD: 电子制动力分配系统
@@ -248,12 +261,13 @@ field_labels:
     optional_package: 选装包
     option_package_price: 选装包价格
 bools:
-  yes: 是
-  no: 否
+  yes: 有
+  no: 无
 values:
   # 基础信息
   brand:
     BYD: 比亚迪
+    Leap Motor: 零跑
   type:
     HB: 两厢轿车
     Sedan: 三厢轿车
@@ -267,28 +281,15 @@ values:
   battery_type:
     LFP: 磷酸铁锂
     TL: 三元锂
-  # 动力
+  battery_cell_brand:
+    Fudi: 弗迪
+    CATL: 宁德时代
+  # 动力系统
   motor_layout:
     Front: 前置
     Rear: 后置
     Front+Rear: 前置+后置
-  # 车身
-  gearshift_lever_form:
-    ElectronicGearLever: 电子怀档
-    TraditionalGearLever: 传统档把
-  # 座椅
-  seat_material:
-    Nappa: Nappa真皮
-    Leather: 皮质
-    Fabric: 织物
-  # 智慧座舱
-  vehicle_audio_brand:
-    Devialet: 帝瓦雷
-    Dynaudio: 丹拿
-  car_driving_recorder:
-    Forward: 前向
-    4Side: 四向
-  # 悬架
+  # 底盘与悬架
   front_suspension:
     DoubleWishbone: 双叉臂
     MacPherson: 麦弗逊
@@ -303,7 +304,9 @@ values:
   suspension_adjust:
     SoftHard: 软硬
     HighLow: 高低
-  # 车轮
+  # 车轮与制动
+  tires_brand:
+    Michelin: 米其林
   wheel_drive:
     FWD: 前驱
     RWD: 后驱
@@ -327,7 +330,7 @@ values:
   # 灯光
   lighting_source:
     Halogen: 卤素
-  # 门窗
+  # 车门与车窗
   door_handle_type:
     SemiConcealed: 半隐藏式
     FullyConcealed: 全隐藏式
@@ -339,3 +342,120 @@ values:
   sunshade_type:
     None: 无
     ElectricSunshade: 电动遮阳帘
+  # 座椅与方向盘
+  seat_material:
+    Nappa: Nappa真皮
+    Leather: 皮质
+    Fabric: 织物
+  gearshift_lever_form:
+    ElectronicGearLever: 电子怀档
+    TraditionalGearLever: 传统档把
+  # 音响与娱乐
+  vehicle_audio_brand:
+    Devialet: 帝瓦雷
+    Dynaudio: 丹拿
+  # 智能互联与安全显示
+  car_driving_recorder:
+    Forward: 前向
+    4Side: 四向
+
+
+# 忽略配置
+
+# -----------------------------电池
+# 动力电池智能脉冲自加热 - 大唐
+# 智慧充电系统 - 大唐
+# BYD闪充即插即充 - 大唐
+# 滑行/制动能量回收系统 - 大唐
+# 电池智能恒温管理系统 - D19
+# 预约充电 - D19
+# 电池热失控预警 - D19
+# 电池组质保:三电终身质保（限首任车主且非营运） - D19
+
+# -----------------------------动力系统
+# 电机类型:前感应异步/后永磁同步 - D19
+# 驱动电机:3电机 - D19
+# 变速箱:单速变速箱 - D19
+
+# -----------------------------底盘与悬架
+# 车身一键调平 - D19
+# 零动掉头 - D19
+# 圆规掉头 - D19
+# 车身高度调节范围 - D19
+# 便捷上下车 - D19
+# 装载模式 - D19
+# 运动融合控制 - D19
+
+# -----------------------------车轮与制动
+# BOS刹车优先系统 - 大唐
+# 多重制动防护系统 - 大唐
+# 智能动力制动系统 (IPB) - 大唐
+# EPB电子驻车系统 - 大唐
+# EPB电子驻车 - D19
+# 制动能量回收:弱/中/强 - D19
+
+
+# -----------------------------灯光
+# 动态迎宾灯 - 大唐
+# 智慧灯语 - 大唐
+
+# -----------------------------车门与车窗
+# 13横9纵超强笼式车身 - 大唐
+# 金属迎宾踏板 - 大唐
+# 磁吸点位（个） - 大唐
+# 车身结构:5门6座 - D19
+# 无钥匙进入及一键启动系统 - 大唐
+
+# -----------------------------座椅与方向盘
+# EPS电动助力转向系统 - 大唐
+# 电动助力EPS - D19
+
+
+# -----------------------------内饰与便利配置
+# 螺纹生态接口（供电） - 大唐
+# CN95高效滤网 - 大唐
+# 负离子空气净化器 - 大唐
+# 全席位多维防晕车模式 - 大唐
+
+# -----------------------------座舱显示与车机
+# 智能上下电功能 - 大唐
+
+# -----------------------------音响与娱乐
+# 7.1.4环绕音响 - 大唐
+# 魔方全景声2.0 - 大唐
+# 魔方传声筒 - 大唐
+# 多场景情景模式 - 大唐
+
+# -----------------------------智能互联与安全显示
+# 手车互联 - 大唐
+# 手机遥控驾驶 - 大唐
+# 千里眼 - 大唐
+# 智慧物联 - 大唐
+# 车家互联 - 大唐
+# 远程高温消毒杀菌模式 - 大唐
+# DiCare车辆智能保养系统 - 大唐
+# I-Call智慧客服 - 大唐
+
+# -----------------------------主动安全
+# VDC2.0 车辆动态控制 - 大唐
+
+# -----------------------------辅助驾驶
+# 方向盘智驾拨片 - 大唐
+# 全场景掉头 - 大唐
+
+
+
+
+# 所有车标配
+# 未系安全带提醒
+# 车速感应自动上锁
+# 可溃式转向管柱
+# 电子防盗系统
+# 前大灯提前开启/延时关闭
+# 高位制动灯
+# 后雾灯
+# 车门电子解锁
+# 车门应急机械解锁
+# 车载蓝牙
+# 车载WiFi
+# 车载12V电源
