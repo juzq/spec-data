@@ -5,18 +5,18 @@ model: 大唐EV 850盛世
 type: SUV
 energy_type: EV
 price: 309900
-color:
- - 曜石黑
- - 洒金米黑双色
- - 赤帝红银双色
- - 千山翠银双色
-interior_color:
- - 云锦晖
- - 赤夕橙
+color: 曜石黑 / 洒金米黑双色 / 赤帝红银双色 / 千山翠银双色
+interior_color: 云锦晖 / 赤夕橙
 length: 5263
 width: 1999
 height: 1790
 wheelbase: 3130
+voltage_platform:
+  value: 1000
+  marker: unofficial
+curb_weight:
+  value: 2970
+  marker: unspec
 whole_warranty: 8年或15万公里（空悬8年或16万公里）
 max_km_per_12_month: 50000
 # ------------ battery ------------
@@ -67,22 +67,22 @@ real_wood_veneer: true
 active_grille_shutter: true
 heat_pump: true
 vihicle_etc: true
-air_cooled_wireless_charging_power: 50
+wireless_charging: 一排风冷50W x 1
 inside_220v_socket_power: 2.2
 VTOL_power: 6
 # ------------ seat ------------
 seat_num: 7
 seat_layout: 2+2+3
 seat_material: Nappa
-zero_gravity_seat: 前排
-electric_adjust_seat: 前排8向、二排4向、三排靠背
-seat_ventilation: 前排、二排
-seat_heating: 前排、二排、三排
-seat_massage: 前排、二排
-seat_memory: 前排、二排
-seat_leg_rest: 前排、二排
-seat_lumbar_support: 前排电动4向
-seat_back_small_table: 前排
+zero_gravity_seat: 一排
+electric_adjust_seat: 一排8向、二排4向、三排靠背
+seat_ventilation: 一排、二排
+seat_heating: 一排、二排、三排
+seat_massage: 一排、二排
+seat_memory: 一排、二排
+seat_leg_rest: 一排、二排
+seat_lumbar_support: 一排电动4向
+seat_back_small_table: 一排
 second_row_independent_aviation_seat: true
 one_key_seat_folded: 三排
 seat_46_folded: 三排
@@ -174,9 +174,9 @@ child_safety_door_lock: true
 skylight_type: PanoramicSkyScreen
 sunshade_type: ElectricSunshade
 mezzanine_canopy: true
-heat_protecting_glass: 前挡, 四门, 天幕, 后挡
-double_layer_soundproof_glass: 前挡, 四门, 天幕
-privacy_glass: 后排, 后三角, 后挡
+heat_protecting_glass: 前挡、四门、天幕、后挡
+double_layer_soundproof_glass: 前挡、四门、天幕
+privacy_glass: 二排、三排、后挡
 four_window_one_key_handle : true
 electric_fold_exterior_rearview: true
 heated_exterior_rearview: true
@@ -197,7 +197,6 @@ HBB: true
 TBC: true
 AEB: true
 AES: true
-ESA: true
 MEB: true
 AMAP: true
 FCW: true

@@ -56,17 +56,15 @@ fields:
     positive: true
     list: true
     group: basic
-    unit: ￥
+    unit: yuan
     filter:
       control: range
       stepKind: integer
   - key: color
-    type: array
-    items: { type: string }
+    type: string
     group: basic
   - key: interior_color
-    type: array
-    items: { type: string }
+    type: string
     group: basic
   - key: length
     type: integer
@@ -402,6 +400,9 @@ fields:
   - key: four_window_one_key_handle
     type: bool
     group: doors_windows
+  - key: interior_rearview_auto_antiglare
+    type: bool
+    group: doors_windows
   - key: electric_fold_exterior_rearview
     type: bool
     group: doors_windows
@@ -420,10 +421,16 @@ fields:
   - key: rain_sensing_wiper
     type: bool
     group: doors_windows
+  - key: rear_windshield_wiper
+    type: bool
+    group: doors_windows
   - key: rear_gear_electric_defrost
     type: bool
     group: doors_windows
   - key: electric_pedal
+    type: bool
+    group: doors_windows
+  - key: roof_carrier
     type: bool
     group: doors_windows
 # ------------ seats_steering ------------
@@ -431,7 +438,7 @@ fields:
     type: integer
     positive: true
     group: seats_steering
-    unit: 个
+    unit: pcs
     filter:
       control: range
       stepKind: integer
@@ -441,7 +448,7 @@ fields:
     group: seats_steering
   - key: seat_material
     type: enum
-    values: [Nappa, Leather, Fabric]
+    values: [Nappa, TopLayerLeather, Leather, Fabric]
     group: seats_steering
   - key: zero_gravity_seat
     type: string
@@ -459,6 +466,9 @@ fields:
     type: string
     group: seats_steering
   - key: seat_memory
+    type: string
+    group: seats_steering
+  - key: seat_welcome_guest
     type: string
     group: seats_steering
   - key: seat_leg_rest
@@ -543,7 +553,7 @@ fields:
     type: integer
     positive: true
     group: interior_convenience
-    unit: 个
+    unit: pcs
   - key: real_wood_veneer
     type: bool
     group: interior_convenience
@@ -556,9 +566,8 @@ fields:
   - key: vihicle_etc
     type: bool
     group: interior_convenience
-  - key: air_cooled_wireless_charging_power
-    type: integer
-    positive: true
+  - key: wireless_charging
+    type: string
     group: interior_convenience
     unit: W
   - key: inside_220v_socket_power
@@ -631,17 +640,17 @@ fields:
     type: integer
     positive: true
     group: audio_entertainment
-    unit: 个
+    unit: pcs
   - key: driver_head_speaker_num
     type: integer
     positive: true
     group: audio_entertainment
-    unit: 个
+    unit: pcs
   - key: front_passenger_head_speaker_num
     type: integer
     positive: true
     group: audio_entertainment
-    unit: 个
+    unit: pcs
   - key: dolby_atmos
     type: bool
     group: audio_entertainment
@@ -660,21 +669,28 @@ fields:
   - key: ai_agent
     type: string
     group: audio_entertainment
+  - key: voice_region_recognition
+    type: integer
+    positive: true
+    group: audio_entertainment
 # ------------ climate_comfort ------------
   - key: aircondition
+    type: string
+    group: climate_comfort
+  - key: rear_air_condition_vent
     type: string
     group: climate_comfort
   - key: fragrance_system
     type: bool
     group: climate_comfort
   - key: refrigerator_volume
-    type: integer
+    type: number
     positive: true
     group: climate_comfort
     unit: L
     filter:
       control: range
-      stepKind: integer
+      stepKind: decimal
   - key: comfort_control
     type: bool
     group: climate_comfort
@@ -682,7 +698,7 @@ fields:
     type: integer
     positive: true
     group: climate_comfort
-    unit: 个
+    unit: pcs
 # ------------ smart_connect_safety ------------
   - key: driver_face_recognize
     type: bool
@@ -696,6 +712,9 @@ fields:
   - key: nfc_key
     type: bool
     group: smart_connect_safety
+  - key: mechanical_key
+    type: bool
+    group: smart_connect_safety
   - key: car_driving_recorder
     type: enum
     values: [Forward, 4Side]
@@ -703,7 +722,16 @@ fields:
   - key: AVM
     type: bool
     group: smart_connect_safety
+  - key: transparent_chassis
+    type: bool
+    group: smart_connect_safety
+  - key: reversing_camera
+    type: bool
+    group: smart_connect_safety
   - key: sentinel_mode
+    type: bool
+    group: smart_connect_safety
+  - key: parking_photo
     type: bool
     group: smart_connect_safety
   - key: SR
@@ -741,9 +769,6 @@ fields:
     type: bool
     group: active_safe
   - key: AES
-    type: bool
-    group: active_safe
-  - key: ESA
     type: bool
     group: active_safe
   - key: MEB
@@ -830,12 +855,12 @@ fields:
     type: integer
     positive: true
     group: adas
-    unit: 个
+    unit: pcs
   - key: lidar_lines
     type: integer
     positive: true
     group: adas
-    unit: 线
+    unit: lines
   - key: mmw_radar
     type: bool
     group: adas
@@ -843,17 +868,17 @@ fields:
     type: integer
     positive: true
     group: adas
-    unit: 个
+    unit: pcs
   - key: ultrasonic_radar_num
     type: integer
     positive: true
     group: adas
-    unit: 个
+    unit: pcs
   - key: adas_camera_num
     type: integer
     positive: true
     group: adas
-    unit: 个
+    unit: pcs
   - key: capacitive_steering_wheel
     type: bool
     group: adas
@@ -887,24 +912,26 @@ fields:
   - key: FAVP
     type: bool
     group: adas
+  - key: track_reverse
+    type: bool
+    group: adas
 # ------------ option ------------
   - key: color_optional
-    type: array
-    items: { type: string }
+    type: string
     group: option
+    unit: yuan
   - key: color_optional_price
     type: integer
     positive: true
     group: option
-    unit: ￥
+    unit: yuan
   - key: optional_package
     type: string
     group: option
   - key: option_package_price
-    type: integer
-    positive: true
+    type: string
     group: option
-    unit: ￥
+    unit: yuan
 
 
 

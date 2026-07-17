@@ -5,13 +5,18 @@ model: D19 680三电机性能 6座
 type: SUV
 energy_type: EV
 price: 269800
+color: 光电白 / 金属黑 / 天幕灰 / 液态银 / 松谷绿
+interior_color: 云雾灰 / 丹雅棕 / 霁雨灰
 length: 5252
 width: 1995
 height: 1780
 wheelbase: 3110
 voltage_platform: 1000
 curb_weight: 2780
-whole_warranty: 整车终身
+whole_warranty: 首任非营运终身
+max_km_per_12_month: 
+  value: 35000
+  marker: unspec
 # ------------ battery ------------
 battery_type: 
  - LFP
@@ -34,10 +39,6 @@ drive_mode:
   - 舒适
   - 标准
   - 运动
-# ------------ body ------------
-front_trunk_volume: 176
-trunk_volume: 337
-under_trunk_partition_volume: 81
 # ------------ suspension ------------
 front_suspension: DoubleWishbone
 rear_suspension: 5Link
@@ -58,6 +59,141 @@ front_brake: Vented
 rear_brake: Vented
 aluminium_alloy_hub: true
 four_piston_caliper:
- - Front
+  - Front
+auto_hold: true
+tire_pressure_monitor: Direct
+# ------------ light ------------
+lighting_source: LED
+full_width_head_light: true
+front_light_auto_height: true
+AFL: true
+front_indoor_light: true
+second_indoor_light: true
+full_width_tail_light: true
+surround_ambient_light: true
+adas_blue_light: true
+# ------------ doors_windows ------------
+door_handle_type: FullyConcealed
+electric_suction_door: true
+skylight_type: PanoramicSkyScreen
+sunshade_type: ElectricSunshade
+heat_protecting_glass: 二排、三排、后挡
+double_layer_soundproof_glass: 前挡、四门
+privacy_glass: 二排、三排、后挡
+four_window_one_key_handle: true
+interior_rearview_auto_antiglare: true
+electric_fold_exterior_rearview: true
+heated_exterior_rearview: true
+exterior_rearview_reversing_auto_adjust: true
+exterior_rearview_memory: true
+electric_tailgate: true
+rear_windshield_wiper: true
+rear_gear_electric_defrost: true
+roof_carrier: true
 # ------------ seats_steering ------------
+seat_num: 6
+seat_layout: 2+2+2
+seat_material: TopLayerLeather
+zero_gravity_seat: 二排右侧
+electric_adjust_seat: 主驾8向、副驾6向、二排左侧4向、二排右侧6向
+seat_ventilation: 一排、二排
+seat_heating: 一排、二排、三排
+seat_massage: 一排、二排
+seat_memory: 一排、二排、三排
+seat_welcome_guest: 一排
+seat_leg_rest: 二排右侧
+seat_lumbar_support: 一排4向，二排右侧4向
+seat_back_small_table: 一排
+one_key_seat_folded: 三排
+child_iso_fix: 二排、三排
+heated_steering_wheel: true
+electric_adjust_steering_wheel: true
+steering_wheel_memory: true
 gearshift_lever_form: ElectronicGearLever
+# ------------ interior_convenience ------------
+front_trunk_volume: 176
+trunk_volume: 337
+under_trunk_partition_volume: 81
+active_grille_shutter: true
+heat_pump: true
+wireless_charging: 一排50W x 1
+# ------------ audio_entertainment ------------
+vehicle_audio_num: 23
+driver_head_speaker_num: 2
+dolby_atmos: true
+karaoke_without_microphone: true
+voice_region_recognition: 6
+# ------------ climate_comfort ------------
+aircondition: 三温区独立自动
+rear_air_condition_vent: 二排、三排
+fragrance_system: true
+refrigerator_volume: 8.1
+# ------------ smart_connect_safety ------------
+app_remote_control: true
+bluetooth_key: true
+nfc_key: true
+mechanical_key: true
+car_driving_recorder: 4Side
+AVM: true
+transparent_chassis: true
+reversing_camera: true
+sentinel_mode: true
+parking_photo: true
+# ------------ cockpit_display ------------
+vehicle_chip: SA8797 × 2
+network_type: 4G
+instrument_panel_size: 10.25
+central_control_screen_size: 17.3
+hud_size: 60
+rear_entertain_screen_size: 21.4
+rear_entertain_screen_resolution: 3K
+rear_multi_function_screen: true
+# ------------ active_safe ------------
+ESP: true
+EBD: true
+TCS: true
+HAC: true
+PBDC: true
+AEB: true
+AES: true
+MEB: true
+AMAP: true
+FCW: true
+FCTA: true
+FCTB: true
+RCW: true
+RCTA: true
+RCTB: true
+BSD: true
+DOW: true
+DMS: true
+LDA: true
+ISLC: true
+# ------------ passive_safety ------------
+front_airbag: true
+front_seat_side_airbag: true
+front_middle_airbag: true
+second_seat_side_airbag: true
+integrated_side_air_curtain: true
+# ------------ adas ------------
+lidar_num: 1
+mmw_radar: true
+mmw_radar_num: 3
+ultrasonic_radar_num: 12
+adas_camera_num: 11
+CNOA: true
+HNOA: true
+ILCA: true
+ICC: true
+ACC: true
+PTP: true
+APA: true
+RPA: true
+FAVP: true
+track_reverse: true
+# ------------ option ------------
+color_optional: 「银辉之冠」+「向往之境」轮毂 + 金属黑 / 天幕灰 / 松谷绿
+color_optional_price: 5000
+optional_package: 智影套装(百万像素DLP投影大灯+ISD智慧交互灯幕) / 森野氧舱(弥散+鼻息)
+option_package_price: 5000 / 6000
+url: "https://cn.leapmotor.com/parameter-pk-web.html?platform=web&carTypeId=22"

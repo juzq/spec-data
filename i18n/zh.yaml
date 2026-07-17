@@ -1,3 +1,25 @@
 bools:
   yes: 是
   no: 否
+
+marker:
+  unofficial: 非官方参数（车友反馈，仅作参考）
+  unspec: 非配置表参数（未公布到官方配置表，但准确度较高）
+
+units:
+  nm: 纳米
+  inch: 英寸
+  m: 米
+  km: 千米
+  km/h: 公里/小时
+  S: 秒
+  kg: 千克
+  V: 伏
+  L: 升
+  W: 瓦
+  kW: 千瓦
+  N*m: 牛米
+  kWh: 度
+  pcs: 个
+  lines: 线
+  yuan: 元

@@ -74,7 +74,7 @@ field_labels:
     rear_wheel_steering: 后轮转向
     min_turn_radius: 最小转弯半径
     hub_type: 轮毂类型
-    aluminium_alloy_hub: 轮毂类型
+    aluminium_alloy_hub: 铝合金轮毂
     front_brake: 前制动器类型
     rear_brake: 后制动器类型
     four_piston_caliper: 四活塞卡钳
@@ -112,14 +112,17 @@ field_labels:
     double_layer_soundproof_glass: 双层隔音玻璃
     privacy_glass: 隐私玻璃
     four_window_one_key_handle : 四门车窗一键升降
+    interior_rearview_auto_antiglare: 内后视镜防眩目
     electric_fold_exterior_rearview: 外后视镜电动折叠
     heated_exterior_rearview: 外后视镜加热
     exterior_rearview_reversing_auto_adjust: 外后视镜倒车自动调节
     exterior_rearview_memory: 外后视镜记忆
     electric_tailgate: 电动尾门
     rain_sensing_wiper: 雨量感应式雨刮
-    rear_gear_electric_defrost: 后档电除霜
+    rear_windshield_wiper: 后风挡雨刮
+    rear_gear_electric_defrost: 后风挡电除霜
     electric_pedal: 电动踏板
+    roof_carrier: 车顶行李架
     # 座椅与方向盘
     seat_num: 座位数
     seat_layout: 座椅布局
@@ -130,6 +133,7 @@ field_labels:
     seat_heating: 座椅加热
     seat_massage: 座椅按摩
     seat_memory: 座椅记忆
+    seat_welcome_guest: 座椅迎宾
     seat_leg_rest: 座椅腿托
     seat_lumbar_support: 座椅腰撑
     seat_back_small_table: 座椅背小桌板
@@ -155,7 +159,7 @@ field_labels:
     active_grille_shutter: 主动进气格栅
     heat_pump: 热泵
     vihicle_etc: 车载ETC
-    air_cooled_wireless_charging_power: 风冷无限充电功率
+    wireless_charging: 无线充电
     inside_220v_socket_power: 车内220v插座功率
     VTOL_power: 车载对外放电功率
     # 座舱显示与车机
@@ -182,8 +186,10 @@ field_labels:
     exterior_microphone: 车外麦克风
     karaoke_without_microphone: 无麦K歌
     ai_agent: AI超级智能体
+    voice_region_recognition: 语音分区域唤醒识别
     # 空调与舒适系统
     aircondition: 空调
+    rear_air_condition_vent: 后排空调出风口
     fragrance_system: 香氛系统
     refrigerator_volume: 车载冰箱尺寸
     comfort_control: 舒适控制
@@ -193,9 +199,13 @@ field_labels:
     app_remote_control: 远程App控车
     bluetooth_key: 蓝牙钥匙
     nfc_key: NFC钥匙
+    mechanical_key: 机械钥匙
     car_driving_recorder: 行车记录仪
     AVM: 全景影像（AVM）
+    transparent_chassis: 透明底盘
+    reversing_camera: 倒车影像
     sentinel_mode: 哨兵模式
+    parking_photo: 驻车拍照
     SR: 全场景环境模拟显示(SR)
     emergency_call: 紧急救援呼叫
     # 主动安全
@@ -209,7 +219,6 @@ field_labels:
     TBC: 高速爆胎稳行系统
     AEB: 自动紧急制动(AEB)
     AES: 自动紧急转向(AES)
-    ESA: 紧急转向辅助(ESA)
     MEB: 低速紧急制动(MEB)
     AMAP: 加速踏板防误踩(AMAP)
     FCW: 前向碰撞提醒(FCW)
@@ -255,6 +264,7 @@ field_labels:
     APA: 全场景泊车辅助(APA)
     RPA: 遥控泊车辅助(RPA)
     FAVP: 记忆泊车辅助(FAVP)
+    track_reverse: 循迹倒车
     # 选装
     color_optional: 可选装颜色
     color_optional_price: 选装颜色价格
@@ -345,6 +355,7 @@ values:
   # 座椅与方向盘
   seat_material:
     Nappa: Nappa真皮
+    TopLayerLeather: 头层真皮
     Leather: 皮质
     Fabric: 织物
   gearshift_lever_form:
@@ -364,13 +375,13 @@ values:
 
 # -----------------------------电池
 # 动力电池智能脉冲自加热 - 大唐
-# 智慧充电系统 - 大唐
 # BYD闪充即插即充 - 大唐
 # 滑行/制动能量回收系统 - 大唐
 # 电池智能恒温管理系统 - D19
-# 预约充电 - D19
 # 电池热失控预警 - D19
 # 电池组质保:三电终身质保（限首任车主且非营运） - D19
+# V2L对外放电功能 - D19
+# 220V车载电源 - D19
 
 # -----------------------------动力系统
 # 电机类型:前感应异步/后永磁同步 - D19
@@ -390,44 +401,81 @@ values:
 # BOS刹车优先系统 - 大唐
 # 多重制动防护系统 - 大唐
 # 智能动力制动系统 (IPB) - 大唐
-# EPB电子驻车系统 - 大唐
-# EPB电子驻车 - D19
+# EPB电子驻车系统、EPB电子驻车 - 大唐、D19
 # 制动能量回收:弱/中/强 - D19
+# 舒适刹停 - D19
 
 
 # -----------------------------灯光
 # 动态迎宾灯 - 大唐
 # 智慧灯语 - 大唐
+# 壁灯 - D19
 
 # -----------------------------车门与车窗
 # 13横9纵超强笼式车身 - 大唐
+# 高强度笼式车身 - D19
+# 回形五重钢A柱 - D19
 # 金属迎宾踏板 - 大唐
 # 磁吸点位（个） - 大唐
 # 车身结构:5门6座 - D19
 # 无钥匙进入及一键启动系统 - 大唐
+# 车窗防夹 - 大唐、D19
+# 防眩目外后视镜:主驾，自动 - D19
+# 前风窗无骨雨刮 - D19
+# 后风挡隐藏式无骨雨刮 - D19
+# 「天空之镜」纯平侧窗 - D19
+# 第二排侧窗遮阳帘 - D19
+# 第三排侧窗遮阳帘 - D19
+# 迎宾拉手 - D19
 
 # -----------------------------座椅与方向盘
 # EPS电动助力转向系统 - 大唐
 # 电动助力EPS - D19
+# 方向盘材质 - D19
 
 
 # -----------------------------内饰与便利配置
 # 螺纹生态接口（供电） - 大唐
 # CN95高效滤网 - 大唐
-# 负离子空气净化器 - 大唐
+# 负离子空气净化器、负离子发生器 - 大唐、D19
 # 全席位多维防晕车模式 - 大唐
+# Face ID自适应配置系统 - D19
+# 顶棚材质 - D19
+# TYPE-C接口 - D19
 
 # -----------------------------座舱显示与车机
 # 智能上下电功能 - 大唐
+# 应用中心 - D19
+# 零动空间 - D19
+# 情景模式 - D19
+# 120°一键零重力 - D19 6座
+# 二排右侧座椅电动侧滑 - D19 6座
+# 二排座椅头枕调节 - D19 7座
+# 二排座椅靠背角度电动可调 - D19 7座
+# 三排座椅靠背角度电动可调 - D19
+# EZE便捷进出 - D19 7座
+# 一二排电动成床 - D19 7座
+# 二三排电动成床 - D19 7座
 
 # -----------------------------音响与娱乐
-# 7.1.4环绕音响 - 大唐
+# 7.1.4环绕音响 - 大唐、D19
 # 魔方全景声2.0 - 大唐
 # 魔方传声筒 - 大唐
 # 多场景情景模式 - 大唐
+# 可见即可说 - D19
+# 声纹识别 - D19
+# AI语音大模型 - D19
+# 语音连续识别 - D19
+# 声学系统: Leap Sound - D19
+# 扬声器峰值功率 - D19
+
+# -----------------------------空调与舒适系统
+# PM2.5空气质量检测 - D19
+# AQS空气质量控制系统 - D19
+# 电动隐藏式出风口 - D19
 
 # -----------------------------智能互联与安全显示
-# 手车互联 - 大唐
+# 手车互联 - 大唐、D19
 # 手机遥控驾驶 - 大唐
 # 千里眼 - 大唐
 # 智慧物联 - 大唐
@@ -435,27 +483,53 @@ values:
 # 远程高温消毒杀菌模式 - 大唐
 # DiCare车辆智能保养系统 - 大唐
 # I-Call智慧客服 - 大唐
+# 窄道辅助影像 - D19
+# 盲区辅助影像 - D19
+# 起步辅助影像 - D19
+# 上坡辅助影像 - D19
+# 手机近场遥控器 - D19
+# 零跑智投 - D19
+# 行车录像 - D19
 
 # -----------------------------主动安全
+# 紧急转向辅助(ESA) - 大唐
 # VDC2.0 车辆动态控制 - 大唐
+# 紧急车道保持(ELK) - D19
+# 防抱死制动系统(ABS) - D19
+# 电子紧急制动辅助(EBA) - D19
+# 陡坡缓降(HDC) - D19
+# 电子防翻滚功能(ARP) - D19
+# 碰撞后二次制动(MCB) - D19
 
 # -----------------------------辅助驾驶
 # 方向盘智驾拨片 - 大唐
 # 全场景掉头 - 大唐
+# 端到端大模型 - D19
+# 前向车距监测(FDM) - D19
+# 车道保持辅助(LKA) - D19
+# 前车起步提醒 - D19
+# 自定义泊车 - D19
+# 直进直出 - D19
 
 
 
 
 # 所有车标配
-# 未系安全带提醒
-# 车速感应自动上锁
-# 可溃式转向管柱
-# 电子防盗系统
-# 前大灯提前开启/延时关闭
-# 高位制动灯
-# 后雾灯
-# 车门电子解锁
-# 车门应急机械解锁
-# 车载蓝牙
-# 车载WiFi
-# 车载12V电源
+# 未系安全带提醒 - 大唐、D19
+# 车速感应自动上锁 - 大唐
+# 可溃式转向管柱 - 大唐
+# 电子防盗系统 - 大唐
+# 前大灯提前开启/延时关闭 - 大唐
+# 高位制动灯 - 大唐
+# 后雾灯 - 大唐
+# 车门电子解锁 - 大唐
+# 车门应急机械解锁 - 大唐
+# 车载蓝牙、蓝牙/车载电话 - 大唐、D19
+# 车载网络 - D19
+# 车载WiFi - 大唐
+# 车载12V电源 - 大唐
+# 12V锂电电源:一排×1、后备箱×1 - D19
+# 手握方向盘监测 - D19
+# 语音识别控制系统 - D19
+# 语音免唤醒词 - D19
+# 智慧充电系统、预约充电 - 大唐、D19
