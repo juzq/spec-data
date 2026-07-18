@@ -9,10 +9,12 @@ marker:
 units:
   nm: 纳米
   inch: 英寸
+  mm: 毫米
   m: 米
-  km: 千米
+  km: 公里
   km/h: 公里/小时
   S: 秒
+  min: 分钟
   kg: 千克
   V: 伏
   L: 升
@@ -23,3 +25,4 @@ units:
   pcs: 个
   lines: 线
   yuan: 元
+  wan-yuan: 万元

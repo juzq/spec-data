@@ -4,7 +4,8 @@ brand: BYD
 model: 大唐EV 800后驱尊荣
 type: SUV
 energy_type: EV
-price: 239900
+release_date: "2026-06-17"
+price: 23.99
 color: 曜石黑 / 远山灰 / 洒金米 / 赤帝红 /千山翠
 interior_color: 云锦晖 / 赤夕橙
 length: 5263
@@ -22,6 +23,9 @@ max_km_per_12_month: 50000
 # ------------ battery ------------
 battery_type: 
  - LFP
+battery_cell_brand: 
+  value: Fudi
+  marker: unspec
 battery_technology: 第二代刀片电池（闪充）
 battery_capacity: 105.7
 cltc_electric_range: 800
@@ -32,6 +36,7 @@ integrated_battery_body: true
 motor_layout: Rear
 rear_motor_max_power: 300
 rear_motor_max_torque: 365
+motor_num: 1
 acceleration_0_100: 7.8
 max_speed: 240
 silicon_carbide_electric_drive: true
@@ -41,66 +46,6 @@ drive_mode:
   - 运动
   - 雪地
   - 自定义
-# ------------ body ------------
-heated_steering_wheel: true
-gearshift_lever_form: ElectronicGearLever
-front_makeup_mirror: true
-front_trunk_volume: 252
-electric_front_trunk: true
-passenger_golve_compartment: true
-trunk_volume: 464
-trunk_volume_second_inverted: 1359
-trunk_volume_third_inverted: 1838
-cup_holder: 6
-active_grille_shutter: true
-heat_pump: true
-vihicle_etc: true
-wireless_charging: 一排风冷50W x 1
-inside_220v_socket_power: 2.2
-VTOL_power: 6
-# ------------ seat ------------
-seat_num: 7
-seat_layout: 2+2+3
-seat_material: Leather
-zero_gravity_seat: 一排
-electric_adjust_seat: 一排8向、二排4向、三排靠背
-seat_ventilation: 一排、二排
-seat_heating: 一排、二排、三排
-seat_massage: 一排、二排
-seat_memory: 一排、二排
-seat_leg_rest: 一排
-seat_lumbar_support: 一排电动4向
-seat_back_small_table: 一排
-one_key_seat_folded: 三排
-seat_46_folded: 三排
-child_iso_fix: 二排、三排
-# ------------ smart_cockpit ------------
-vehicle_os: DiLink 150
-vehicle_chip_process: 4
-network_type: 5G
-instrument_panel_size: 12.3
-central_control_screen_size: 17.3
-central_control_screen_resolution: 3K
-rear_multi_function_screen: true
-aircondition: 三温区独立自动
-fragrance_system: true
-vehicle_audio_brand: Devialet
-vehicle_audio_num: 20
-driver_head_speaker_num: 2
-exterior_speaker: true
-exterior_microphone: true
-ai_agent: 迪迪虾
-driver_face_recognize: true
-karaoke_without_microphone: true
-app_remote_control: true
-bluetooth_key: true
-nfc_key: true
-car_driving_recorder: 4Side
-AVM: true
-sentinel_mode: true
-SR: true
-emergency_call: true
-comfort_control: true
 # ------------ suspension ------------
 front_suspension: DoubleWishbone
 rear_suspension: 5Link
@@ -109,13 +54,22 @@ damping_body_preview: true
 suspension_adjust:
  - SoftHard
 speed_adjust_body_height: true
+minimum_ground_clearance:
+  value: 177
+  marker: unofficial
 # ------------ wheel ------------
 wheel_drive: RWD
 front_wheel: 255/50 R20
 rear_wheel: 275/45 R20
+tires_brand:
+  value: GoodYear
+  marker: unspec
 rear_wheel_steering: true
 min_turn_radius: 5.2
 hub_type: LowWindResistance
+aluminium_alloy_hub: 
+  value: true
+  marker: unspec
 front_brake: Vented
 rear_brake: Vented
 auto_hold: true
@@ -132,14 +86,11 @@ front_lighting_logo: true
 rear_lighting_logo: true
 full_width_tail_light: true
 surround_ambient_light: true
-front_indoor_light: true
-second_indoor_light: true
-third_indoor_light: true
+indoor_light: 一排 x 2、二排 x 2、三排 x 2、后备箱 x 1
 adas_blue_light: true
-# ------------ door ------------
+# ------------ doors_windows ------------
 door_handle_type: SemiConcealed
 electric_suction_door: true
-child_safety_door_lock: true
 skylight_type: PanoramicSkyScreen
 sunshade_type: ElectricSunshade
 heat_protecting_glass: 前挡、四门、天幕、后挡
@@ -153,6 +104,122 @@ exterior_rearview_memory: true
 electric_tailgate: true
 rain_sensing_wiper: true
 rear_gear_electric_defrost: true
+charging_port_location:
+  value: RightRear
+  marker: unspec
+# ------------ seats_steering ------------
+seat_num: 7
+seat_layout: 2+2+3
+seat_material: Leather
+zero_gravity_seat: 一排
+electric_adjust_seat: 一排8向、二排4向、三排靠背
+seat_ventilation: 一排、二排
+seat_heating: 一排、二排、三排
+seat_massage: 一排、二排
+seat_memory: 一排、二排
+seat_leg_rest: 一排
+seat_lumbar_support: 一排电动4向
+seat_back_small_table: 一排
+one_key_seat_folded: 三排
+seat_46_folded: 三排
+child_iso_fix: 二排、三排
+heated_steering_wheel: true
+gearshift_lever_form: ElectronicGearLever
+# ------------ interior_convenience ------------
+front_makeup_mirror: true
+front_trunk_volume: 252
+electric_front_trunk: true
+electric_front_trunk_open:
+  value: [Indoor Voice, Strike]
+  marker: unspec
+passenger_golve_compartment: true
+trunk_volume: 464
+trunk_volume_third_inverted: 1359
+trunk_volume_second_inverted: 1838
+cup_holder:
+  value: 一排 x 2、二排 x 2、三排 x 2
+  marker: unspec
+pothook:
+  value: 前备箱 x 4、一排 x 1、二排 x 2
+  marker: unspec
+indoor_handle:
+  value: 一排 x 1、二排 x 2
+  marker: unspec
+active_grille_shutter: true
+heat_pump: true
+vihicle_etc: true
+power_supply_12V: 一排 x 1、后备箱 x 1
+power_supply_12V_power:
+  value: 180
+  marker: unspec
+type_C_interface:
+  value: 一排 x1、二排 x 2、三排 x 2
+  marker: unspec
+USB_interface:
+  value: 一排 x1
+  marker: unspec
+wireless_charging: 一排风冷50W x 1
+inside_220v_socket: 
+  value: 后备箱 x 1
+  marker: unspec
+inside_220v_socket_power: 2.2
+VTOL_power: 6
+# ------------ cockpit_display ------------
+vehicle_os: DiLink 150
+vehicle_chip_process: 4
+network_type: 5G
+instrument_panel_size: 12.3
+central_control_screen_size: 17.3
+central_control_screen_resolution: 3K
+rear_multi_function_screen: 空调、座椅（通风/加热）
+vehicle_map:
+  value: Amap
+  marker: unspec
+vehicle_music_apps:
+  value: 酷狗、网易云、QQ音乐、酷我、全民K歌
+  marker: unspec
+vehicle_video_apps:
+  value: 爱奇艺、优酷、咪咕
+  marker: unspec
+vehicle_story_apps:
+  value: 喜马拉雅、在线电台
+  marker: unspec
+# ------------ audio_entertainment ------------
+vehicle_audio_brand: Devialet
+vehicle_audio_num: 20
+driver_head_speaker_num: 2
+exterior_speaker: true
+exterior_microphone: true
+karaoke_without_microphone: true
+voice_region_recognition:
+  value: 6
+  marker: unspec
+# ------------ climate_comfort ------------
+aircondition: 三温区独立自动
+rear_air_condition_vent:
+  value: 二排、三排
+  marker: unspec
+fragrance_system: true
+comfort_control: true
+# ------------ smart_connect_safety ------------
+driver_face_recognize: true
+app_remote_control: true
+bluetooth_key: true
+nfc_key: true
+mechanical_key:
+  value: true
+  marker: unspec
+car_driving_recorder: 4Side
+AVM: true
+transparent_chassis:
+  value: true
+  marker: unspec
+reversing_camera:
+  value: true
+  marker: unspec
+sentinel_mode: true
+SR: true
+emergency_call: true
 # ------------ active_safe ------------
 ESP: true
 EBD: true

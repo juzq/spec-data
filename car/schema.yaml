@@ -51,15 +51,23 @@ fields:
     list: true
     filter:
       control: enum
+  - key: release_date
+    type: date
+    list: true
+    group: basic
+    filter:
+      control: range
+      stepKind: month
   - key: price
-    type: integer
+    type: number
     positive: true
     list: true
     group: basic
-    unit: yuan
+    unit: wan-yuan
     filter:
       control: range
-      stepKind: integer
+      stepKind: decimal
+      step: 0.01
   - key: color
     type: string
     group: basic
@@ -186,6 +194,11 @@ fields:
     positive: true
     group: drivetrain
     unit: N*m
+  - key: motor_num
+    type: integer
+    positive: true
+    group: drivetrain
+    unit: pcs
   - key: acceleration_0_100
     type: number
     positive: true
@@ -247,6 +260,12 @@ fields:
     type: integer
     positive: true
     group: suspension
+    unit: mm
+  - key: minimum_ground_clearance_after_air_suspension
+    type: integer
+    positive: true
+    group: suspension
+    unit: mm
 # ------------ wheel ------------
   - key: wheel_drive
     type: enum
@@ -260,7 +279,7 @@ fields:
     group: wheel
   - key: tires_brand
     type: enum
-    values: [Michelin]
+    values: [Michelin, GoodYear]
     group: wheel
   - key: rear_wheel_steering
     type: bool
@@ -348,14 +367,8 @@ fields:
   - key: front_passenger_ambient_light
     type: bool
     group: light
-  - key: front_indoor_light
-    type: bool
-    group: light
-  - key: second_indoor_light
-    type: bool
-    group: light
-  - key: third_indoor_light
-    type: bool
+  - key: indoor_light
+    type: string
     group: light
   - key: adas_blue_light
     type: bool
@@ -372,9 +385,6 @@ fields:
     type: bool
     group: doors_windows
   - key: electric_open_close_door
-    type: bool
-    group: doors_windows
-  - key: child_safety_door_lock
     type: bool
     group: doors_windows
   - key: skylight_type
@@ -432,6 +442,10 @@ fields:
     group: doors_windows
   - key: roof_carrier
     type: bool
+    group: doors_windows
+  - key: charging_port_location
+    type: enum
+    values: [LeftFront, LeftRear, RightFront, RightRear]
     group: doors_windows
 # ------------ seats_steering ------------
   - key: seat_num
@@ -520,18 +534,17 @@ fields:
   - key: electric_front_trunk
     type: bool
     group: interior_convenience
+  - key: electric_front_trunk_open
+    type: array
+    items: {
+      type: enum,
+      values: [Screen, Indoor Button, Outdoor Button, Indoor Voice, Outdoor Voice, Strike]
+    }
+    group: interior_convenience
   - key: passenger_golve_compartment
     type: bool
     group: interior_convenience
   - key: trunk_volume
-    type: integer
-    positive: true
-    group: interior_convenience
-    unit: L
-    filter:
-      control: range
-      stepKind: integer
-  - key: trunk_volume_second_inverted
     type: integer
     positive: true
     group: interior_convenience
@@ -544,16 +557,28 @@ fields:
     positive: true
     group: interior_convenience
     unit: L
+  - key: trunk_volume_second_inverted
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: L
   - key: under_trunk_partition_volume
     type: integer
     positive: true
     group: interior_convenience
     unit: L
   - key: cup_holder
-    type: integer
-    positive: true
+    type: string
     group: interior_convenience
-    unit: pcs
+  - key: pothook
+    type: string
+    group: interior_convenience
+  - key: indoor_handle
+    type: string
+    group: interior_convenience
+  - key: door_windows_sunshade
+    type: string
+    group: interior_convenience
   - key: real_wood_veneer
     type: bool
     group: interior_convenience
@@ -566,10 +591,26 @@ fields:
   - key: vihicle_etc
     type: bool
     group: interior_convenience
+  - key: power_supply_12V
+    type: string
+    group: interior_convenience
+  - key: power_supply_12V_power
+    type: integer
+    positive: true
+    group: interior_convenience
+    unit: W
+  - key: type_C_interface
+    type: string
+    group: interior_convenience
+  - key: USB_interface
+    type: string
+    group: interior_convenience
   - key: wireless_charging
     type: string
     group: interior_convenience
-    unit: W
+  - key: inside_220v_socket
+    type: string
+    group: interior_convenience
   - key: inside_220v_socket_power
     type: number
     positive: true
@@ -629,7 +670,20 @@ fields:
     values: [1K, 2K, 3K, 4K]
     group: cockpit_display
   - key: rear_multi_function_screen
-    type: bool
+    type: string
+    group: cockpit_display
+  - key: vehicle_map
+    type: enum
+    values: [Baidu, Amap]
+    group: cockpit_display
+  - key: vehicle_music_apps
+    type: string
+    group: cockpit_display
+  - key: vehicle_video_apps
+    type: string
+    group: cockpit_display
+  - key: vehicle_story_apps
+    type: string
     group: cockpit_display
 # ------------ audio_entertainment ------------
   - key: vehicle_audio_brand
@@ -665,9 +719,6 @@ fields:
     group: audio_entertainment
   - key: karaoke_without_microphone
     type: bool
-    group: audio_entertainment
-  - key: ai_agent
-    type: string
     group: audio_entertainment
   - key: voice_region_recognition
     type: integer

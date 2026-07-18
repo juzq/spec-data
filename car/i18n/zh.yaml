@@ -25,6 +25,7 @@ field_labels:
     model: 型号
     type: 类型
     energy_type: 能源类型
+    release_date: 上市日期
     price: 售价
     color: 颜色
     interior_color: 内饰颜色
@@ -51,6 +52,7 @@ field_labels:
     front_motor_max_torque: 前电机最大扭矩
     rear_motor_max_power: 后电机最大功率
     rear_motor_max_torque: 后电机最大扭矩
+    motor_num: 电机数量
     acceleration_0_100: 0-100km/h加速时间
     max_speed: 最高车速
     silicon_carbide_electric_drive: 碳化硅电驱
@@ -66,11 +68,12 @@ field_labels:
     suspension_adjust: 可变悬挂调节
     speed_adjust_body_height: 车身高度自动随速调节
     minimum_ground_clearance: 最小离地间距
+    minimum_ground_clearance_after_air_suspension: 空悬抬高最小离地间距
     # 车轮与制动
     wheel_drive: 驱动形式
     front_wheel: 前轮规格
-    tires_brand: 轮胎品牌
     rear_wheel: 后轮规格
+    tires_brand: 轮胎品牌
     rear_wheel_steering: 后轮转向
     min_turn_radius: 最小转弯半径
     hub_type: 轮毂类型
@@ -95,16 +98,13 @@ field_labels:
     full_width_tail_light: 贯穿尾灯
     surround_ambient_light: 环绕氛围灯
     front_passenger_ambient_light: 副驾氛围灯
-    front_indoor_light: 前排室内灯
-    second_indoor_light: 二排室内灯
-    third_indoor_light: 三排室内灯
+    indoor_light: 室内灯
     adas_blue_light: 辅助驾驶蓝色指示灯
     welcome_light_carpet: 迎宾光毯
     # 车门与车窗
     door_handle_type: 门把手类型
     electric_suction_door: 电吸门
     electric_open_close_door: 电动开合门
-    child_safety_door_lock: 儿童门锁
     skylight_type: 天窗类型
     sunshade_type: 遮阳帘类型
     mezzanine_canopy: 夹层天幕
@@ -112,7 +112,7 @@ field_labels:
     double_layer_soundproof_glass: 双层隔音玻璃
     privacy_glass: 隐私玻璃
     four_window_one_key_handle : 四门车窗一键升降
-    interior_rearview_auto_antiglare: 内后视镜防眩目
+    interior_rearview_auto_antiglare: 内后视镜自动防眩目
     electric_fold_exterior_rearview: 外后视镜电动折叠
     heated_exterior_rearview: 外后视镜加热
     exterior_rearview_reversing_auto_adjust: 外后视镜倒车自动调节
@@ -123,6 +123,7 @@ field_labels:
     rear_gear_electric_defrost: 后风挡电除霜
     electric_pedal: 电动踏板
     roof_carrier: 车顶行李架
+    charging_port_location: 充电口位置
     # 座椅与方向盘
     seat_num: 座位数
     seat_layout: 座椅布局
@@ -146,20 +147,29 @@ field_labels:
     steering_wheel_memory: 方向盘电动记忆
     gearshift_lever_form: 换挡杆形式
     # 内饰与便利配置
-    front_makeup_mirror: 前排化妆镜
+    front_makeup_mirror: 前排化妆照明
     front_trunk_volume: 前备箱容积
     electric_front_trunk: 电动前备箱
+    electric_front_trunk_open: 电动前备箱开启方式
     passenger_golve_compartment: 副驾手套箱
     trunk_volume: 后备箱容积
-    trunk_volume_second_inverted: 后备箱容积(第二排放倒)
     trunk_volume_third_inverted: 后备箱容积(第三排放倒)
+    trunk_volume_second_inverted: 后备箱容积(第二排放倒)
     under_trunk_partition_volume: 后备箱隔板下储物
     cup_holder: 独立杯架
+    pothook: 挂钩
+    indoor_handle: 车内把手
+    door_windows_sunshade: 门窗遮阳帘
     real_wood_veneer: 真木饰板
     active_grille_shutter: 主动进气格栅
     heat_pump: 热泵
     vihicle_etc: 车载ETC
+    power_supply_12V: 12V电源
+    power_supply_12V_power: 12V电源功率
+    type_C_interface: Type-C接口
+    USB_interface: USB接口（Type-A）
     wireless_charging: 无线充电
+    inside_220v_socket: 车内220v插座
     inside_220v_socket_power: 车内220v插座功率
     VTOL_power: 车载对外放电功率
     # 座舱显示与车机
@@ -174,7 +184,11 @@ field_labels:
     hud_size: HUD尺寸
     rear_entertain_screen_size: 后排娱乐屏尺寸
     rear_entertain_screen_resolution: 后排娱乐屏分辨率
-    rear_multi_function_screen: 后排多功能触控屏
+    rear_multi_function_screen: 后排多功能触控屏功能
+    vehicle_map: 车机地图
+    vehicle_music_apps: 车机音乐App
+    vehicle_video_apps: 车机视频App
+    vehicle_story_apps: 车机节目App
     # 音响与娱乐
     vehicle_audio_brand: 车载音响品牌
     vehicle_audio_num: 车载音响个数
@@ -185,7 +199,6 @@ field_labels:
     exterior_speaker: 车外扬声器
     exterior_microphone: 车外麦克风
     karaoke_without_microphone: 无麦K歌
-    ai_agent: AI超级智能体
     voice_region_recognition: 语音分区域唤醒识别
     # 空调与舒适系统
     aircondition: 空调
@@ -317,6 +330,7 @@ values:
   # 车轮与制动
   tires_brand:
     Michelin: 米其林
+    GoodYear: 固特异
   wheel_drive:
     FWD: 前驱
     RWD: 后驱
@@ -352,6 +366,11 @@ values:
   sunshade_type:
     None: 无
     ElectricSunshade: 电动遮阳帘
+  charging_port_location:
+    LeftFront: 左前
+    LeftRear: 左后
+    RightFront: 右前
+    RightRear: 右后
   # 座椅与方向盘
   seat_material:
     Nappa: Nappa真皮
@@ -361,6 +380,18 @@ values:
   gearshift_lever_form:
     ElectronicGearLever: 电子怀档
     TraditionalGearLever: 传统档把
+  # 内饰与便利配置
+  electric_front_trunk_open:
+    Screen: 中控屏
+    Indoor Button: 车内按钮
+    Outdoor Button: 车外按钮
+    Indoor Voice: 车内语音
+    Outdoor Voice: 车外语音
+    Strike: 敲击
+  # 座舱显示与车机
+  vehicle_map:
+    Baidu: 百度
+    Amap: 高德
   # 音响与娱乐
   vehicle_audio_brand:
     Devialet: 帝瓦雷
@@ -381,7 +412,6 @@ values:
 # 电池热失控预警 - D19
 # 电池组质保:三电终身质保（限首任车主且非营运） - D19
 # V2L对外放电功能 - D19
-# 220V车载电源 - D19
 
 # -----------------------------动力系统
 # 电机类型:前感应异步/后永磁同步 - D19
@@ -420,6 +450,7 @@ values:
 # 车身结构:5门6座 - D19
 # 无钥匙进入及一键启动系统 - 大唐
 # 车窗防夹 - 大唐、D19
+# 儿童门锁 - 大唐
 # 防眩目外后视镜:主驾，自动 - D19
 # 前风窗无骨雨刮 - D19
 # 后风挡隐藏式无骨雨刮 - D19
@@ -439,7 +470,6 @@ values:
 # CN95高效滤网 - 大唐
 # 负离子空气净化器、负离子发生器 - 大唐、D19
 # 全席位多维防晕车模式 - 大唐
-# Face ID自适应配置系统 - D19
 # 顶棚材质 - D19
 # TYPE-C接口 - D19
 
@@ -478,6 +508,7 @@ values:
 # 手车互联 - 大唐、D19
 # 手机遥控驾驶 - 大唐
 # 千里眼 - 大唐
+# AI超级智能体:迪迪虾 - 大唐
 # 智慧物联 - 大唐
 # 车家互联 - 大唐
 # 远程高温消毒杀菌模式 - 大唐
@@ -527,8 +558,6 @@ values:
 # 车载蓝牙、蓝牙/车载电话 - 大唐、D19
 # 车载网络 - D19
 # 车载WiFi - 大唐
-# 车载12V电源 - 大唐
-# 12V锂电电源:一排×1、后备箱×1 - D19
 # 手握方向盘监测 - D19
 # 语音识别控制系统 - D19
 # 语音免唤醒词 - D19
