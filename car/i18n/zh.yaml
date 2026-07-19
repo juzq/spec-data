@@ -55,7 +55,6 @@ field_labels:
     motor_num: 电机数量
     acceleration_0_100: 0-100km/h加速时间
     max_speed: 最高车速
-    silicon_carbide_electric_drive: 碳化硅电驱
     distributed_traction_control: 分布式牵引力控制
     intelligent_torque_control: 智能扭矩控制
     drive_mode: 驾驶模式
@@ -124,6 +123,7 @@ field_labels:
     electric_pedal: 电动踏板
     roof_carrier: 车顶行李架
     charging_port_location: 充电口位置
+    mechanical_key: 机械钥匙
     # 座椅与方向盘
     seat_num: 座位数
     seat_layout: 座椅布局
@@ -212,7 +212,6 @@ field_labels:
     app_remote_control: 远程App控车
     bluetooth_key: 蓝牙钥匙
     nfc_key: NFC钥匙
-    mechanical_key: 机械钥匙
     car_driving_recorder: 行车记录仪
     AVM: 全景影像（AVM）
     transparent_chassis: 透明底盘
@@ -410,10 +409,9 @@ values:
 # 滑行/制动能量回收系统 - 大唐
 # 电池智能恒温管理系统 - D19
 # 电池热失控预警 - D19
-# 电池组质保:三电终身质保（限首任车主且非营运） - D19
-# V2L对外放电功能 - D19
 
 # -----------------------------动力系统
+# 碳化硅电驱 - 大唐
 # 电机类型:前感应异步/后永磁同步 - D19
 # 驱动电机:3电机 - D19
 # 变速箱:单速变速箱 - D19

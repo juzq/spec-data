@@ -115,6 +115,7 @@ roof_carrier: true
 charging_port_location:
   value: LeftRear
   marker: unspec
+mechanical_key: true
 # ------------ seats_steering ------------
 seat_num: 6
 seat_layout: 2+2+2
@@ -173,6 +174,9 @@ type_C_interface:
 wireless_charging: 一排风冷50W x 1
 inside_220v_socket: 前备箱 x 1、二排 x 1
 inside_220v_socket_power: 2.2
+VTOL_power:
+  value: 6
+  marker: unofficial
 # ------------ cockpit_display ------------
 vehicle_chip: SA8797 × 2
 network_type: 4G
@@ -210,7 +214,6 @@ driver_face_recognize: true
 app_remote_control: true
 bluetooth_key: true
 nfc_key: true
-mechanical_key: true
 car_driving_recorder: 4Side
 AVM: true
 transparent_chassis: true

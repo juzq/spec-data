@@ -39,7 +39,6 @@ rear_motor_max_torque: 500
 motor_num: 1
 acceleration_0_100: 6.2
 max_speed: 240
-silicon_carbide_electric_drive: true
 drive_mode: 
   - 经济
   - 舒适
@@ -103,9 +102,15 @@ exterior_rearview_reversing_auto_adjust: true
 exterior_rearview_memory: true
 electric_tailgate: true
 rain_sensing_wiper: true
+rear_windshield_wiper:
+  value: true
+  marker: unspec
 rear_gear_electric_defrost: true
 charging_port_location:
   value: RightRear
+  marker: unspec
+mechanical_key:
+  value: true
   marker: unspec
 # ------------ seats_steering ------------
 seat_num: 7
@@ -210,9 +215,6 @@ driver_face_recognize: true
 app_remote_control: true
 bluetooth_key: true
 nfc_key: true
-mechanical_key:
-  value: true
-  marker: unspec
 car_driving_recorder: 4Side
 AVM: true
 transparent_chassis:
@@ -281,6 +283,6 @@ FAVP: true
 # ------------ option ------------
 color_optional: 洒金米黑双色 / 赤帝红银双色 / 千山翠银双色
 color_optional_price: 5000
-optional_package: 二排独立零压航空座椅、二排座椅电动腿托、50英寸AR-HUD抬头显示、12.3英寸副驾屏、DiLink 300智能座舱(3nm座舱芯片制程)、副驾头枕扬声器
+optional_package: 二排智享套装（二排独立零压航空座椅+二排座椅电动腿托+50英寸AR-HUD抬头显示+12.3英寸副驾屏+DiLink 300智能座舱(3nm座舱芯片制程)+副驾头枕扬声器）
 option_package_price: '10000'
 url: "https://www.byd.com/cn/parameter-comparison?goodsId=156"

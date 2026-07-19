@@ -447,6 +447,9 @@ fields:
     type: enum
     values: [LeftFront, LeftRear, RightFront, RightRear]
     group: doors_windows
+  - key: mechanical_key
+    type: bool
+    group: doors_windows
 # ------------ seats_steering ------------
   - key: seat_num
     type: integer
@@ -761,9 +764,6 @@ fields:
     type: bool
     group: smart_connect_safety
   - key: nfc_key
-    type: bool
-    group: smart_connect_safety
-  - key: mechanical_key
     type: bool
     group: smart_connect_safety
   - key: car_driving_recorder

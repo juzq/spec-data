@@ -39,7 +39,6 @@ rear_motor_max_torque: 365
 motor_num: 1
 acceleration_0_100: 7.8
 max_speed: 240
-silicon_carbide_electric_drive: true
 drive_mode: 
   - 经济
   - 舒适
@@ -103,9 +102,15 @@ exterior_rearview_reversing_auto_adjust: true
 exterior_rearview_memory: true
 electric_tailgate: true
 rain_sensing_wiper: true
+rear_windshield_wiper:
+  value: true
+  marker: unspec
 rear_gear_electric_defrost: true
 charging_port_location:
   value: RightRear
+  marker: unspec
+mechanical_key:
+  value: true
   marker: unspec
 # ------------ seats_steering ------------
 seat_num: 7
@@ -206,9 +211,6 @@ driver_face_recognize: true
 app_remote_control: true
 bluetooth_key: true
 nfc_key: true
-mechanical_key:
-  value: true
-  marker: unspec
 car_driving_recorder: 4Side
 AVM: true
 transparent_chassis:
