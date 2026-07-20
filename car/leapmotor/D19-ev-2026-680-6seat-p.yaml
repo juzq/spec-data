@@ -81,11 +81,6 @@ front_auto_light:
   marker: unspec
 front_light_auto_height: true
 AFL: true
-front_indoor_light: true
-second_indoor_light: true
-third_indoor_light:
-  value: true
-  marker: unspec
 full_width_tail_light: true
 surround_ambient_light: true
 front_passenger_ambient_light: true
