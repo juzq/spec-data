@@ -18,8 +18,6 @@ field_labels:
     adas: 辅助驾驶
     option: 选装
   fields:
-    name: 名称
-    size: 尺寸
     # 基础信息
     brand: 品牌
     model: 型号
@@ -110,7 +108,7 @@ field_labels:
     heat_protecting_glass: 隔热玻璃
     double_layer_soundproof_glass: 双层隔音玻璃
     privacy_glass: 隐私玻璃
-    four_window_one_key_handle : 四门车窗一键升降
+    four_window_one_key_handle: 四门车窗一键升降
     interior_rearview_auto_antiglare: 内后视镜自动防眩目
     electric_fold_exterior_rearview: 外后视镜电动折叠
     heated_exterior_rearview: 外后视镜加热
@@ -282,6 +280,8 @@ field_labels:
     color_optional_price: 选装颜色价格
     optional_package: 选装包
     option_package_price: 选装包价格
+    name: 名称
+    size: 尺寸
 bools:
   yes: 有
   no: 无
@@ -290,6 +290,7 @@ values:
   brand:
     BYD: 比亚迪
     Leap Motor: 零跑
+    FANGCHENGBAO: 方程豹
   type:
     HB: 两厢轿车
     Sedan: 三厢轿车
@@ -326,14 +327,14 @@ values:
   suspension_adjust:
     SoftHard: 软硬
     HighLow: 高低
-  # 车轮与制动
-  tires_brand:
-    Michelin: 米其林
-    GoodYear: 固特异
   wheel_drive:
     FWD: 前驱
     RWD: 后驱
     4WD: 四驱
+  # 车轮与制动
+  tires_brand:
+    Michelin: 米其林
+    GoodYear: 固特异
   hub_type:
     LowWindResistance: 低风阻轮毂
     MultiSpoke: 多辐轮毂
@@ -399,7 +400,6 @@ values:
   car_driving_recorder:
     Forward: 前向
     4Side: 四向
-
 
 # 忽略配置
 

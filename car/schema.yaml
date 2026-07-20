@@ -17,16 +17,18 @@ groups:
   - adas
   - option
 
-
 fields:
   - key: slug
     type: string
     pattern: '^[a-z0-9-]+$'
     required: true
-# ------------ basic ------------
+  # ------------ basic ------------
   - key: brand
     type: enum
-    values: [BYD, Leap Motor]
+    values:
+      - BYD
+      - Leap Motor
+      - FANGCHENGBAO
     required: true
     group: basic
     filter:
@@ -37,7 +39,12 @@ fields:
     group: basic
   - key: type
     type: enum
-    values: [SUV, HB, Sedan, MPV, Wagon]
+    values:
+      - SUV
+      - HB
+      - Sedan
+      - MPV
+      - Wagon
     required: true
     group: basic
     list: true
@@ -45,7 +52,11 @@ fields:
       control: enum
   - key: energy_type
     type: enum
-    values: [EV, PHEV, REEV, PV]
+    values:
+      - EV
+      - PHEV
+      - REEV
+      - PV
     required: true
     group: basic
     list: true
@@ -127,19 +138,22 @@ fields:
     positive: true
     group: basic
     unit: km
-# ------------ battery ------------
+  # ------------ battery ------------
   - key: battery_type
     type: array
-    items: {
-      type: enum,
-      values: [LFP, TL]
-    }
+    items:
+      type: enum
+      values:
+        - LFP
+        - TL
     group: battery
     filter:
       control: enum
   - key: battery_cell_brand
     type: enum
-    values: [CATL, Fudi]
+    values:
+      - CATL
+      - Fudi
     group: battery
   - key: battery_technology
     type: string
@@ -167,10 +181,13 @@ fields:
   - key: integrated_battery_body
     type: bool
     group: battery
-# ------------ drivetrain ------------
+  # ------------ drivetrain ------------
   - key: motor_layout
     type: enum
-    values: [Front, Rear, Front+Rear]
+    values:
+      - Front
+      - Rear
+      - Front+Rear
     group: drivetrain
     filter:
       control: enum
@@ -220,20 +237,29 @@ fields:
     group: drivetrain
   - key: drive_mode
     type: array
-    items: { type: string }
+    items:
+      type: string
     group: drivetrain
-# ------------ suspension ------------
+  # ------------ suspension ------------
   - key: front_suspension
     type: enum
-    values: [DoubleWishbone, MacPherson]
+    values:
+      - DoubleWishbone
+      - MacPherson
     group: suspension
   - key: rear_suspension
     type: enum
-    values: [5Link, 4Link, 3Link, TorsionBeam]
+    values:
+      - 5Link
+      - 4Link
+      - 3Link
+      - TorsionBeam
     group: suspension
   - key: air_suspension
     type: enum
-    values: [DoubleChamber, SingleChamber]
+    values:
+      - DoubleChamber
+      - SingleChamber
     group: suspension
   - key: damping_body_control
     type: bool
@@ -244,14 +270,10 @@ fields:
   - key: suspension_adjust
     type: array
     items:
-      {
-        type: enum,
-        values:
-          [
-            SoftHard,
-            HighLow,
-          ]
-      }
+      type: enum
+      values:
+        - SoftHard
+        - HighLow
     group: suspension
   - key: speed_adjust_body_height
     type: bool
@@ -266,10 +288,13 @@ fields:
     positive: true
     group: suspension
     unit: mm
-# ------------ wheel ------------
+  # ------------ wheel ------------
   - key: wheel_drive
     type: enum
-    values: [FWD, RWD, 4WD]
+    values:
+      - FWD
+      - RWD
+      - 4WD
     group: wheel
   - key: front_wheel
     type: string
@@ -279,7 +304,9 @@ fields:
     group: wheel
   - key: tires_brand
     type: enum
-    values: [Michelin, GoodYear]
+    values:
+      - Michelin
+      - GoodYear
     group: wheel
   - key: rear_wheel_steering
     type: bool
@@ -291,45 +318,52 @@ fields:
     unit: m
   - key: hub_type
     type: enum
-    values: [LowWindResistance, MultiSpoke, LargeDisc]
+    values:
+      - LowWindResistance
+      - MultiSpoke
+      - LargeDisc
     group: wheel
   - key: aluminium_alloy_hub
     type: bool
     group: wheel
   - key: front_brake
     type: enum
-    values: [Vented, VentilationPunching]
+    values:
+      - Vented
+      - VentilationPunching
     group: wheel
   - key: rear_brake
     type: enum
-    values: [Vented, VentilationPunching]
+    values:
+      - Vented
+      - VentilationPunching
     group: wheel
   - key: four_piston_caliper
     type: array
     items:
-      {
-        type: enum,
-        values:
-          [
-            Front,
-            Rear,
-          ]
-      }
+      type: enum
+      values:
+        - Front
+        - Rear
     group: wheel
   - key: auto_hold
     type: bool
     group: wheel
   - key: tire_pressure_monitor
     type: enum
-    values: [Direct, Indirect]
+    values:
+      - Direct
+      - Indirect
     group: wheel
   - key: suspended_wheel_marker
     type: bool
     group: wheel
-# ------------ light ------------
+  # ------------ light ------------
   - key: lighting_source
     type: enum
-    values: [LED, Halogen]
+    values:
+      - LED
+      - Halogen
     group: light
   - key: DRL
     type: bool
@@ -376,10 +410,13 @@ fields:
   - key: welcome_light_carpet
     type: bool
     group: light
-# ------------ doors_windows ------------
+  # ------------ doors_windows ------------
   - key: door_handle_type
     type: enum
-    values: [SemiConcealed, FullyConcealed, Pull]
+    values:
+      - SemiConcealed
+      - FullyConcealed
+      - Pull
     group: doors_windows
   - key: electric_suction_door
     type: bool
@@ -389,11 +426,16 @@ fields:
     group: doors_windows
   - key: skylight_type
     type: enum
-    values: [PanoramicSkyScreen, OpenableSkylight, None]
+    values:
+      - PanoramicSkyScreen
+      - OpenableSkylight
+      - None
     group: doors_windows
   - key: sunshade_type
     type: enum
-    values: [ElectricSunshade, None]
+    values:
+      - ElectricSunshade
+      - None
     group: doors_windows
   - key: mezzanine_canopy
     type: bool
@@ -445,12 +487,16 @@ fields:
     group: doors_windows
   - key: charging_port_location
     type: enum
-    values: [LeftFront, LeftRear, RightFront, RightRear]
+    values:
+      - LeftFront
+      - LeftRear
+      - RightFront
+      - RightRear
     group: doors_windows
   - key: mechanical_key
     type: bool
     group: doors_windows
-# ------------ seats_steering ------------
+  # ------------ seats_steering ------------
   - key: seat_num
     type: integer
     positive: true
@@ -461,11 +507,19 @@ fields:
       stepKind: integer
   - key: seat_layout
     type: enum
-    values: [2+3, 2+2+2, 2+2+3, 2+3+2]
+    values:
+      - 2+3
+      - 2+2+2
+      - 2+2+3
+      - 2+3+2
     group: seats_steering
   - key: seat_material
     type: enum
-    values: [Nappa, TopLayerLeather, Leather, Fabric]
+    values:
+      - Nappa
+      - TopLayerLeather
+      - Leather
+      - Fabric
     group: seats_steering
   - key: zero_gravity_seat
     type: string
@@ -520,9 +574,11 @@ fields:
     group: seats_steering
   - key: gearshift_lever_form
     type: enum
-    values: [ElectronicGearLever, TraditionalGearLever]
+    values:
+      - ElectronicGearLever
+      - TraditionalGearLever
     group: seats_steering
-# ------------ interior_convenience ------------
+  # ------------ interior_convenience ------------
   - key: front_makeup_mirror
     type: bool
     group: interior_convenience
@@ -539,10 +595,15 @@ fields:
     group: interior_convenience
   - key: electric_front_trunk_open
     type: array
-    items: {
-      type: enum,
-      values: [Screen, Indoor Button, Outdoor Button, Indoor Voice, Outdoor Voice, Strike]
-    }
+    items:
+      type: enum
+      values:
+        - Screen
+        - Indoor Button
+        - Outdoor Button
+        - Indoor Voice
+        - Outdoor Voice
+        - Strike
     group: interior_convenience
   - key: passenger_golve_compartment
     type: bool
@@ -623,7 +684,7 @@ fields:
     positive: true
     group: interior_convenience
     unit: kW
-# ------------ cockpit_display ------------
+  # ------------ cockpit_display ------------
   - key: vehicle_os
     type: string
     group: cockpit_display
@@ -637,7 +698,9 @@ fields:
     unit: nm
   - key: network_type
     type: enum
-    values: [5G, 4G]
+    values:
+      - 5G
+      - 4G
     group: cockpit_display
   - key: instrument_panel_size
     type: number
@@ -651,7 +714,11 @@ fields:
     unit: inch
   - key: central_control_screen_resolution
     type: enum
-    values: [1K, 2K, 3K, 4K]
+    values:
+      - 1K
+      - 2K
+      - 3K
+      - 4K
     group: cockpit_display
   - key: front_passenger_screen_size
     type: number
@@ -670,14 +737,20 @@ fields:
     unit: inch
   - key: rear_entertain_screen_resolution
     type: enum
-    values: [1K, 2K, 3K, 4K]
+    values:
+      - 1K
+      - 2K
+      - 3K
+      - 4K
     group: cockpit_display
   - key: rear_multi_function_screen
     type: string
     group: cockpit_display
   - key: vehicle_map
     type: enum
-    values: [Baidu, Amap]
+    values:
+      - Baidu
+      - Amap
     group: cockpit_display
   - key: vehicle_music_apps
     type: string
@@ -688,11 +761,13 @@ fields:
   - key: vehicle_story_apps
     type: string
     group: cockpit_display
-# ------------ audio_entertainment ------------
+  # ------------ audio_entertainment ------------
   - key: vehicle_audio_brand
     type: enum
     group: audio_entertainment
-    values: [Devialet, Dynaudio]
+    values:
+      - Devialet
+      - Dynaudio
   - key: vehicle_audio_num
     type: integer
     positive: true
@@ -727,7 +802,7 @@ fields:
     type: integer
     positive: true
     group: audio_entertainment
-# ------------ climate_comfort ------------
+  # ------------ climate_comfort ------------
   - key: aircondition
     type: string
     group: climate_comfort
@@ -753,7 +828,7 @@ fields:
     positive: true
     group: climate_comfort
     unit: pcs
-# ------------ smart_connect_safety ------------
+  # ------------ smart_connect_safety ------------
   - key: driver_face_recognize
     type: bool
     group: smart_connect_safety
@@ -768,7 +843,9 @@ fields:
     group: smart_connect_safety
   - key: car_driving_recorder
     type: enum
-    values: [Forward, 4Side]
+    values:
+      - Forward
+      - 4Side
     group: smart_connect_safety
   - key: AVM
     type: bool
@@ -791,7 +868,7 @@ fields:
   - key: emergency_call
     type: bool
     group: smart_connect_safety
-# ------------ active_safe ------------
+  # ------------ active_safe ------------
   - key: ESP
     type: bool
     group: active_safe
@@ -876,7 +953,7 @@ fields:
   - key: SDW
     type: bool
     group: active_safe
-# ------------ passive_safety ------------
+  # ------------ passive_safety ------------
   - key: front_airbag
     type: bool
     group: passive_safety
@@ -898,7 +975,7 @@ fields:
   - key: collision_sensing_auto_unlock
     type: bool
     group: passive_safety
-# ------------ adas ------------
+  # ------------ adas ------------
   - key: adas_system
     type: string
     group: adas
@@ -966,7 +1043,7 @@ fields:
   - key: track_reverse
     type: bool
     group: adas
-# ------------ option ------------
+  # ------------ option ------------
   - key: color_optional
     type: string
     group: option
@@ -984,9 +1061,7 @@ fields:
     group: option
     unit: yuan
 
-
-
-# --------------no_group--------------
+  # --------------no_group--------------
   - key: url
     type: string
     pattern: '^https:\/\/'

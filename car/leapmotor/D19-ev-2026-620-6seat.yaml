@@ -17,8 +17,8 @@ curb_weight: 2730
 whole_warranty: 首任非营运终身
 max_km_per_12_month: 35000
 # ------------ battery ------------
-battery_type: 
- - LFP
+battery_type:
+  - LFP
 battery_cell_brand: CATL
 battery_capacity: 99.6
 cltc_electric_range: 620
@@ -34,7 +34,7 @@ rear_motor_max_torque: 360
 motor_num: 2
 acceleration_0_100: 4.9
 max_speed: 180
-drive_mode: 
+drive_mode:
   - 舒适
   - 标准
   - 运动
@@ -45,8 +45,8 @@ air_suspension: DoubleChamber
 damping_body_control: true
 damping_body_preview: true
 suspension_adjust:
- - SoftHard
- - HighLow
+  - SoftHard
+  - HighLow
 speed_adjust_body_height: true
 minimum_ground_clearance: 188
 minimum_ground_clearance_after_air_suspension:
@@ -60,9 +60,9 @@ tires_brand: Michelin
 min_turn_radius:
   value: 6.2
   marker: unofficial
+aluminium_alloy_hub: true
 front_brake: Vented
 rear_brake: Vented
-aluminium_alloy_hub: true
 four_piston_caliper:
   - Front
 auto_hold: true
@@ -136,7 +136,7 @@ electric_front_trunk:
   value: true
   marker: unspec
 electric_front_trunk_open:
-  value: [Indoor Voice, Outdoor Button]
+  value: [ Indoor Voice, Outdoor Button ]
   marker: unspec
 passenger_golve_compartment:
   value: true

@@ -21,9 +21,9 @@ curb_weight:
 whole_warranty: 8年或15万公里（空悬8年或16万公里）
 max_km_per_12_month: 50000
 # ------------ battery ------------
-battery_type: 
- - LFP
-battery_cell_brand: 
+battery_type:
+  - LFP
+battery_cell_brand:
   value: Fudi
   marker: unspec
 battery_technology: 第二代刀片电池（闪充）
@@ -43,7 +43,7 @@ acceleration_0_100: 3.9
 max_speed: 250
 distributed_traction_control: true
 intelligent_torque_control: true
-drive_mode: 
+drive_mode:
   - 经济
   - 舒适
   - 运动
@@ -61,8 +61,8 @@ air_suspension: DoubleChamber
 damping_body_control: true
 damping_body_preview: true
 suspension_adjust:
- - SoftHard
- - HighLow
+  - SoftHard
+  - HighLow
 speed_adjust_body_height: true
 # ------------ wheel ------------
 wheel_drive: 4WD
@@ -74,13 +74,13 @@ tires_brand:
 rear_wheel_steering: true
 min_turn_radius: 5.2
 hub_type: LargeDisc
-aluminium_alloy_hub: 
+aluminium_alloy_hub:
   value: true
   marker: unspec
 front_brake: VentilationPunching
 rear_brake: Vented
 four_piston_caliper:
- - Front
+  - Front
 auto_hold: true
 tire_pressure_monitor: Direct
 suspended_wheel_marker: true
@@ -111,7 +111,7 @@ mezzanine_canopy: true
 heat_protecting_glass: 前挡、四门、天幕、后挡
 double_layer_soundproof_glass: 前挡、四门、天幕
 privacy_glass: 二排、三排、后挡
-four_window_one_key_handle : true
+four_window_one_key_handle: true
 electric_fold_exterior_rearview: true
 heated_exterior_rearview: true
 exterior_rearview_reversing_auto_adjust: true
@@ -155,7 +155,7 @@ front_makeup_mirror: true
 front_trunk_volume: 252
 electric_front_trunk: true
 electric_front_trunk_open:
-  value: [Indoor Voice, Strike]
+  value: [ Indoor Voice, Strike ]
   marker: unspec
 passenger_golve_compartment: true
 trunk_volume: 464
@@ -185,7 +185,7 @@ USB_interface:
   value: 一排 x1
   marker: unspec
 wireless_charging: 一排风冷50W x 1
-inside_220v_socket: 
+inside_220v_socket:
   value: 后备箱 x 1
   marker: unspec
 inside_220v_socket_power: 2.2

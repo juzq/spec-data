@@ -21,9 +21,9 @@ curb_weight:
 whole_warranty: 8年或15万公里（空悬8年或16万公里）
 max_km_per_12_month: 50000
 # ------------ battery ------------
-battery_type: 
- - LFP
-battery_cell_brand: 
+battery_type:
+  - LFP
+battery_cell_brand:
   value: Fudi
   marker: unspec
 battery_technology: 第二代刀片电池（闪充）
@@ -39,7 +39,7 @@ rear_motor_max_torque: 500
 motor_num: 1
 acceleration_0_100: 6.2
 max_speed: 240
-drive_mode: 
+drive_mode:
   - 经济
   - 舒适
   - 运动
@@ -52,8 +52,8 @@ air_suspension: DoubleChamber
 damping_body_control: true
 damping_body_preview: true
 suspension_adjust:
- - SoftHard
- - HighLow
+  - SoftHard
+  - HighLow
 speed_adjust_body_height: true
 # ------------ wheel ------------
 wheel_drive: RWD
@@ -65,7 +65,7 @@ tires_brand:
 rear_wheel_steering: true
 min_turn_radius: 5.2
 hub_type: LowWindResistance
-aluminium_alloy_hub: 
+aluminium_alloy_hub:
   value: true
   marker: unspec
 front_brake: Vented
@@ -95,7 +95,7 @@ mezzanine_canopy: true
 heat_protecting_glass: 前挡、四门、天幕、后挡
 double_layer_soundproof_glass: 前挡、四门、天幕
 privacy_glass: 二排、三排、后挡
-four_window_one_key_handle : true
+four_window_one_key_handle: true
 electric_fold_exterior_rearview: true
 heated_exterior_rearview: true
 exterior_rearview_reversing_auto_adjust: true
@@ -135,7 +135,7 @@ front_makeup_mirror: true
 front_trunk_volume: 252
 electric_front_trunk: true
 electric_front_trunk_open:
-  value: [Indoor Voice, Strike]
+  value: [ Indoor Voice, Strike ]
   marker: unspec
 passenger_golve_compartment: true
 trunk_volume: 464
@@ -164,7 +164,7 @@ USB_interface:
   value: 一排 x1
   marker: unspec
 wireless_charging: 一排风冷50W x 1
-inside_220v_socket: 
+inside_220v_socket:
   value: 后备箱 x 1
   marker: unspec
 inside_220v_socket_power: 2.2
@@ -283,6 +283,7 @@ FAVP: true
 # ------------ option ------------
 color_optional: 洒金米黑双色 / 赤帝红银双色 / 千山翠银双色
 color_optional_price: 5000
-optional_package: 二排智享套装（二排独立零压航空座椅+二排座椅电动腿托+50英寸AR-HUD抬头显示+12.3英寸副驾屏+DiLink 300智能座舱(3nm座舱芯片制程)+副驾头枕扬声器）
+optional_package: 二排智享套装（二排独立零压航空座椅+二排座椅电动腿托+50英寸AR-HUD抬头显示+12.3英寸副驾屏+DiLink
+  300智能座舱(3nm座舱芯片制程)+副驾头枕扬声器）
 option_package_price: '10000'
 url: "https://www.byd.com/cn/parameter-comparison?goodsId=156"
