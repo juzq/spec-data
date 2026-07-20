@@ -452,9 +452,6 @@ fields:
   - key: four_window_one_key_handle
     type: bool
     group: doors_windows
-  - key: interior_rearview_auto_antiglare
-    type: bool
-    group: doors_windows
   - key: electric_fold_exterior_rearview
     type: bool
     group: doors_windows
@@ -684,6 +681,9 @@ fields:
     positive: true
     group: interior_convenience
     unit: kW
+  - key: interior_rearview_auto_antiglare
+    type: bool
+    group: interior_convenience
   # ------------ cockpit_display ------------
   - key: vehicle_os
     type: string

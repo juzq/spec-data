@@ -95,7 +95,6 @@ heat_protecting_glass: 二排、三排、后挡
 double_layer_soundproof_glass: 前挡、四门
 privacy_glass: 二排、三排、后挡
 four_window_one_key_handle: true
-interior_rearview_auto_antiglare: true
 electric_fold_exterior_rearview: true
 heated_exterior_rearview: true
 exterior_rearview_reversing_auto_adjust: true
@@ -172,6 +171,7 @@ inside_220v_socket_power: 2.2
 VTOL_power:
   value: 6
   marker: unofficial
+interior_rearview_auto_antiglare: true
 # ------------ cockpit_display ------------
 vehicle_chip: SA8797 × 2
 network_type: 4G

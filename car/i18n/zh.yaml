@@ -109,7 +109,6 @@ field_labels:
     double_layer_soundproof_glass: 双层隔音玻璃
     privacy_glass: 隐私玻璃
     four_window_one_key_handle: 四门车窗一键升降
-    interior_rearview_auto_antiglare: 内后视镜自动防眩目
     electric_fold_exterior_rearview: 外后视镜电动折叠
     heated_exterior_rearview: 外后视镜加热
     exterior_rearview_reversing_auto_adjust: 外后视镜倒车自动调节
@@ -170,6 +169,7 @@ field_labels:
     inside_220v_socket: 车内220v插座
     inside_220v_socket_power: 车内220v插座功率
     VTOL_power: 车载对外放电功率
+    interior_rearview_auto_antiglare: 内后视镜自动防眩目
     # 座舱显示与车机
     vehicle_os: 车机系统
     vehicle_chip: 车机芯片
